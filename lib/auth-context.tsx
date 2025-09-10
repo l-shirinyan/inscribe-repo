@@ -35,7 +35,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
-      console.log({ def: user?.email });
       if (user?.email) {
         const a = await isEmailSigned(user?.email);
       }

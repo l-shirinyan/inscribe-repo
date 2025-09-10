@@ -60,7 +60,7 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "w-full font-geist-sans flex justify-end fixed z-10 top-0 backdrop-blur-lg h-16 px-4 sm:px-5 transition ease-linear duration-150",
+        "w-full [&_a]:no-underline font-geist-sans flex justify-end fixed z-10 top-0 backdrop-blur-lg h-16 px-4 sm:px-5 transition ease-linear duration-150",
         scrolled ? "bg-black/30" : "bg-black"
       )}
     >

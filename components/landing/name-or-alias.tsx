@@ -10,6 +10,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import { useForm, Controller } from "react-hook-form";
 import { useAuthStore } from "@/lib/store/auth";
+import Link from "next/link";
 
 const options = [
   { id: "yes", label: "Yes" },
@@ -55,18 +56,8 @@ const NameOrAlias = () => {
         error={errors?.nameOrAlias?.message}
       />
       <div className="flex gap-2 mt-3">
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <button type="button" className="cursor-pointer">
-              <InfoIcon />
-            </button>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>Submit your name or alias</p>
-          </TooltipContent>
-        </Tooltip>
         <Text variant={"Lg"}>
-          Do you want your name or alias to be public in the leaderboard?
+          Do you want your name or alias to be public in the <Link href="/leaderboard" target="_blank" className="transition ease-linear duration-150 underline hover:opacity-80">leaderboard</Link>?
         </Text>
       </div>
       <div className="flex flex-col gap-6">
@@ -95,7 +86,7 @@ const NameOrAlias = () => {
       {selected === "yes" && (
         <div className="flex flex-col items-center justify-center">
           <Text variant={"Lg"}>
-            Do you want your X username to be public in the leaderboard?
+            Do you want your X username to be public in the <Link href="/leaderboard" target="_blank"  className="transition ease-linear duration-150 underline hover:opacity-80">leaderboard</Link>?
           </Text>
           <div className="w-full gap-5 mt-5 flex justify-center">
             <Button

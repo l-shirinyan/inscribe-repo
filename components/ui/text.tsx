@@ -9,6 +9,7 @@ const textVariants = cva("", {
       Xl: "text-lg sm:text-xl",
       "2Xl": "text-xl sm:text-2xl",
       "3Xl": "text-xl sm:text-3xl",
+      "4Xl": "text-[48px] sm:text-[48px]",
     },
   },
 });

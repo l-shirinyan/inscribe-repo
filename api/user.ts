@@ -1,5 +1,4 @@
 import { auth, db } from "@/lib/firebase";
-import { formatFirestoreDate } from "@/lib/helpers";
 import { linkWithPopup, TwitterAuthProvider } from "firebase/auth";
 import {
   collection,
@@ -57,7 +56,7 @@ export const signDoc = async ({
         showNameInLeaderboard,
         twitterUsername: twitterUsername || null,
         twitterProfilePic: twitterProfilePic || null,
-        createdAt: formatFirestoreDate(new Date()),
+        createdAt: new Date(),
       });
 
       const metadataRef = doc(db, "metadata", "signers_metadata");

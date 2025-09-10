@@ -4,16 +4,18 @@ import { cn } from "@/lib/utils";
 import { Text } from "./text";
 
 interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
-  error?: string; 
+  error?: string;
+  containerClassName?: string;
 }
 function Input({
   className,
   type,
   error,
+  containerClassName,
   ...props
 }: InputProps) {
   return (
-    <div className="relative">
+    <div className={cn("relative", containerClassName)}>
       <input
         type={type}
         data-slot="input"
@@ -23,7 +25,9 @@ function Input({
         )}
         {...props}
       />
-      {error && <Text className="text-red-600 absolute -bottom-7">{error}</Text>}
+      {error && (
+        <Text className="text-red-600 absolute -bottom-7">{error}</Text>
+      )}
     </div>
   );
 }

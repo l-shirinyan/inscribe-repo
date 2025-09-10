@@ -5,15 +5,20 @@
 
 @theme inline {
   --background-image-banner: url("/assets/images/banner.png");
-  --background-image-paper: url("/assets/images/test-2.png");
-  --background-image-footer: url("/assets/images/test-3.png");
+  --background-image-paper: url("/assets/images/paper.png");
+  --background-image-footer: url("/assets/images/footer.png");
   --background-image-stars: url("/assets/images/stars.png");
+  --background-image-leaderboard: url("/assets/images/leaderboard.png");
   --color-orange: #C77E1C;
+  --color-light-orange: #f5ac493b;
   --color-blue: #455966;
   --color-dark: #1A1A1A;
   --font-oldFont: var(--font-oldFont);
   --font-geist-sans: var(--font-geist-sans);
-  --color-gray: #525252
+  --color-gray: #525252;
+  --color-gray-100: #b5b5b5;
+  --shadow-dark: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 
@@ -29,4 +34,14 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+@layer base {
+  a {
+    @apply transition ease-linear duration-150 underline hover:opacity-80
+  }
+
+  .tag {
+    @apply text-orange bg-light-orange font-medium flex items-center justify-center px-3 rounded-full
+  }
 }
