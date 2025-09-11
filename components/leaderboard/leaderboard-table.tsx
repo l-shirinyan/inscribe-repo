@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState, useMemo } from "react";
 import {
   ColumnDef,
   useReactTable,
   getCoreRowModel,
   flexRender,
+  getPaginationRowModel,
 } from "@tanstack/react-table";
 import moment from "moment";
 import {
@@ -22,19 +23,38 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Text } from "../ui/text";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
+import { Input } from "../ui/input";
 
-export default function LeaderboardTable() {
-  const { data, page, loading, hasMore, setPage, loadUsers } =
-    useLeaderboardStore();
+export default function LeaderboardTable({
+  numberOfSigners,
+}: {
+  numberOfSigners: number;
+}) {
+  const {
+    data,
+    loading,
+    loadUsers,
+    search,
+    handleSearch,
+  } = useLeaderboardStore();
 
+  const [currentPage, setCurrentPage] = useState(0);
+  const itemsPerPage = 15;
+  const [searchTerm, setSearchTerm] = useState("");
   const columns: ColumnDef<LeaderboardUser>[] = [
     {
       header: "Signer",
-      cell: (info) => page * 15 + info.row.index + 1,
+      cell: (info) => {
+        if (numberOfSigners <= 0) return;
+        const globalIndex = currentPage * itemsPerPage + info.row.index;
+        const rank = numberOfSigners - globalIndex;
+        if (rank <= 0) return;
+        return <div className="text-center text-gray-200">{rank}</div>;
+      },
       size: 20,
-      minSize: 80,
+      minSize: 30,
+      meta: { className: "text-center" },
     },
     {
       accessorKey: "name",
@@ -42,35 +62,30 @@ export default function LeaderboardTable() {
       cell: (info) => {
         const username = info.getValue() as string | null;
         const profilePic = info.row.original.twitterProfilePic;
+        const showNameInLeaderboard = info.row.original.showNameInLeaderboard;
         return (
           <div className="flex items-center gap-2">
             {profilePic ? (
               <Image
                 src={profilePic}
                 alt={username ?? "User profile"}
-                width={32}
-                height={32}
+                width={34}
+                height={34}
                 className="rounded-full object-cover"
               />
             ) : (
               <Image
                 src="/assets/images/user.svg"
-                width={32}
-                height={32}
+                width={34}
+                height={34}
                 alt="user"
               />
             )}
-            {username}
+            {showNameInLeaderboard ? username : "Anonymous"}
           </div>
         );
       },
       minSize: 250,
-    },
-    {
-      header: "Email",
-      accessorKey: "email",
-      cell: (info) => info.getValue(),
-      minSize: 300,
     },
     {
       accessorKey: "twitterUsername",
@@ -106,7 +121,7 @@ export default function LeaderboardTable() {
       header: "Signed",
       cell: (info) => {
         const date = info.getValue() as string;
-        
+
         return (
           <div>
             <Tooltip>
@@ -116,7 +131,7 @@ export default function LeaderboardTable() {
                 </button>
               </TooltipTrigger>
               <TooltipContent>
-                <p className="font-geist-sans">{date}</p>
+                <p className="font-circular">{date}</p>
               </TooltipContent>
             </Tooltip>
           </div>
@@ -125,33 +140,68 @@ export default function LeaderboardTable() {
     },
   ];
 
+  // Filter data based on search term
+  const filteredData = useMemo(() => {
+    if (!searchTerm.trim()) return data;
+    
+    return data.filter((user) => {
+      const name = user.name?.toLowerCase() || "";
+      const twitterUsername = user.twitterUsername?.toLowerCase() || "";
+      const searchLower = searchTerm.toLowerCase();
+      
+      return name.includes(searchLower) || twitterUsername.includes(searchLower);
+    });
+  }, [data, searchTerm]);
+
+  // Calculate paginated data
+  const paginatedData = useMemo(() => {
+    const startIndex = currentPage * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    return filteredData.slice(startIndex, endIndex);
+  }, [filteredData, currentPage, itemsPerPage]);
+
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const table = useReactTable({
-    data,
+    data: paginatedData,
     columns,
     getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
     enableColumnResizing: true,
     columnResizeMode: "onChange",
+    manualPagination: true,
+    pageCount: totalPages,
   });
 
   useEffect(() => {
     loadUsers(0);
   }, []);
 
-  const nextPage = async () => {
-    const newPage = page + 1;
-    setPage(newPage);
-    await loadUsers(newPage);
+  const nextPage = () => {
+    if (currentPage < totalPages - 1) {
+      setCurrentPage(currentPage + 1);
+    }
   };
 
-  const prevPage = async () => {
-    if (page === 0) return;
-    const newPage = page - 1;
-    setPage(newPage);
-    await loadUsers(newPage);
+  const prevPage = () => {
+    if (currentPage > 0) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleSearchChange = (value: string) => {
+    setSearchTerm(value);
+    setCurrentPage(0); 
   };
 
   return (
     <>
+      <Input
+        placeholder="Search..."
+        className="border border-gray-100 rounded-full px-4"
+        containerClassName="self-start mb-12"
+        value={searchTerm}
+        onChange={(e) => handleSearchChange(e.target.value)}
+      />
       <Table className="table-fixed w-full">
         <TableHeader>
           {table.getHeaderGroups().map((headerGroup) => (
@@ -160,6 +210,7 @@ export default function LeaderboardTable() {
                 <TableHead
                   key={header.id}
                   style={{ width: `${header.getSize()}px` }}
+                  className={header.column.columnDef.meta?.className}
                 >
                   {flexRender(
                     header.column.columnDef.header,
@@ -184,30 +235,30 @@ export default function LeaderboardTable() {
           ) : (
             <TableRow>
               <TableCell colSpan={columns.length} className="h-24 text-center">
-                No results.
+                {loading ? "Loading..." : "No results."}
               </TableCell>
             </TableRow>
           )}
         </TableBody>
       </Table>
-      <div className="flex justify-center mt-10 gap-4 items-center">
-        <Button
-          onClick={prevPage}
-          disabled={page === 0 || loading}
-          className="px-4 py-2 bg-gray-500 text-white disabled:opacity-50 max-w-[120px] w-full"
-        >
-          <ChevronLeft />
-          Prev
-        </Button>
-        <Button
-          onClick={nextPage}
-          disabled={!hasMore || loading}
-          className="px-4 py-2 bg-orange text-white disabled:opacity-50 max-w-[120px] w-full"
-        >
-          {loading ? "Loading..." : "Next"}
-          <ChevronRight />
-        </Button>
-      </div>
+       <div className="flex justify-center mt-10 gap-4 items-center">
+         <Button
+           onClick={prevPage}
+           disabled={currentPage === 0 || loading}
+           className="px-4 py-2 bg-gray-500 text-white disabled:opacity-50 max-w-[120px] w-full"
+         >
+           <ChevronLeft />
+           Prev
+         </Button>
+         <Button
+           onClick={nextPage}
+           disabled={currentPage >= totalPages - 1 || loading}
+           className="px-4 py-2 bg-orange text-white disabled:opacity-50 max-w-[120px] w-full"
+         >
+           {loading ? "Loading..." : "Next"}
+           <ChevronRight />
+         </Button>
+       </div>
     </>
   );
 }

@@ -15,6 +15,19 @@ const oldFont = localFont({
   ],
 });
 
+const circular = localFont({
+  variable: "--font-circular",
+  src: [
+    {
+      path: "../public/assets/fonts/circular.ttf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+});
+
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${oldFont.variable} ${geistSans.variable} antialiased font-oldFont bg-black`}
+        className={`${oldFont.variable} ${geistSans.variable} ${circular.variable} antialiased font-oldFont bg-black`}
       >
         <Navbar />
         <div className="mt-[60px] sm:mt-16">{children}</div>

@@ -12,16 +12,26 @@ const AboutPage = () => {
           backgroundPosition: "bottom,top",
         }}
       >
-        <div className="text-black text-center pb-20 [&_a]:font-medium container items-center gap-5">
-          <Text variant={"4Xl"} className="pb-5">About us</Text>
+        <div className="text-black text-center pb-20 text-base sm:text-lg [&_a]:font-medium container items-center gap-5">
+          <Text variant={"4Xl"} className="pb-5">
+            About us
+          </Text>
           The Universal Principles of Liberty were born from a shared
           conviction: that the essence of human freedom can, and must, be
           distilled into clear, timeless truths. Crafted through the
           collaboration of{" "}
-          <Link href="https://x.com/NSKinsella" target="_blank">Stephan Kinsella</Link>,{" "}
-          <Link href="https://x.com/_Freemax" target="_blank">Freemax</Link>,{" "}
-          <Link href="https://x.com/AlessandroFusi9" target="_blank">Alessandro Fusillo</Link>,
-          and David Dürr — and Hans-Hermann Hoppe as its godfather — this
+          <Link href="https://x.com/NSKinsella" target="_blank">
+            Stephan Kinsella
+          </Link>
+          ,{" "}
+          <Link href="https://x.com/_Freemax" target="_blank">
+            Freemax
+          </Link>
+          ,{" "}
+          <Link href="https://x.com/AlessandroFusi9" target="_blank">
+            Alessandro Fusillo
+          </Link>
+          , and David Dürr — and Hans-Hermann Hoppe as its godfather — this
           document expresses, in five simple principles, the foundational axioms
           of liberty. It is not a constitution, nor a manifesto of fleeting
           politics. It is a declaration — a recognition of the moral order that
@@ -29,7 +39,11 @@ const AboutPage = () => {
           endorsing, and adopting these principles, each signer performs more
           than a symbolic act. They affirm their commitment to a world free from
           systemic aggression — a world where human beings may live, create, and
-          cooperate in peace.
+          cooperate in peace. The Universal Principles of Liberty have been
+          <Link href="https://www.ord.io/103525220" target="_blank">
+            inscribed on the Bitcoin blockchain
+          </Link>{" "}
+          — immutable, borderless, and forever.
         </div>
       </div>
     </div>

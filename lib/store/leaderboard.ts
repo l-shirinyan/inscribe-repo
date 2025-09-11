@@ -1,6 +1,7 @@
 import { create } from "zustand";
 import { QueryDocumentSnapshot, DocumentData } from "firebase/firestore";
 import { fetchLeaderboardUsers, LeaderboardUser } from "@/api/leaderboard";
+import { debounce } from "lodash";
 
 interface LeaderboardState {
   data: LeaderboardUser[];
@@ -9,7 +10,9 @@ interface LeaderboardState {
   loading: boolean;
   hasMore: boolean;
   setPage: (page: number) => void;
-  loadUsers: (pageIndex?: number) => Promise<void>;
+  loadUsers: (pageIndex: number, searchValue?: string) => Promise<void>;
+  search: string;
+  handleSearch: (page: string) => void;
 }
 
 export const useLeaderboardStore = create<LeaderboardState>((set, get) => ({
@@ -18,9 +21,12 @@ export const useLeaderboardStore = create<LeaderboardState>((set, get) => ({
   page: 0,
   loading: false,
   hasMore: true,
-
+  search: "",
+  setSearch: (val: string) => set({ search: val }),
   setPage: (page: number) => set({ page }),
-
+  handleSearch: (val: string) => {
+    set({ search: val });
+  },
   loadUsers: async (pageIndex = get().page) => {
     if (get().loading) return;
 
@@ -28,7 +34,7 @@ export const useLeaderboardStore = create<LeaderboardState>((set, get) => ({
     const pageDocs = get().pageDocs;
     const startAfterDoc = pageDocs[pageIndex] || null;
 
-    const result = await fetchLeaderboardUsers(startAfterDoc, 15);
+    const result = await fetchLeaderboardUsers();
 
     set((state) => ({
       data: result.users,

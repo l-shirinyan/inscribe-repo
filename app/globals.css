@@ -15,8 +15,10 @@
   --color-dark: #1A1A1A;
   --font-oldFont: var(--font-oldFont);
   --font-geist-sans: var(--font-geist-sans);
+  --font-circular: var(--font-circular);
   --color-gray: #525252;
   --color-gray-100: #b5b5b5;
+  --color-gray-200: #626262;
   --shadow-dark: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 }

@@ -15,6 +15,11 @@ const LeaderboardHero = () => {
     const height = 420;
     const left = window.screen.width / 2 - width / 2;
     const top = window.screen.height / 2 - height / 2;
+    const tweetText = "Check out this image!";
+    const imageUrl = "https://example.com/image.jpg"; // Image must be hosted publicly
+    const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
+      tweetText
+    )}&url=${encodeURIComponent(imageUrl)}`;
 
     window.open(
       tweetUrl,

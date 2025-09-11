@@ -33,26 +33,28 @@ export interface LeaderboardPageData {
 
 export async function fetchLeaderboardUsers(
   startAfterDoc?: QueryDocumentSnapshot<DocumentData> | null,
-  limitCount: number = 50
 ): Promise<LeaderboardPageData> {
   try {
+    // let q = query(
+    //   collection(db, "signers"),
+    //   // where("showNameInLeaderboard", "==", true),
+    //   orderBy("createdAt", "desc"),
+    //   // limit(limitCount)
+    // );
+
+    // if (startAfterDoc) {
+    //   q = query(
+    //     collection(db, "signers"),
+    //     // where("showNameInLeaderboard", "==", true),
+    //     orderBy("createdAt", "desc"),
+    //     // startAfter(startAfterDoc),
+    //     // limit(limitCount)
+    //   );
+    // }
     let q = query(
       collection(db, "signers"),
-      where("showNameInLeaderboard", "==", true),
-      orderBy("createdAt", "desc"),
-      limit(limitCount)
+      orderBy("createdAt", "desc")
     );
-
-    if (startAfterDoc) {
-      q = query(
-        collection(db, "signers"),
-        where("showNameInLeaderboard", "==", true),
-        orderBy("createdAt", "desc"),
-        startAfter(startAfterDoc),
-        limit(limitCount)
-      );
-    }
-
     const querySnapshot = await getDocs(q);
 
     const users: LeaderboardUser[] = querySnapshot.docs.map((doc) => {
