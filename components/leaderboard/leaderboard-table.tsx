@@ -53,7 +53,7 @@ export default function LeaderboardTable({
         return <div className="text-center text-gray-200">{rank}</div>;
       },
       size: 20,
-      minSize: 30,
+      minSize: 50,
       meta: { className: "text-center" },
     },
     {
@@ -198,7 +198,7 @@ export default function LeaderboardTable({
       <Input
         placeholder="Search..."
         className="border border-gray-100 rounded-full px-4"
-        containerClassName="self-start mb-12"
+        containerClassName="self-start mb-5 sm:mb-12"
         value={searchTerm}
         onChange={(e) => handleSearchChange(e.target.value)}
       />

@@ -132,11 +132,32 @@ onAuthStateChanged(auth, async (user) => {
     try {
       const signed = await isEmailSigned(user.email);
       useAuthStore.setState({ user, userSigned: signed, loading: false });
+      
+      // Set user cookie for server-side access
+      if (typeof document !== 'undefined') {
+        const userData = {
+          uid: user.uid,
+          email: user.email,
+          displayName: user.displayName,
+          photoURL: user.photoURL,
+        };
+        document.cookie = `user=${JSON.stringify(userData)}; path=/; max-age=86400; SameSite=Lax`;
+      }
     } catch (err) {
       console.error("Error checking if email is signed:", err);
       useAuthStore.setState({ user, userSigned: false, loading: false });
+      
+      // Clear cookie on error
+      if (typeof document !== 'undefined') {
+        document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      }
     }
   } else {
     useAuthStore.setState({ user: null, userSigned: false, loading: false });
+    
+    // Clear cookie when user logs out
+    if (typeof document !== 'undefined') {
+      document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    }
   }
 });

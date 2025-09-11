@@ -7,7 +7,7 @@ import { useAuthStore } from "@/lib/store/auth";
 const LeaderboardHero = () => {
   const { user, loading } = useAuthStore();
   if (loading || !user) return;
-  const tweetUrl = `https://twitter.com/intent/tweet?text=Check%20out%20the%20leaderboard!&url=${window.location.origin}/leaderboard`;
+  const tweetUrl = `https://twitter.com/intent/tweet?text=Check%20out%20the%20leaderboard!&url=${encodeURIComponent(`${window.location.origin}/leaderboard?user=${encodeURIComponent(user?.displayName || "user")}`)}`;
 
   const handleShare = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
@@ -15,12 +15,7 @@ const LeaderboardHero = () => {
     const height = 420;
     const left = window.screen.width / 2 - width / 2;
     const top = window.screen.height / 2 - height / 2;
-    const tweetText = "Check out this image!";
-    const imageUrl = "https://example.com/image.jpg"; // Image must be hosted publicly
-    const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-      tweetText
-    )}&url=${encodeURIComponent(imageUrl)}`;
-
+   
     window.open(
       tweetUrl,
       "Share to Twitter",

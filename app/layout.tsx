@@ -32,6 +32,7 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
 export const metadata: Metadata = {
   title: "The Universal Principles of Liberty",
   description: "The foundations of ethical order, justice and peace",
