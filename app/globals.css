@@ -4,11 +4,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --background-image-banner: url("/assets/images/banner.png");
+  --background-image-banner: url("/assets/images/2.png");
   --background-image-paper: url("/assets/images/paper.png");
   --background-image-footer: url("/assets/images/footer.png");
   --background-image-stars: url("/assets/images/stars.png");
-  --background-image-leaderboard: url("/assets/images/leaderboard.png");
+  --background-image-leaderboard: url("/assets/images/leaderboard-hero.png");
   --color-orange: #C77E1C;
   --color-light-orange: #f5ac493b;
   --color-blue: #455966;

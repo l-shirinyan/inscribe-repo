@@ -6,7 +6,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const ScrollLottie = () => {
   return (
     <div
-      className="absolute w-full flex flex-col items-center justify-center top-[90px] cursor-pointer"
+      className="absolute z-[1] w-full flex flex-col items-center justify-center top-[90px] cursor-pointer"
       onClick={() =>
         window.scrollTo({
           top: document.body.scrollHeight,

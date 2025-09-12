@@ -29,7 +29,7 @@ const Navbar = () => {
       text: "Principles",
     },
     {
-      href: `/leaderboard?user=${encodeURIComponent(user?.displayName || "user")}`,
+      href: `/leaderboard`,
       text: "Leaderboard",
     },
     {

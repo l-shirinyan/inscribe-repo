@@ -50,7 +50,7 @@ const LeaderBoardPage = async () => {
 
   return (
     <>
-      <div className="bg-leaderboard relative bg-no-repeat h-[54vw] sm:h-[40vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]">
+      <div className="bg-[url('/assets/images/leaderboard-hero.png'),url('/assets/images/stars.png')] relative bg-no-repeat h-[60vw] sm:h-[45vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]">
         <LeaderboardHero />
       </div>
       <div className="font-circular bg-white min-h-screen flex flex-col items-center p-5">

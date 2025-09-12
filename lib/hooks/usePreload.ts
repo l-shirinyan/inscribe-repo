@@ -10,6 +10,8 @@ export function useImagePreloader(): boolean {
   const [isLoaded, setIsLoaded] = useState(false);
   const images = [
     "/assets/images/banner.png",
+    "/assets/images/1.png",
+    "/assets/images/2.png",
     "/assets/images/footer.png",
     "/assets/images/paper.png",
     "/assets/images/stars.png",

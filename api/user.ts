@@ -94,6 +94,7 @@ export const linkTwitter = async (): Promise<{
 
     const twitterProvider = new TwitterAuthProvider();
     const credential = await linkWithPopup(auth.currentUser, twitterProvider);
+    
     //@ts-ignore
     const username = ((credential._tokenResponse.screenName) || credential.user.displayName) ?? "";
     let profilePic = credential.user.photoURL ?? "";

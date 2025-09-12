@@ -37,7 +37,7 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <div className="bg-stars bg-repeat bg-size-[50vw] bg-fixed min-h-[calc(100vh-64px)]">
-      <div className="bg-banner bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
+      <div className="bg-[url('/assets/images/banner.png')] bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
       <div
         className="w-full min-h-[73vh] sm:min-h-[62vh] bg-merge -mt-1 sm:mt-[-1px] bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
         style={{

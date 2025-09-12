@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import PrinciplesContent from "@/components/landing";
 import ScrollLottie from "@/components/landing/scroll-lottie";
 import SignInGoogle from "@/components/landing/sign-in-google";
@@ -8,6 +9,16 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function LandingPage() {
   const isLoaded = useImagePreloader();
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+      window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   if (!isLoaded)
     return (
       <div className="flex justify-center items-center h-[calc(100vh-64px)]">
@@ -19,12 +30,19 @@ export default function LandingPage() {
         />
       </div>
     );
+
   return (
-    <div className="bg-stars bg-repeat bg-size-[50vw] bg-fixed">
+    <div
+      className="bg-stars bg-repeat bg-size-[50vw] bg-fixed"
+      style={{
+        backgroundPosition: `center ${-scrollY * 0.3}px`, // Parallax effect
+      }}
+    >
       <ScrollLottie />
-      <div className="bg-banner bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
+      <div className="bg-banner sticky -top-14 bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
+      <div className="bg-[url('/assets/images/1.png')] top-[64px] absolute w-full bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
       <div
-        className="w-full min-h-[600px] bg-merge -mt-1 sm:mt-[-1px] bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
+        className="w-full min-h-[600px] relative bg-merge -mt-1 sm:mt-[-1px] bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
         style={{
           backgroundRepeat: "no-repeat, repeat-y",
           backgroundPosition: "bottom,top",
