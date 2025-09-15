@@ -1,18 +1,6 @@
 {
-  "flutter": {
-    "platforms": {
-      "dart": {
-        "lib/firebase_options.dart": {
-          "projectId": "inscribe-doc",
-          "configurations": {
-            "web": "1:216110440373:web:c64acb8db69c9ac8e443fc"
-          }
-        }
-      }
-    }
-  },
   "hosting": {
-    "public": "build/web",
+    "source": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
