@@ -4,6 +4,7 @@ import Navbar from "@/components/layout/navbar";
 import localFont from "next/font/local";
 import { Geist } from "next/font/google";
 import { getServerUser } from "@/lib/server-auth";
+import InitializeUser from "@/components/layout/initialize-user";
 
 const oldFont = localFont({
   variable: "--font-oldFont",
@@ -27,7 +28,14 @@ const circular = localFont({
   ],
 });
 
-
+const ludovico = localFont({
+  variable: "--font-ludovico",
+  src: [
+    {
+      path: "../public/assets/fonts/ludovico.ttf",
+    },
+  ],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -117,8 +125,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${oldFont.variable} ${geistSans.variable} ${circular.variable} antialiased font-oldFont bg-black`}
+        className={`${oldFont.variable} ${geistSans.variable} ${circular.variable} ${ludovico.variable} antialiased font-oldFont bg-black`}
       >
+        <InitializeUser />
         <Navbar />
         <div className="mt-[60px] sm:mt-16">{children}</div>
       </body>

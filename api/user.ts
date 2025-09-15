@@ -84,6 +84,7 @@ export const linkTwitter = async (): Promise<{
     const existingTwitter = auth.currentUser.providerData.find(
       (p) => p.providerId === "twitter.com"
     );
+
     if (existingTwitter) {
       const username = existingTwitter.displayName ?? "";
       let profilePic = existingTwitter.photoURL ?? "";
@@ -94,11 +95,17 @@ export const linkTwitter = async (): Promise<{
 
     const twitterProvider = new TwitterAuthProvider();
     const credential = await linkWithPopup(auth.currentUser, twitterProvider);
-    
-    //@ts-ignore
-    const username = ((credential._tokenResponse.screenName) || credential.user.displayName) ?? "";
-    let profilePic = credential.user.photoURL ?? "";
-    if (profilePic) profilePic = profilePic.replace("_normal", "_400x400");
+
+    const username =
+      //@ts-ignore
+      (credential._tokenResponse.screenName || credential.user.displayName) ??
+      "";
+
+    const twitterData = credential.user.providerData.find(
+      (p) => p.providerId === "twitter.com"
+    );
+
+    const profilePic = twitterData?.photoURL ?? "";
 
     return { username, profilePic };
   } catch (error: any) {
@@ -109,4 +116,22 @@ export const linkTwitter = async (): Promise<{
     console.error("Error linking Twitter account:", error);
     return null;
   }
+};
+
+export const getUserData = async (email: string | null) => {
+  if (!email) return;
+  const q = query(collection(db, "signers"), where("email", "==", email));
+
+  const querySnapshot = await getDocs(q);
+
+  if (querySnapshot.empty) {
+    return null;
+  }
+
+  const users: any[] = [];
+  querySnapshot.forEach((doc) => {
+    users.push({ id: doc.id, ...doc.data() });
+  });
+
+  return users.length === 1 ? users[0] : users;
 };

@@ -28,13 +28,15 @@ interface AuthState {
     alias: string;
     wantNameInLeaderboard: boolean;
   }) => Promise<void>;
+  aliasName?: string;
+  setAliasName: (name: string) => void;
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
   user: null,
   loading: true,
   userSigned: false,
-
+  aliasName: "",
   twitterLinked: false,
   twitterUsername: "",
   twitterProfilePic: "",
@@ -42,7 +44,7 @@ export const useAuthStore = create<AuthState>((set) => ({
   setUser: (user) => set({ user }),
   setLoading: (loading) => set({ loading }),
   setUserSigned: (signed) => set({ userSigned: signed }),
-
+  setAliasName: (name) => set({ aliasName: name }),
   signInWithGoogle: async (): Promise<User | null> => {
     try {
       set({ loading: true });
@@ -93,6 +95,7 @@ export const useAuthStore = create<AuthState>((set) => ({
         twitterUsername,
         twitterProfilePic,
         setUserSigned,
+        setAliasName
       } = useAuthStore.getState();
 
       if (!user) return;
@@ -104,10 +107,10 @@ export const useAuthStore = create<AuthState>((set) => ({
         twitterUsername: twitterLinked ? twitterUsername : null,
         twitterProfilePic: twitterLinked ? twitterProfilePic : null,
         showNameInLeaderboard: wantNameInLeaderboard,
-        uid:user.uid
+        uid: user.uid,
       });
-
       setUserSigned(true);
+      setAliasName(trimmedName)
     } catch (error) {
       console.error("Error signing document:", error);
     }
@@ -132,32 +135,35 @@ onAuthStateChanged(auth, async (user) => {
     try {
       const signed = await isEmailSigned(user.email);
       useAuthStore.setState({ user, userSigned: signed, loading: false });
-      
+
       // Set user cookie for server-side access
-      if (typeof document !== 'undefined') {
+      if (typeof document !== "undefined") {
         const userData = {
           uid: user.uid,
           email: user.email,
           displayName: user.displayName,
           photoURL: user.photoURL,
         };
-        document.cookie = `user=${JSON.stringify(userData)}; path=/; max-age=86400; SameSite=Lax`;
+        document.cookie = `user=${JSON.stringify(
+          userData
+        )}; path=/; max-age=86400; SameSite=Lax`;
       }
     } catch (err) {
       console.error("Error checking if email is signed:", err);
       useAuthStore.setState({ user, userSigned: false, loading: false });
-      
+
       // Clear cookie on error
-      if (typeof document !== 'undefined') {
-        document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+      if (typeof document !== "undefined") {
+        document.cookie =
+          "user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
       }
     }
   } else {
     useAuthStore.setState({ user: null, userSigned: false, loading: false });
-    
+
     // Clear cookie when user logs out
-    if (typeof document !== 'undefined') {
-      document.cookie = 'user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT';
+    if (typeof document !== "undefined") {
+      document.cookie = "user=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     }
   }
 });

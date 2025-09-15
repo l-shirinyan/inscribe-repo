@@ -8,7 +8,7 @@ import { useAuthStore } from "@/lib/store/auth";
 import { Text } from "../ui/text";
 
 const SignInGoogle = () => {
-  const { user, signInWithGoogle, loading, userSigned } =
+  const { user, signInWithGoogle, loading, userSigned,aliasName } =
     useAuthStore();
   const [isSigningIn, setIsSigningIn] = useState(false);
 
@@ -30,10 +30,10 @@ const SignInGoogle = () => {
       </Button>
     );
   }
-  if (userSigned) {
+  if (userSigned && aliasName) {
     return (
       <Text variant={"3Xl"} className="text-center">
-        You have already signed the document. Thank you!
+        Signed by {aliasName}. Thank you!
       </Text>
     );
   }

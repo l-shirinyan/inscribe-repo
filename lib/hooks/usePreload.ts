@@ -15,7 +15,8 @@ export function useImagePreloader(): boolean {
     "/assets/images/footer.png",
     "/assets/images/paper.png",
     "/assets/images/stars.png",
-    "/assets/images/leaderboard.png",
+    "/assets/images/leaderboard-hero.png",
+    "/assets/images/signature.png",
   ];
   useEffect(() => {
     if (!images || images.length === 0) {
