@@ -13,35 +13,6 @@ export async function generateMetadata({
   return {
     title: "Leaderboard - Signers",
     description: "Check out the top signers on our leaderboard!",
-    openGraph: {
-      title: "Leaderboard - Signers",
-      description: "Check out the top signers on our leaderboard!",
-      type: "website",
-      url: "https://inscribe-coral.vercel.app/leaderboard",
-      siteName: "The Universal Principles of Liberty",
-      images: [
-        {
-          url: "https://inscribe-coral.vercel.app/api/og?user=${user}",
-          width: 1200,
-          height: 630,
-          alt: "Leaderboard - Top Signers",
-        },
-      ],
-      locale: "en_US",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Leaderboard - Signers",
-      description: "Check out the top signers on our leaderboard!",
-      images: [
-        {
-          url: `https://inscribe-coral.vercel.app/api/og?user=${user}`,
-          alt: "Leaderboard - Top Signers",
-        },
-      ],
-      site: "@Inscribe",
-      creator: "@Inscribe",
-    },
   };
 }
 
