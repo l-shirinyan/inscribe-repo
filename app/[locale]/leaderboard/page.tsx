@@ -1,23 +1,40 @@
+"use client";
+
 import { fetchLeaderboardUsers, getNumberOfSigners } from "@/api/leaderboard";
 import LeaderboardHero from "@/components/leaderboard/leaderboard-hero";
 import LeaderboardTable from "@/components/leaderboard/leaderboard-table";
 import { Text } from "@/components/ui/text";
-import { Metadata } from "next";
+import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
-export async function generateMetadata({
-  searchParams,
-}: any): Promise<Metadata> {
-  const param = await searchParams;
-  const user = encodeURIComponent(param.user);
+const LeaderBoardPage = () => {
+  const t = useTranslations('Leaderboard');
+  const [users, setUsers] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  return {
-    title: "Leaderboard - Signers",
-    description: "Check out the top signers on our leaderboard!",
-  };
-}
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const data = await fetchLeaderboardUsers();
+        setUsers(data?.users || []);
+      } catch (error) {
+        console.error('Error loading leaderboard data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, []);
 
-const LeaderBoardPage = async () => {
-  const { users } = (await fetchLeaderboardUsers()) || {};
+  if (loading) {
+    return (
+      <div className="font-circular bg-white min-h-screen flex flex-col items-center justify-center p-5">
+        <Text variant={"4Xl"} className="font-normal text-center">
+          {t('loading')}
+        </Text>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -29,11 +46,11 @@ const LeaderBoardPage = async () => {
               variant={"4Xl"}
               className="font-normal text-center max-sm:text-xl"
             >
-              Signers Leaderboard
+              {t('title')}
             </Text>
             <div className="py-1 text-base sm:text-[32px] font-medium md:absolute md:right-5">
               {users.length}
-              <p className="text-base">Total signers</p>
+              <p className="text-base">{t('totalSigners')}</p>
             </div>
           </div>
           <LeaderboardTable numberOfSigners={users.length} />

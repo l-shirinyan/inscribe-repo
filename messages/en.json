@@ -111,7 +111,8 @@
         "title": "Signature",
         "text": "I hereby adapt the Universal Principle of Liberty, and to the legitimacy of any laws and legal system based thereon.",
         "signedBy": "Signed by:",
-        "downloadSignature": "Download Signature"
+        "downloadSignature": "Download Signature",
+        "signedByThankYou": "Signed by {aliasName}. Thank you!"
     },
     "About": {
         "title": "About us",
@@ -143,10 +144,12 @@
         "signed": "Signed",
         "anonymous": "Anonymous",
         "search": "Search...",
-    "loading": "Loading...",
+        "loading": "Loading...",
         "noResults": "No results.",
         "prev": "Prev",
-        "next": "Next"
+        "next": "Next",
+        "signedBy": "Signed by:",
+        "downloadSignature": "Download Signature"
     },
     "Common": {
         "scrollDownToSign": "Scroll down to sign"

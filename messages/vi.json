@@ -111,7 +111,8 @@
         "title": "Chữ ký",
         "text": "Tôi xin xác nhận áp dụng Nguyên tắc Tự do Phổ quát, và tính hợp pháp của bất kỳ luật và hệ thống pháp luật nào dựa trên đó.",
         "signedBy": "Được ký bởi:",
-        "downloadSignature": "Tải chữ ký"
+        "downloadSignature": "Tải chữ ký",
+        "signedByThankYou": "Được ký bởi {aliasName}. Cảm ơn!"
     },
     "About": {
         "title": "Về chúng tôi",

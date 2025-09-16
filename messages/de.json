@@ -111,7 +111,8 @@
         "title": "Unterschrift",
         "text": "Ich bestätige hiermit die Annahme der universellen Prinzipien der Freiheit und die Legitimität jeglicher darauf basierender Gesetze und Rechtssysteme.",
         "signedBy": "Unterschrieben von:",
-        "downloadSignature": "Unterschrift herunterladen"
+        "downloadSignature": "Unterschrift herunterladen",
+        "signedByThankYou": "Unterschrieben von {aliasName}. Danke!"
     },
     "About": {
         "title": "Über uns",

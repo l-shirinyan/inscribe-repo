@@ -111,7 +111,8 @@
         "title": "Firma",
         "text": "Qui adotto il Principio Universale di Libertà e riconosco la legittimità di qualsiasi legge e sistema legale basato su di esso.",
         "signedBy": "Firmato da:",
-        "downloadSignature": "Scarica firma"
+        "downloadSignature": "Scarica firma",
+        "signedByThankYou": "Firmato da {aliasName}. Grazie!"
     },
     "About": {
         "title": "Chi siamo",

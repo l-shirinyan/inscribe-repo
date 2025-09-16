@@ -6,11 +6,13 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import { useAuthStore } from "@/lib/store/auth";
 import { Text } from "../ui/text";
+import { useTranslations } from 'next-intl';
 
 const SignInGoogle = () => {
   const { user, signInWithGoogle, loading, userSigned,aliasName } =
     useAuthStore();
   const [isSigningIn, setIsSigningIn] = useState(false);
+  const t = useTranslations('Signature');
 
   const handleSignIn = async () => {
     try {
@@ -33,7 +35,7 @@ const SignInGoogle = () => {
   if (userSigned && aliasName) {
     return (
       <Text variant={"3Xl"} className="text-center">
-        Signed by {aliasName}. Thank you!
+        {t('signedByThankYou', { aliasName })}
       </Text>
     );
   }

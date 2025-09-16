@@ -6,6 +6,7 @@ import { useAuthStore } from "@/lib/store/auth";
 import { DownloadIcon } from "lucide-react";
 import * as htmlToImage from "html-to-image";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 const AutoFitText = ({ aliasName }: { aliasName: string }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
@@ -40,6 +41,7 @@ const AutoFitText = ({ aliasName }: { aliasName: string }) => {
 };
 const LeaderboardHero = () => {
   const { user, loading, aliasName } = useAuthStore();
+  const t = useTranslations('Signature');
 
   const signatureRef = useRef<HTMLDivElement>(null);
 
@@ -75,7 +77,7 @@ const LeaderboardHero = () => {
         <div className="flex flex-col items-center w-full absolute mt-10 pl-5 sm:pl-10">
           {aliasName && (
             <div className="flex flex-col items-center w-max font-ludovico tracking-[1.1px]">
-              <Text variant={"Lg"} className="pb-2">Signed by:</Text>
+              <Text variant={"Lg"} className="pb-2">{t('signedBy')}</Text>
               <AutoFitText aliasName={aliasName} />
             </div>
           )}
@@ -86,7 +88,7 @@ const LeaderboardHero = () => {
           onClick={handleDownload}
           className="bg-orange max-lg:text-sm text-white mt-2 lg:mt-8 max-lg:w-max lg:max-w-[300px] w-full font-geist-sans gap-5"
         >
-          Download Signature <DownloadIcon className="size-3 sm:size-4" />
+          {t('downloadSignature')} <DownloadIcon className="size-3 sm:size-4" />
         </Button>
       </div>
     </div>

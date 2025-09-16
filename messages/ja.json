@@ -111,7 +111,8 @@
         "title": "署名",
         "text": "私はここに自由の普遍的原則を採用し、それに基づくいかなる法律および法制度の正当性を認めます。",
         "signedBy": "署名者：",
-        "downloadSignature": "署名をダウンロード"
+        "downloadSignature": "署名をダウンロード",
+        "signedByThankYou": "{aliasName}によって署名されました。ありがとうございます！"
     },
     "About": {
         "title": "私たちについて",

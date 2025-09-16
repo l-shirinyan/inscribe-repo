@@ -111,7 +111,8 @@
         "title": "签名",
         "text": "我特此采用自由普遍原则，以及基于此的任何法律和法律制度的合法性。",
         "signedBy": "签名者：",
-        "downloadSignature": "下载签名"
+        "downloadSignature": "下载签名",
+        "signedByThankYou": "由 {aliasName} 签署。谢谢！"
     },
     "About": {
         "title": "关于我们",
@@ -146,7 +147,9 @@
         "loading": "加载中...",
         "noResults": "无结果。",
         "prev": "上一页",
-        "next": "下一页"
+        "next": "下一页",
+        "signedBy": "签名者：",
+        "downloadSignature": "下载签名"
     },
     "Common": {
         "scrollDownToSign": "向下滚动签名"

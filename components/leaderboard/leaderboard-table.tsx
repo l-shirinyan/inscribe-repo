@@ -25,6 +25,7 @@ import { Button } from "../ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { Input } from "../ui/input";
+import { useTranslations } from 'next-intl';
 
 export default function LeaderboardTable({
   numberOfSigners,
@@ -38,13 +39,14 @@ export default function LeaderboardTable({
     search,
     handleSearch,
   } = useLeaderboardStore();
+  const t = useTranslations('Leaderboard');
 
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 15;
   const [searchTerm, setSearchTerm] = useState("");
   const columns: ColumnDef<LeaderboardUser>[] = [
     {
-      header: "Signer",
+      header: t('signer'),
       cell: (info) => {
         if (numberOfSigners <= 0) return;
         const globalIndex = currentPage * itemsPerPage + info.row.index;
@@ -58,7 +60,7 @@ export default function LeaderboardTable({
     },
     {
       accessorKey: "name",
-      header: "Name",
+      header: t('name'),
       cell: (info) => {
         const username = info.getValue() as string | null;
         const profilePic = info.row.original.twitterProfilePic;
@@ -81,7 +83,7 @@ export default function LeaderboardTable({
                 alt="user"
               />
             )}
-            {showNameInLeaderboard ? username : "Anonymous"}
+            {showNameInLeaderboard ? username : t('anonymous')}
           </div>
         );
       },
@@ -91,7 +93,7 @@ export default function LeaderboardTable({
       accessorKey: "twitterUsername",
       header: () => (
         <div className="flex items-center gap-2">
-          Twitter
+          {t('twitter')}
           <Image
             src="/assets/images/twitter.png"
             alt="twitter"
@@ -118,7 +120,7 @@ export default function LeaderboardTable({
     },
     {
       accessorKey: "createdAt",
-      header: "Signed",
+      header: t('signed'),
       cell: (info) => {
         const date = info.getValue() as string;
 
@@ -196,7 +198,7 @@ export default function LeaderboardTable({
   return (
     <>
       <Input
-        placeholder="Search..."
+        placeholder={t('search')}
         className="border border-gray-100 rounded-full px-4"
         containerClassName="self-start mb-5 sm:mb-12"
         value={searchTerm}
@@ -235,7 +237,7 @@ export default function LeaderboardTable({
           ) : (
             <TableRow>
               <TableCell colSpan={columns.length} className="h-24 text-center">
-                {loading ? "Loading..." : "No results."}
+                {loading ? t('loading') : t('noResults')}
               </TableCell>
             </TableRow>
           )}
@@ -248,14 +250,14 @@ export default function LeaderboardTable({
            className="px-4 py-2 bg-gray-500 text-white disabled:opacity-50 max-w-[120px] w-full"
          >
            <ChevronLeft />
-           Prev
+           {t('prev')}
          </Button>
          <Button
            onClick={nextPage}
            disabled={currentPage >= totalPages - 1 || loading}
            className="px-4 py-2 bg-orange text-white disabled:opacity-50 max-w-[120px] w-full"
          >
-           {loading ? "Loading..." : "Next"}
+           {loading ? t('loading') : t('next')}
            <ChevronRight />
          </Button>
        </div>

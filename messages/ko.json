@@ -111,7 +111,8 @@
         "title": "서명",
         "text": "나는 여기서 자유의 보편적 원칙을 채택하며, 그에 기반한 모든 법과 법적 체계의 정당성을 인정합니다.",
         "signedBy": "서명자:",
-        "downloadSignature": "서명 다운로드"
+        "downloadSignature": "서명 다운로드",
+        "signedByThankYou": "{aliasName}에 의해 서명됨. 감사합니다!"
     },
     "About": {
         "title": "소개",

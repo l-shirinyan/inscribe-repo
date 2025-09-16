@@ -109,9 +109,10 @@
     },
     "Signature": {
         "title": "Signature",
-        "text": "J’adopte ici les principes universels de liberté et reconnais la légitimité de toute loi et système juridique fondés sur eux.",
+        "text": "J'adopte ici les principes universels de liberté et reconnais la légitimité de toute loi et système juridique fondés sur eux.",
         "signedBy": "Signataires :",
-        "downloadSignature": "Télécharger la signature"
+        "downloadSignature": "Télécharger la signature",
+        "signedByThankYou": "Signé par {aliasName}. Merci !"
     },
     "About": {
         "title": "À propos",

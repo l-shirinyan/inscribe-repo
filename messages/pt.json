@@ -111,7 +111,8 @@
         "title": "Assinatura",
         "text": "Por meio deste, adoto o Princípio Universal de Liberdade, e à legitimidade de qualquer lei e sistema legal baseado nele.",
         "signedBy": "Assinado por:",
-        "downloadSignature": "Baixar Assinatura"
+        "downloadSignature": "Baixar Assinatura",
+        "signedByThankYou": "Assinado por {aliasName}. Obrigado!"
     },
     "About": {
         "title": "Sobre nós",

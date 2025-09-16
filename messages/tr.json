@@ -111,7 +111,8 @@
         "title": "İmza",
         "text": "Bu vesileyle Evrensel Özgürlük İlkelerini kabul ediyorum ve bunlara dayanan herhangi bir hukuk ve hukuki sistemin meşruiyetini tanıyorum.",
         "signedBy": "İmzalayan:",
-        "downloadSignature": "İmzayı İndir"
+        "downloadSignature": "İmzayı İndir",
+        "signedByThankYou": "{aliasName} tarafından imzalandı. Teşekkürler!"
     },
     "About": {
         "title": "Hakkımızda",

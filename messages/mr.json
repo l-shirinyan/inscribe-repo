@@ -66,7 +66,8 @@
         "title": "सही",
         "text": "मी येथे स्वातंत्र्याचे सार्वत्रिक तत्त्व स्वीकारतो.",
         "signedBy": "सही करणारा:",
-        "downloadSignature": "सही डाउनलोड करा"
+        "downloadSignature": "सही डाउनलोड करा",
+        "signedByThankYou": "{aliasName} द्वारे सही केले. धन्यवाद!"
     },
     "About": {
         "title": "आमच्याबद्दल",
@@ -101,7 +102,9 @@
         "loading": "लोड होत आहे...",
         "noResults": "परिणाम नाहीत.",
         "prev": "मागील",
-        "next": "पुढील"
+        "next": "पुढील",
+        "signedBy": "सही केले:",
+        "downloadSignature": "सही डाउनलोड करा"
     },
     "Common": {
         "scrollDownToSign": "सही करण्यासाठी खाली स्क्रोल करा"
