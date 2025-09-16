@@ -1,0 +1,109 @@
+{
+    "Navbar": {
+        "principles": "Prinsip",
+        "leaderboard": "Papan pimpinan",
+        "about": "Babagan",
+        "login": "Mlebu"
+    },
+    "Content": {
+        "preamble": {
+            "title": "PAMBUKA",
+            "paragraphs": [
+                "Ngakoni martabat bawaan, kebebasan lan kedaulatan moral saben Wong — kita ngumumake Prinsip Universal Kebebasan iki.",
+                "Tujuane kanggo ningkatake interaksi tanpa konflik."
+            ]
+        },
+        "scopeAndHierarchy": {
+            "title": "RUANG LINGKUP LAN HIRARKI",
+            "subsections": [
+                {
+                    "subtitle": "Utama",
+                    "text": "Prinsip-prinsip iki mbentuk garis dasar meta-normatif paling dhuwur kanggo kabeh Penerima."
+                }
+            ]
+        },
+        "articleI": {
+            "title": "PASAL I — ISTILAH LAN DEFINISI",
+            "list": [
+                "* Penerima — Sapa wae Wong sing nampa Prinsip iki."
+            ]
+        },
+        "articleII": {
+            "title": "PASAL II — PRINSIP",
+            "list": [
+                "1. Prinsip Non-Agresi — Agresi marang Sumber Daya Wong liya ora adil."
+            ]
+        },
+        "articleIII": {
+            "title": "PASAL III — STANDAR TAMBAHAN",
+            "list": [
+                "6. Ora Bisa Dialihake saka Wong — Kontrak perbudakan sukarela ora bisa dileksanakake."
+            ]
+        },
+        "articleIV": {
+            "title": "PASAL IV — TATANAN HUKUM DESENTRALISASI",
+            "list": [
+                "11. Tujuan Aspiratif — Janji negosiasi kanthi iman apik."
+            ]
+        },
+        "articleV": {
+            "title": "PASAL V — HUKUM ORA ADIL SING DIPILIH",
+            "paragraphs": [
+                "Hukum ing ngisor iki ora cocog karo Prinsip iki lan ora adil."
+            ],
+            "list": [
+                "* Pajak — Njupuk Sumber Daya tanpa persetujuan."
+            ]
+        },
+        "closingAffirmation": {
+            "title": "PENEGASAN PENUTUP",
+            "paragraphs": [
+                "Aspirasi ing mburi Prinsip iki yaiku donya sing bebas. Kita milih kebebasan."
+            ]
+        }
+    },
+    "Signature": {
+        "title": "Tandha tangan",
+        "text": "Aku ing kene nampa Prinsip Universal Kebebasan.",
+        "signedBy": "Ditandatangani dening:",
+        "downloadSignature": "Download tandha tangan"
+    },
+    "About": {
+        "title": "Babagan kita",
+        "intro": "Ing jaman nalika wong-wong sing ngomong kanthi tentrem uga bisa diserang, nalika debat rasional ora ditanggapi kanthi dialog nanging kanthi keheningan sing mateni, kabutuhan kompas moral sing ora bisa digoyang ora tau dadi gedhe kaya ngono. Prinsip Universal Kebebasan lair saka kapercayan sing padha.",
+        "stephanKinsella": "Stephan Kinsella",
+        "freemax": "Freemax",
+        "alessandroFusillo": "Alessandro Fusillo",
+        "andDavidDurr": "lan David Dürr",
+        "andHansHermannHoppe": "lan Hans-Hermann Hoppe minangka bapak baptis",
+        "documentExpresses": "dokumen iki nyatakake, ing limang prinsip prasaja, aksioma dhasar kebebasan.",
+        "notConstitution": "Iki dudu konstitusi, utawa manifesto politik sing ora langgeng.",
+        "declaration": "Iki minangka deklarasi — pangakuan tatanan moral sing ndhisiki lan ngluwihi negara, partai, lan penguasa.",
+        "byReading": "Kanthi maca, ndhukung, lan nampa prinsip-prinsip iki, saben penandatangan nindakake luwih saka tumindak simbolis.",
+        "theyAffirm": "Dheweke negesake komitmen kanggo donya sing bebas saka agresi sistematis.",
+        "takingInspiration": "Njupuk inspirasi saka fenomena Bitcoin — pisanan diadopsi dening individu, banjur dening jutaan, sadurunge kabeh bangsa ora bisa ngabaikan lan ngakoni — deklarasi iki minangka strategi kanggo nggawe kebebasan dadi nyata.",
+        "everySignature": "Saben tandha tangan minangka bahan bakar. Bukti kebebasan. Saben jeneng sing ditambahake minangka sinyal kekuwatan, bukti panjaluk.",
+        "morePeople": "Semakin akeh wong sing ngadeg ing mburi prinsip kebebasan, sinyal sing kita kirimake menyang donya dadi luwih kuwat.",
+        "missionClear": "Misi kasebut jelas — kanggo ngumpulake kekuwatan sing cukup supaya, kanggo pisanan ing sajarah, wilayah donya nyata bisa nampa kebebasan sing sejati.",
+        "universalPrinciples": "Prinsip Universal Kebebasan wis",
+        "inscribedOnBitcoin": "diukir ing blockchain Bitcoin",
+        "immutableBorderless": "ora bisa diowahi, tanpa wates, lan salawas-lawase."
+    },
+    "Leaderboard": {
+        "title": "Papan pimpinan penandatangan",
+        "totalSigners": "Total penandatangan",
+        "signer": "Penandatangan",
+        "name": "Jeneng",
+        "twitter": "Twitter",
+        "signed": "Ditandatangani",
+        "anonymous": "Anonim",
+        "search": "Goleki...",
+        "loading": "Loading...",
+        "noResults": "Ora ana asil.",
+        "prev": "Sadurunge",
+        "next": "Sabanjure"
+    },
+    "Common": {
+        "scrollDownToSign": "Gulung mudhun kanggo nandatangani"
+    }
+}

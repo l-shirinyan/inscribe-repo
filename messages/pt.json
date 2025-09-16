@@ -1,0 +1,158 @@
+{
+    "Navbar": {
+        "principles": "Princípios",
+        "leaderboard": "Classificação",
+        "about": "Sobre nós",
+        "login": "Entrar"
+    },
+    "Content": {
+        "preamble": {
+            "title": "PREÂMBULO",
+            "paragraphs": [
+                "Em reconhecimento da dignidade inerente, liberdade e autossuficiência moral de toda Pessoa, e afirmando que a paz, prosperidade e florescimento humano surgem onde cada um respeita a igual liberdade dos outros — declaramos estes Princípios Universais de Liberdade (\"Princípios\").",
+                "Seu propósito é fomentar a interação livre de conflitos. Estas máximas fluem da razão, experiência e ética; não são decretadas por nenhum estado nem impostas pela vontade majoritária. A adoção é voluntária, qualquer pessoa pode adotar os Princípios por qualquer ato claro de consentimento e a aplicação repousa na livre escolha de indivíduos e comunidades de viver por, e arbitrar disputas sob estes Princípios."
+            ]
+        },
+        "scopeAndHierarchy": {
+            "title": "ESCOPO E HIERARQUIA",
+            "subsections": [
+                {
+                    "subtitle": "Primazia",
+                    "text": "Estes Princípios formam a linha de base meta-normativa suprema para todos os Adotantes."
+                },
+                {
+                    "subtitle": "Regras Secundárias",
+                    "text": "Os Adotantes podem estabelecer cartas, convênios, estatutos, costumes, códigos privados ou outros sistemas de direito privado baseados nestes Princípios (\"Códigos e Leis Secundárias\")."
+                },
+                {
+                    "subtitle": "Conflitos",
+                    "text": "Onde uma regra secundária ou prática entra em conflito com estes Princípios, estes Princípios prevalecem."
+                },
+                {
+                    "subtitle": "Interpretação",
+                    "text": "Se estes Princípios são silenciosos ou pouco claros, os árbitros podem consultar:",
+                    "list": [
+                        "* Códigos secundários relevantes, prática consuetudinária e princípios legais geralmente reconhecidos;",
+                        "* Corpos bem estabelecidos de direito privado, como o direito romano, a tradição do direito comum anglo-americano ou códigos civis modernos;",
+                        "* Codificações, restatements e comentários acadêmicos respeitados—especialmente de pensadores libertários—desde que sejam consistentes com estes Princípios."
+                    ]
+                }
+            ]
+        },
+        "articleI": {
+            "title": "ARTIGO I — TERMOS E DEFINIÇÕES",
+            "list": [
+                "* Adotante — Qualquer Pessoa que adote estes Princípios.",
+                "* Pessoa (Portador de Direitos) — Qualquer ser sensível cuja capacidade inerente para agência moral fundamenta uma presunção de autopropriedade e obrigações recíprocas.",
+                "* Recurso — Um meio de ação escasso e rival que uma Pessoa pode controlar para alcançar um fim.",
+                "* Direito (Propriedade) — A autoridade exclusiva de uma Pessoa para controlar um Recurso e excluir outros de seu uso, a menos que seja consentido por seu proprietário.",
+                "* Consentimento — Permissão ou licença concedida pelo proprietário de um Recurso a outro para usá-lo ou, no caso de Recursos Externos, para transferir seu título.",
+                "* Agressão — O uso, roubo, violação ou invasão das fronteiras do Recurso de outra Pessoa sem o consentimento do proprietário.",
+                "* Tutela — Uma administração fiduciária na qual uma Pessoa competente age em nome de outra Pessoa que carece de capacidade presente para agência moral.",
+                "* Dispositivo de Destruição em Massa (DMD) — Qualquer dispositivo, sistema, agente, instrumento ou tecnologia cujo funcionamento ordinário não pode discriminar entre agressor e espectador.",
+                "* Lei — As leis são regras executáveis que reconhecem direitos de propriedade em Recursos e que autorizam força para proteger direitos de propriedade em Recursos.",
+                "* Contrato — Um acordo de transferência de título unilateral, bilateral ou multilateral—presente ou futuro—mediante o qual o proprietário ou proprietários do Recurso Externo relevante consensualmente concedem propriedade ou licença para usar Recursos Externos especificados a outros."
+            ]
+        },
+        "articleII": {
+            "title": "ARTIGO II — PRINCÍPIOS",
+            "list": [
+                "1. Princípio de Não Agressão — A agressão contra o Recurso de outra Pessoa é injusta, independentemente do status ou escala do ator.",
+                "2. Autopropriedade — Toda Pessoa é o proprietário original e presumido de seu Corpo.",
+                "3. Apropriação Original (Homesteading) — Recursos Externos sem dono se tornam justamente propriedade da primeira Pessoa (ou associação) que os delimite claramente, ocupe ou transforme produtivamente.",
+                "4. Intercâmbio Voluntário (Transferência de Título Contratual) — Uma Pessoa pode adquirir propriedade de um Recurso Externo por meio de uma transferência de título contratual do proprietário anterior.",
+                "5. Retificação — Um agressor comprovado deve à vítima uma compensação proporcional ao dano causado."
+            ]
+        },
+        "articleIII": {
+            "title": "ARTIGO III — PADRÕES SUPLEMENTARES",
+            "list": [
+                "6. Inalienabilidade da Pessoa — Contratos que pretendem alienar o controle último sobre o próprio Corpo de uma Pessoa, como contratos de escravidão voluntária, não são executáveis.",
+                "7. Proporcionalidade e Autodefesa — A força defensiva em resposta à Agressão é justificada, e não é em si mesma Agressão, quando é razoavelmente necessária e proporcional à ameaça.",
+                "8. Dispositivos de Destruição em Massa (DMD) — Possuir, desenvolver ou implantar um DMD constitui uma ameaça permanente presumida quando previsivelmente coloca partes inocentes em perigo.",
+                "9. Presunções de Título — O possuidor de um Recurso Externo é presumido proprietário.",
+                "10. Padrões Evidenciais e Procedimentos: Punição. Um Agressor pode, em princípio, perder certos direitos como consequência da Agressão."
+            ]
+        },
+        "articleIV": {
+            "title": "ARTIGO IV — ORDEM LEGAL DESCENTRALIZADA",
+            "list": [
+                "11. Metas Aspiracionais; Evitação de Conflitos e Compromisso — Os Adotantes destes Princípios se comprometem a negociar de boa fé, comprometer quando possível.",
+                "12. Arbitragem Competitiva — Nenhuma instituição desfruta de um monopólio coercitivo sobre a lei ou aplicação.",
+                "13. Evolução Consuetudinária da Lei — As comunidades podem desenvolver e promulgar Códigos e Leis Secundárias incluindo registros, normas processuais e regras de evidência consistentes com estes Princípios."
+            ]
+        },
+        "articleV": {
+            "title": "ARTIGO V — LEIS INJUSTAS SELECIONADAS",
+            "paragraphs": [
+                "As leis listadas abaixo são exemplos de leis positivas, passadas ou presentes, que são incompatíveis com estes Princípios e portanto injustas."
+            ],
+            "list": [
+                "* Tributação — A tomada não consensual de Recursos, geralmente para fins de financiar as instituições de governança.",
+                "* Domínio Eminente — Qualquer apreensão, regulamentação ou prejuízo do uso de Recursos.",
+                "* Proibições sobre Consumo ou Uso de Substâncias — Proibições sobre álcool, narcóticos ou qualquer outra substância consumível.",
+                "* Trabalho Forçado — Conscrição, escravidão ou qualquer serviço obrigatório imposto aos inocentes.",
+                "* Proibição de Armas Defensivas — Proibições gerais sobre a posse de armas para autodefesa legítima.",
+                "* Monopólio sobre o Dinheiro — Bancos centrais, leis de curso legal, controles de moeda.",
+                "* Propriedade Intelectual — Direitos autorais, patentes ou leis similares.",
+                "* Reputação como Propriedade — Leis de difamação, marcas registradas ou similares.",
+                "* Obrigações Não Escolhidas — A imposição de qualquer obrigação positiva ou direitos de bem-estar não aceitos voluntariamente.",
+                "* Censura — Qualquer lei que censure, penalize ou force expressão baseada em seu conteúdo é injusta."
+            ]
+        },
+        "closingAffirmation": {
+            "title": "AFIRMAÇÃO DE ENCERRAMENTO",
+            "paragraphs": [
+                "A aspiração por trás destes Princípios é um mundo livre de agressão sistêmica, aberto a toda Pessoa. Que toda alma livre lembre: não nos curvamos diante de nenhum estado, não nos ajoelhamos diante de nenhuma ordem exceto justiça, não respondemos a nenhum mestre exceto razão e ética. Aqui, sob estes Princípios, escolhemos vida sem coerção, sem correntes e sem tiranos. E nenhum poder na terra nos deterá."
+            ]
+        }
+    },
+    "Signature": {
+        "title": "Assinatura",
+        "text": "Por meio deste, adoto o Princípio Universal de Liberdade, e à legitimidade de qualquer lei e sistema legal baseado nele.",
+        "signedBy": "Assinado por:",
+        "downloadSignature": "Baixar Assinatura"
+    },
+    "About": {
+        "title": "Sobre nós",
+        "intro": "Em uma era onde mesmo aqueles que falam pacificamente podem ser derribados, onde o debate racional se encontra não com diálogo mas com silêncio mortal, a necessidade de uma bússola moral inabalável nunca foi maior. Os Princípios Universais de Liberdade nasceram de uma convicção compartilhada: que a essência da liberdade humana pode, e deve, ser destilada em verdades claras e atemporais. Criados através da colaboração de",
+        "stephanKinsella": "Stephan Kinsella",
+        "freemax": "Freemax",
+        "alessandroFusillo": "Alessandro Fusillo",
+        "andDavidDurr": "e David Dürr",
+        "andHansHermannHoppe": "e Hans-Hermann Hoppe como seu padrinho",
+        "documentExpresses": "este documento expressa, em cinco princípios simples, os axiomas fundamentais da liberdade.",
+        "notConstitution": "Não é uma constituição, nem um manifesto de política fugaz.",
+        "declaration": "É uma declaração — um reconhecimento da ordem moral que precede e transcende estados, partidos e governantes.",
+        "byReading": "Ao ler, endossar e adotar estes princípios, cada signatário realiza mais que um ato simbólico.",
+        "theyAffirm": "Eles afirmam seu compromisso com um mundo livre de agressão sistêmica.",
+        "takingInspiration": "Tomando inspiração do fenômeno Bitcoin — primeiro abraçado por indivíduos, depois por milhões, antes que nações inteiras não pudessem mais ignorá-lo e reconhecê-lo — esta declaração é uma estratégia para tornar a liberdade real.",
+        "everySignature": "Cada assinatura é combustível. Uma prova de liberdade. Cada nome adicionado é um sinal de força, uma prova de demanda.",
+        "morePeople": "Quanto mais pessoas se colocam atrás dos princípios de liberdade, mais forte é o sinal que enviamos ao mundo: que a liberdade tem apoio imparável.",
+        "missionClear": "A missão é clara — reunir força suficiente para que, pela primeira vez na história, territórios do mundo real possam adotar verdadeira liberdade e finalmente viver em uma ordem ética genuína.",
+        "universalPrinciples": "Os Princípios Universais de Liberdade foram",
+        "inscribedOnBitcoin": "inscritos na blockchain do Bitcoin",
+        "immutableBorderless": "imutáveis, sem fronteiras e para sempre."
+    },
+    "Leaderboard": {
+        "title": "Classificação de Signatários",
+        "totalSigners": "Total de signatários",
+        "signer": "Signatário",
+        "name": "Nome",
+        "twitter": "Twitter",
+        "signed": "Assinado",
+        "anonymous": "Anônimo",
+        "search": "Pesquisar...",
+        "loading": "Carregando...",
+        "noResults": "Nenhum resultado.",
+        "prev": "Anterior",
+        "next": "Próximo"
+    },
+    "Common": {
+        "scrollDownToSign": "Role para baixo para assinar"
+    }
+}
+
+
+
+

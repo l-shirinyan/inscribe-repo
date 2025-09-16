@@ -18,35 +18,50 @@ import {
   DrawerTrigger,
 } from "../ui/drawer";
 import { Button } from "../ui/button";
+import { LanguageSelector } from "../ui/language-selector";
+import { useTranslations, useLocale } from 'next-intl';
+import { useRouter, usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const { user } = useAuthStore();
   const scrolled = useScrolled();
+  const t = useTranslations('Navbar');
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
 
   const navbarLinks = [
     {
-      href: "/",
-      text: "Principles",
+      href: `/${locale}`,
+      text: t('principles'),
     },
     {
-      href: `/leaderboard`,
-      text: "Leaderboard",
+      href: `/${locale}/leaderboard`,
+      text: t('leaderboard'),
     },
     {
-      href: "/about",
-      text: "About",
+      href: `/${locale}/about`,
+      text: t('about'),
     },
     {
-      text: "Login",
+      text: t('login'),
       icon: (
         <div className="!rounded-full border border-white flex items-center justify-center p-0">
           <UserIcon className="size-5 rounded-full" />
         </div>
       ),
-      href: "/#signature",
+      href: `/${locale}/#signature`,
       className: "max-sm:hidden",
     },
   ];
+
+  const handleLanguageChange = (newLocale: string) => {
+    const segments = pathname.split('/');
+    segments[1] = newLocale; 
+    const newPath = segments.join('/');
+    
+    router.push(newPath);
+  };
 
   const renderLink = (href: string, text: string, icon?: React.ReactNode) => (
     <Link
@@ -64,7 +79,6 @@ const Navbar = () => {
         scrolled ? "bg-black/30" : "bg-black"
       )}
     >
-      {/* Desktop Navbar */}
       <NavigationMenu viewport={false} className="max-sm:hidden">
         <NavigationMenuList className="gap-3 sm:gap-5">
           {navbarLinks.map(({ href, text, icon }) => (
@@ -77,10 +91,15 @@ const Navbar = () => {
               </NavigationMenuLink>
             </NavigationMenuItem>
           ))}
+          <NavigationMenuItem className="min-w-10">
+            <LanguageSelector 
+              currentLocale={locale}
+              onLanguageChange={handleLanguageChange}
+            />
+          </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
 
-      {/* Mobile Drawer Navbar */}
       <Drawer direction="right">
         <DrawerTrigger asChild>
           <Button className="bg-transparent sm:hidden">
@@ -99,6 +118,13 @@ const Navbar = () => {
                   {renderLink(href!, text, icon)}
                 </div>
               ))}
+              <div className="pt-2 border-t border-gray-200">
+                <LanguageSelector 
+                  currentLocale={locale}
+                  onLanguageChange={handleLanguageChange}
+                  className="text-gray-900 hover:text-gray-700"
+                />
+              </div>
             </div>
           </div>
         </DrawerContent>

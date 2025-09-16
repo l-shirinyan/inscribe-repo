@@ -1,0 +1,154 @@
+{
+    "Navbar": {
+        "principles": "Prinzipien",
+        "leaderboard": "Bestenliste",
+        "about": "Über uns",
+        "login": "Anmelden"
+    },
+    "Content": {
+        "preamble": {
+            "title": "PRÄAMBEL",
+            "paragraphs": [
+                "In Anerkennung der inhärenten Würde, Freiheit und moralischen Selbstbestimmung jedes Menschen und in der Überzeugung, dass Frieden, Wohlstand und menschliches Gedeihen dort entstehen, wo jeder die gleiche Freiheit anderer respektiert – erklären wir diese universellen Prinzipien der Freiheit (\"Prinzipien\").",
+                "Ihr Zweck ist es, konfliktfreie Interaktion zu fördern. Diese Prinzipien entspringen Vernunft, Erfahrung und Ethik; sie werden von keinem Staat verordnet und nicht durch Mehrheitswillen aufgezwungen. Die Annahme ist freiwillig, jeder kann die Prinzipien durch eine klare Zustimmung annehmen, und die Durchsetzung beruht auf der freien Wahl von Individuen und Gemeinschaften, nach diesen Prinzipien zu leben und Streitigkeiten unter ihnen zu lösen."
+            ]
+        },
+        "scopeAndHierarchy": {
+            "title": "BEREICH UND HIERARCHIE",
+            "subsections": [
+                {
+                    "subtitle": "Vorrang",
+                    "text": "Diese Prinzipien bilden die höchste meta-normative Grundlage für alle, die sie annehmen."
+                },
+                {
+                    "subtitle": "Sekundäre Regeln",
+                    "text": "Annehmende können auf Grundlage dieser Prinzipien Charten, Vereinbarungen, Satzungen, Bräuche, private Kodizes oder andere private Rechtssysteme (\"Sekundäre Kodizes und Gesetze\") etablieren. Diese Regeln können Verfahren ergänzen oder nicht behandelte Fragen regeln, dürfen aber nicht im Widerspruch zu diesen Prinzipien stehen, sie aufheben oder einschränken."
+                },
+                {
+                    "subtitle": "Konflikte",
+                    "text": "Steht eine sekundäre Regel oder Praxis im Widerspruch zu diesen Prinzipien, haben diese Prinzipien Vorrang. Streitigkeiten über solche Unvereinbarkeiten werden durch faire Schiedsverfahren gelöst."
+                },
+                {
+                    "subtitle": "Auslegung",
+                    "text": "Wenn diese Prinzipien schweigen oder unklar sind, können Schiedsrichter Folgendes heranziehen:",
+                    "list": [
+                        "* Relevante sekundäre Kodizes, gewohnheitsmäßige Praxis und allgemein anerkannte Rechtsgrundsätze;",
+                        "* Etablierte Systeme des Privatrechts wie römisches Recht, die anglo-amerikanische Common-Law-Tradition oder moderne Zivilgesetzbücher;",
+                        "* Kodifizierungen, Neufassungen und angesehene wissenschaftliche Kommentare – insbesondere von freiheitlichen Denkern – sofern sie mit diesen Prinzipien übereinstimmen."
+                    ]
+                }
+            ]
+        },
+        "articleI": {
+            "title": "ARTIKEL I — BEGRIFFE UND DEFINITIONEN",
+            "list": [
+                "* Annehmender — Jede Person, die diese Prinzipien annimmt.",
+                "* Mensch (Rechtsträger) — Jedes empfindungsfähige Wesen, dessen moralische Fähigkeit eine Vermutung von Selbstbesitz und gegenseitigen Verpflichtungen begründet. Diese Prinzipien legen bewusst nicht fest, wann die Persönlichkeit beginnt oder endet; dies wird durch wissenschaftliche, philosophische oder spirituelle Forschung und gegebenenfalls durch faire Schiedsverfahren bestimmt. Hinweis: Der Begriff Mensch umfasst keine kollektiven oder juristischen Personen wie Unternehmen, Vereine oder andere Organisationen; diese haben nur Rechte durch die oben definierte Person.",
+                "* Ressource — Ein knappes, rivalisierendes Mittel, das ein Mensch kontrollieren kann, um ein Ziel zu erreichen. Der Körper eines Menschen ist eine Ressource, ebenso wie externe Dinge (\"Externe Ressourcen\"). Informationen, Ideen, Muster und Wissen – da sie nicht rivalisierend sind – sind keine Ressourcen. Externe Ressourcen können durch Vertrag oder gemeinsames Eigentum von Einzelpersonen oder Gruppen gehalten werden. Gruppeneigentum gewährt keine größeren Rechte als individuelles Eigentum.",
+                "* Recht (Eigentum) — Das ausschließliche Recht einer Person, eine Ressource zu kontrollieren und andere von deren Nutzung auszuschließen, es sei denn, der Eigentümer stimmt zu. Alle Rechte sind Eigentumsrechte.",
+                "* Zustimmung — Die Erlaubnis oder Lizenz, die vom Eigentümer einer Ressource einem anderen zur Nutzung oder, im Fall externer Ressourcen, zur Übertragung des Eigentums gewährt wird. Zustimmung kann ausdrücklich oder stillschweigend erteilt oder verweigert werden, je nach Umständen, wobei die jüngste Mitteilung Vorrang hat. Zustimmung kann in bestimmten Fällen angenommen oder vermutet werden, z. B. bei Negotiorum Gestio, wenn jemand im Interesse des Eigentümers handelt und vernünftigerweise glaubt, dass der Eigentümer zustimmen würde.",
+                "* Aggression — Die Nutzung, Aneignung, Verletzung oder Überschreitung der Grenzen der Ressource eines anderen ohne Zustimmung des Eigentümers, einschließlich betrügerischer Aneignung; oder eine glaubwürdige Drohung damit.",
+                "* Vormundschaft — Eine treuhänderische Verwaltung, bei der eine kompetente Person im Namen einer anderen Person handelt, der die gegenwärtige moralische Fähigkeit fehlt. Vormundschaft kann sich aus natürlichen Beziehungen (z. B. Eltern-Kind, Verwandte mit Behinderung), Vertrag oder gemeinschaftlicher Praxis ergeben. Der Vormund ist an diese Prinzipien gebunden, muss im besten Interesse des Mündels handeln und unterliegt bei berechtigtem Einwand der Kontrolle durch ein faires Schiedsverfahren.",
+                "* Massenvernichtungswaffe (MDW) — Jedes Gerät, System, Mittel, Instrument oder Technologie, dessen gewöhnliche Funktion nicht zwischen Angreifer und Unbeteiligten unterscheiden kann und dessen Schaden massenhaft tödlich sein kann.",
+                "* Gesetz — Gesetze sind durchsetzbare Regeln, die Eigentumsrechte an Ressourcen anerkennen und die Anwendung von Gewalt zum Schutz von Eigentumsrechten an Ressourcen autorisieren. Ein Gesetz, das diesen Prinzipien widerspricht, ist ungerecht und nichtig. Beispiele für ungerechte Gesetze finden sich in Artikel V.",
+                "* Vertrag — Eine einseitige, bilaterale oder multilaterale Vereinbarung zur Übertragung von Eigentum – gegenwärtig oder zukünftig –, bei der der relevante Eigentümer oder die Eigentümer externer Ressourcen einvernehmlich Eigentum oder Lizenz zur Nutzung bestimmter externer Ressourcen an andere übertragen."
+            ]
+        },
+        "articleII": {
+            "title": "ARTIKEL II — PRINZIPIEN",
+            "list": [
+                "1. Nicht-Aggressions-Prinzip — Aggression gegen die Ressource eines anderen ist ungerecht, unabhängig vom Status oder der Größe des Handelnden. Aggression umfasst individuelle sowie kollektive Handlungen, wobei die Beteiligten je nach Beziehung und Verursachung für die Handlungen anderer verantwortlich sein können.",
+                "2. Selbstbesitz — Jeder Mensch ist der ursprüngliche und vermutete Eigentümer seines Körpers. Vorübergehende oder dauerhafte Unfähigkeit hebt den Selbstbesitz nicht auf. Selbstbesitz kann durch Aggression ganz oder teilweise verloren gehen, gemäß den Prinzipien der Selbstverteidigung und Verhältnismäßigkeit.",
+                "3. Ursprüngliche Aneignung (Homesteading) — Herrenlose externe Ressourcen werden von der ersten Person (oder Gruppe) gerecht besessen, die sie klar abgrenzt, besetzt oder verändert und eine objektive, überprüfbare Verbindung zwischen sich und der Ressource herstellt. Dieses Eigentum bleibt bestehen, bis es durch Vertrag, Wiedergutmachung oder Aufgabe übertragen wird. Aufgabe kann durch ausreichende Anzeichen wie längere Untätigkeit, klare Mitteilung oder fehlenden Widerspruch gegen die öffentliche Aneignung durch andere festgestellt werden.",
+                "4. Freiwilliger Austausch (Vertragliche Eigentumsübertragung) — Eine Person kann Eigentum an einer externen Ressource durch vertragliche Übertragung vom vorherigen Eigentümer erwerben. Diese Übertragung kann teilweise oder vollständig, bedingt oder unbedingt, vorübergehend oder dauerhaft, sofort oder zukünftig erfolgen, je nach Vertragsbedingungen zwischen den Parteien. Nur Versprechen begründen eine moralische, aber keine rechtliche Verpflichtung; Verträge sind freiwillige Eigentumsübertragungen auf Grundlage des Eigentums des Eigentümers an der externen Ressource, die bis zur Übertragung, Wiedergutmachung oder Aufgabe beim Eigentümer verbleibt.",
+                "5. Wiedergutmachung — Ein nachgewiesener Aggressor schuldet dem Opfer eine Entschädigung, die dem verursachten Schaden entspricht. Die Entschädigung kann die Übertragung von Eigentum an Ressourcen umfassen. Bei der Bemessung der Entschädigung sind das Ausmaß des Schadens, der subjektive Verlust des Opfers, die Absicht und Motivation des Aggressors sowie nach §10 die Art und das Maß der vom Opfer verhängbaren Strafe zu berücksichtigen."
+            ]
+        },
+        "articleIII": {
+            "title": "ARTIKEL III — ERGÄNZENDE STANDARDS",
+            "list": [
+                "6. Unveräußerlichkeit der Person — Verträge, die die endgültige Kontrolle über den eigenen Körper einer Person übertragen, wie freiwillige Sklavereiverträge, sind nicht durchsetzbar.",
+                "7. Verhältnismäßigkeit und Selbstverteidigung — Verteidigende Gewalt als Reaktion auf Aggression ist gerechtfertigt und selbst keine Aggression, wenn sie vernünftigerweise notwendig und der Bedrohung angemessen ist, sei es sofort oder später. Wo möglich, sollte Selbstjustiz gemäß §11 vermieden werden.",
+                "8. Massenvernichtungswaffen (MDW) — Der Besitz, die Entwicklung oder der Einsatz einer MDW stellt eine fortdauernde Bedrohung dar, wenn vorhersehbar ist, dass sie Unschuldige durch unterschiedslose oder katastrophale Auswirkungen gefährdet. Diese Vermutung kann nur widerlegt werden, wenn nachgewiesen wird, dass starke Schutzmaßnahmen das Risiko eines Fehlers ausschließen. Ist dies nicht der Fall, sind angemessene Maßnahmen – mit Vorankündigung, Dialog und Schiedsverfahren, wo möglich – zur Beseitigung der Gefahr gerechtfertigt; in Notfällen kann sofortiges Eingreifen erforderlich sein.",
+                "9. Eigentumsvermutung — Der Besitzer einer externen Ressource wird als Eigentümer vermutet, diese Vermutung kann durch Nachweis eines besseren Eigentums widerlegt werden, einschließlich Nachweis einer vertraglichen Übertragung, Wiedergutmachung wegen Aggression oder Aufgabe. Im Streit um Eigentum gewinnt die Partei mit dem besseren Anspruch, unter Berücksichtigung der relevanten Vermutungen und Beweisstandards.",
+                "10. Beweisstandards und Verfahren: Bestrafung. Ein Aggressor kann grundsätzlich bestimmte Rechte durch Aggression verlieren. Die Art und das Maß jeder Wiedergutmachung – Entschädigung, Strafe oder Schutz – werden nach den Gemeinschaftsregeln bestimmt, die mit diesen Prinzipien übereinstimmen. Für schwerwiegende Maßnahmen sind hohe Beweisstandards erforderlich, wie Beweis ohne vernünftigen Zweifel, einstimmige Entscheidung, Schutz vor Doppelbestrafung und das Recht der Jury auf Gesetz und Tatsache. Bei tödlicher Aggression liegt das Recht auf Vergebung oder Versöhnung beim nächsten Angehörigen des Opfers oder beim Schiedsrichter; bei mehreren Opfern kann der Schiedsrichter die Bedingungen der Vergebung festlegen. Wiederholte oder schwere Aggression kann den Aggressor zu einer fortdauernden Bedrohung machen, was angemessene Verteidigungsmaßnahmen rechtfertigt."
+            ]
+        },
+        "articleIV": {
+            "title": "ARTIKEL IV — DEZENTRALISIERTE RECHTSORDNUNG",
+            "list": [
+                "11. Zielsetzungen; Konfliktvermeidung und Kompromiss — Annehmende dieser Prinzipien verpflichten sich, in gutem Glauben zu verhandeln, Kompromisse zu schließen, wo möglich, und Streitigkeiten nach Möglichkeit einem neutralen Schiedsrichter zu übergeben, um konfliktfreie Interaktion zu fördern. Selbstjustiz, spontane Gerechtigkeit, Selbstgerichtsbarkeit oder Gesetzlosigkeit sollten vermieden werden. Alle, die diese Prinzipien annehmen und davon profitieren möchten, sollten sich bemühen, diese Prinzipien einzuhalten und die Rechtsordnung einer freien Gesellschaft zu unterstützen, die diese Prinzipien anwendet. Die Sicherheitsgewährleistung kann Unternehmern oder organisierten Milizen übertragen werden, sofern diese Anbieter an diese Prinzipien gebunden sind.",
+                "12. Wettbewerbsarbitrage — Keine Institution genießt ein Zwangsmonopol über Gesetz oder Durchsetzung. Einzelpersonen sind frei, konkurrierende Schiedsrichter und Schutzagenturen zu wählen. Schiedsrichter und Gerichte können mit Zustimmung der Klienten Berufungsgerichte einrichten, um Streitigkeiten zwischen Schiedsrichtern und Schutzagenturen zu lösen.",
+                "13. Gewohnheitsmäßige Entwicklung des Rechts — Gemeinschaften können sekundäre Kodizes und Gesetze entwickeln und verkünden, einschließlich Register, Verfahrensnormen und Beweisregeln, die mit diesen Prinzipien übereinstimmen."
+            ]
+        },
+        "articleV": {
+            "title": "ARTIKEL V — AUSGEWÄHLTE UNGERECHTE GESETZE",
+            "paragraphs": [
+                "Die unten aufgeführten Gesetze sind Beispiele für positive Gesetze, vergangene oder gegenwärtige, die mit diesen Prinzipien unvereinbar und daher ungerecht sind. Diese Liste ist beispielhaft und nicht abschließend: Jedes Gesetz, das diesen Prinzipien widerspricht, ist ungerecht, unabhängig davon, ob es hier genannt wird oder nicht. Die Auflistung einiger Gesetze bedeutet nicht, dass andere widersprüchliche Gesetze durchgesetzt werden können."
+            ],
+            "list": [
+                "* Besteuerung — Die nicht-einvernehmliche Entnahme von Ressourcen, meist zur Finanzierung staatlicher Institutionen; Gemeinschaftsbedürfnisse sollten durch freiwillige Mittel und freie Marktmechanismen gedeckt werden.",
+                "* Enteignung — Jede Beschlagnahme, Regulierung oder Einschränkung der Nutzung von Ressourcen, unabhängig davon, ob eine Entschädigung erfolgt.",
+                "* Verbote des Konsums oder der Nutzung von Substanzen — Verbote von Alkohol, Drogen oder anderen konsumierbaren Substanzen.",
+                "* Zwangsarbeit — Wehrpflicht, Sklaverei oder jede obligatorische Dienstleistung, die Unschuldigen auferlegt wird.",
+                "* Verbot defensiver Waffen — Allgemeine Verbote des Besitzes von Waffen zur rechtmäßigen Selbstverteidigung, ausgenommen MDW.",
+                "* Monopol über Geld — Zentralbankwesen, gesetzliche Zahlungsmittelgesetze, Währungskontrollen oder Einschränkungen beim Besitz, Gebrauch von Gold, Kryptowährungen oder anderen Geldformen.",
+                "* Geistiges Eigentum — Urheberrecht, Patente oder ähnliche Gesetze, da Ideen keine rivalisierenden Ressourcen sind. Hinweis: Kreativität und Innovation werden nur durch nicht-aggressive Vereinbarungen geschützt und belohnt.",
+                "* Ruf als Eigentum — Verleumdungs-, Marken- oder ähnliche Gesetze, die Ruf als eigenständiges Eigentum betrachten. Hinweis: Ruf existiert nur im Geist anderer und kann nicht besessen werden, kann aber friedlich geschützt werden.",
+                "* Nicht gewählte Verpflichtungen — Die Auferlegung positiver Verpflichtungen oder Wohlfahrtsrechte, die nicht freiwillig akzeptiert wurden oder nicht aus freiwilligem Handeln entstehen.",
+                "* Zensur — Jedes Gesetz, das Ausdruck aufgrund seines Inhalts zensiert, bestraft oder erzwingt, ist ungerecht. Hinweis: Wenn Rede Teil einer Aggression ist, ist der Sprecher verantwortlich."
+            ]
+        },
+        "closingAffirmation": {
+            "title": "ABSCHLUSSERKLÄRUNG",
+            "paragraphs": [
+                "Die Bestrebung hinter diesen Prinzipien ist eine Welt frei von systemischer Aggression, offen für jeden Menschen. Jede freie Seele soll sich erinnern: Wir verbeugen uns vor keinem Staat, wir knien vor keiner Ordnung außer der Gerechtigkeit, wir dienen keinem Herrn außer Vernunft und Ethik. Hier, unter diesen Prinzipien, wählen wir ein Leben ohne Zwang, ohne Ketten und ohne Tyrannen. Und keine Macht auf Erden kann uns aufhalten."
+            ]
+        }
+    },
+    "Signature": {
+        "title": "Unterschrift",
+        "text": "Ich bestätige hiermit die Annahme der universellen Prinzipien der Freiheit und die Legitimität jeglicher darauf basierender Gesetze und Rechtssysteme.",
+        "signedBy": "Unterschrieben von:",
+        "downloadSignature": "Unterschrift herunterladen"
+    },
+    "About": {
+        "title": "Über uns",
+        "intro": "In einer Zeit, in der selbst friedliche Redner unterdrückt werden können, in der auf vernünftige Debatten nicht mit Dialog, sondern mit tödlichem Schweigen reagiert wird, war der Bedarf an einem unerschütterlichen moralischen Kompass nie größer. Die universellen Prinzipien der Freiheit entstanden aus dem gemeinsamen Glauben, dass das Wesen der menschlichen Freiheit in klare, zeitlose Wahrheiten gefasst werden kann und muss. Entstanden durch die Zusammenarbeit von",
+        "stephanKinsella": "Stephan Kinsella",
+        "freemax": "Freemax",
+        "alessandroFusillo": "Alessandro Fusillo",
+        "andDavidDurr": "und David Dürr",
+        "andHansHermannHoppe": "und Hans-Hermann Hoppe als Schirmherr",
+        "documentExpresses": "Dieses Dokument bringt in fünf einfachen Prinzipien die grundlegenden Axiome der Freiheit zum Ausdruck.",
+        "notConstitution": "Es ist keine Verfassung und kein Manifest vorübergehender Politik.",
+        "declaration": "Es ist eine Erklärung – eine Anerkennung einer moralischen Ordnung, die Staaten, Parteien und Herrscher übersteigt.",
+        "byReading": "Durch das Lesen, Unterstützen und Anwenden dieser Prinzipien tut jeder Unterzeichner mehr als nur eine symbolische Handlung.",
+        "theyAffirm": "Sie bekräftigen ihr Engagement für eine Welt ohne systemische Aggression.",
+        "takingInspiration": "Inspiriert vom Bitcoin-Phänomen – zuerst von Einzelpersonen angenommen, dann von Millionen, bevor Staaten es nicht mehr ignorieren konnten und es anerkannten – ist diese Erklärung eine Strategie, um Freiheit Wirklichkeit werden zu lassen.",
+        "everySignature": "Jede Unterschrift ist Treibstoff. Ein Beweis für Freiheit. Jeder hinzugefügte Name ist ein Signal der Stärke, ein Beweis für die Nachfrage.",
+        "morePeople": "Je mehr Menschen hinter den Prinzipien der Freiheit stehen, desto stärker ist das Signal, das wir der Welt senden: Freiheit hat eine unwiderstehliche Unterstützung.",
+        "missionClear": "Die Mission ist klar – genug Kraft zu sammeln, damit zum ersten Mal in der Geschichte echte Territorien echte Freiheit annehmen und endlich in einer wirklich moralischen Ordnung leben.",
+        "universalPrinciples": "Universelle Prinzipien der Freiheit",
+        "inscribedOnBitcoin": "In die Bitcoin-Blockchain eingeschrieben",
+        "immutableBorderless": "Unveränderlich, grenzenlos und für immer."
+    },
+    "Leaderboard": {
+        "title": "Bestenliste der Unterzeichner",
+        "totalSigners": "Gesamtzahl der Unterzeichner",
+        "signer": "Unterzeichner",
+        "name": "Name",
+        "twitter": "Twitter",
+        "signed": "Unterschrieben",
+        "anonymous": "Anonym",
+        "search": "Suchen...",
+        "loading": "Lädt...",
+        "noResults": "Keine Ergebnisse.",
+        "prev": "Zurück",
+        "next": "Weiter"
+    },
+    "Common": {
+        "scrollDownToSign": "Scrollen Sie nach unten, um zu unterschreiben"
+    }
+}

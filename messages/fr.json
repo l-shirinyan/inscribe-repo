@@ -1,0 +1,154 @@
+{
+    "Navbar": {
+        "principles": "Principes",
+        "leaderboard": "Classement",
+        "about": "À propos",
+        "login": "Connexion"
+    },
+    "Content": {
+        "preamble": {
+            "title": "Préambule",
+            "paragraphs": [
+                "Reconnaissant la dignité inhérente, la liberté et la souveraineté morale de chaque personne, et confirmant que la paix, la prospérité et l’épanouissement humain naissent là où chacun respecte la liberté égale des autres — nous proclamons ces Principes universels de liberté (« Principes »).",
+                "Leur but est de promouvoir des interactions sans conflit. Ces principes découlent de la raison, de l’expérience et de l’éthique ; ils ne sont imposés par aucun État ni par la volonté de la majorité. L’adoption est volontaire, chacun peut adopter les principes par un acte de consentement clair, et leur application dépend du choix libre des individus et des communautés de vivre selon ces principes et de résoudre les conflits sous leur égide."
+            ]
+        },
+        "scopeAndHierarchy": {
+            "title": "Portée et hiérarchie",
+            "subsections": [
+                {
+                    "subtitle": "Primauté",
+                    "text": "Ces principes constituent la norme méta-normative suprême pour tous les adoptants."
+                },
+                {
+                    "subtitle": "Règles secondaires",
+                    "text": "Les adoptants peuvent établir des chartes, accords, statuts, coutumes, codes privés ou autres systèmes juridiques privés fondés sur ces principes (« Règles et lois secondaires »). Ces règles peuvent préciser des procédures ou traiter des questions non couvertes ici, mais ne peuvent contredire, annuler ou limiter ces principes."
+                },
+                {
+                    "subtitle": "Conflits",
+                    "text": "Si une règle ou une pratique secondaire contredit ces principes, ces principes prévalent. De tels différends seront résolus par arbitrage impartial."
+                },
+                {
+                    "subtitle": "Interprétation",
+                    "text": "Si ces principes sont silencieux ou ambigus, l’arbitre peut consulter :",
+                    "list": [
+                        "* Les règles secondaires pertinentes, les pratiques coutumières et les principes juridiques généralement reconnus ;",
+                        "* Les systèmes établis de droit privé tels que le droit romain, la common law anglo-américaine ou les codes civils modernes ;",
+                        "* Les codifications, réstatements et commentaires académiques réputés — notamment des penseurs libertariens — à condition qu’ils soient compatibles avec ces principes."
+                    ]
+                }
+            ]
+        },
+        "articleI": {
+            "title": "Article I — Termes et définitions",
+            "list": [
+                "* Adoptant — Toute personne qui adopte ces principes.",
+                "* Personne (titulaire de droits) — Tout être sensible dont la souveraineté morale fonde la présomption d’auto-propriété et de responsabilités mutuelles. Ces principes ne définissent pas délibérément quand la personnalité commence ou finit ; cela sera déterminé par la recherche scientifique, philosophique ou spirituelle et, si nécessaire, par arbitrage impartial. Note : Le terme « personne » n’inclut pas les entités collectives ou juridiques telles que les sociétés, associations ou autres organisations ; elles ne peuvent détenir des droits que par l’intermédiaire d’une personne réelle.",
+                "* Ressource — Tout moyen rare et rival qu’une personne peut contrôler pour atteindre un objectif. Le corps d’une personne est une ressource, tout comme les choses extérieures (« ressources externes »). Les informations, idées, modèles et connaissances — n’étant pas rivaux — ne sont pas des ressources. Les ressources externes peuvent être détenues par des individus ou des groupes par contrat ou propriété commune. La propriété de groupe n’accorde pas plus de droits que la propriété individuelle.",
+                "* Droit (propriété) — Le droit exclusif d’une personne de contrôler une ressource et d’exclure les autres de son usage, sauf consentement du propriétaire. Tous les droits sont des droits de propriété.",
+                "* Consentement — L’autorisation ou la licence donnée par le propriétaire d’une ressource à un autre pour l’utiliser, ou, dans le cas de ressources externes, pour transférer la propriété. Le consentement peut être donné ou refusé explicitement ou implicitement selon les circonstances, la dernière expression prévalant. Dans certains cas, le consentement peut être présumé, comme dans la gestion d’affaires (Negotiorum Gestio), où une personne agit dans l’intérêt du propriétaire en supposant que celui-ci aurait consenti.",
+                "* Agression — L’utilisation, l’appropriation, la violation ou le franchissement des limites de la ressource d’autrui sans consentement du propriétaire, ou l’acquisition frauduleuse ; ou une menace crédible de cela.",
+                "* Tutelle — Une gestion fiduciaire où une personne compétente agit au nom d’une autre qui manque actuellement de souveraineté morale. La tutelle peut découler de relations naturelles (ex : parent-enfant, proches avec handicap), de contrats ou de pratiques communautaires. Le tuteur est lié par ces principes, doit agir dans le meilleur intérêt du protégé et peut être soumis à l’arbitrage impartial en cas d’objection raisonnable.",
+                "* Arme de destruction massive (ADM) — Tout dispositif, système, agent, instrument ou technologie dont l’usage courant ne distingue pas entre agresseur et non-participant et dont les dommages peuvent être massivement létaux.",
+                "* Loi — Les lois sont des règles exécutoires qui reconnaissent les droits de propriété sur les ressources et autorisent l’usage de la force pour protéger ces droits. Toute loi contraire à ces principes est injuste et nulle. Des exemples de lois injustes figurent à l’article V.",
+                "* Contrat — Un accord unilatéral, bilatéral ou multilatéral de transfert de propriété — présent ou futur — par lequel le(s) propriétaire(s) de ressources externes transfèrent volontairement la propriété ou la licence d’utilisation de ressources spécifiques à d’autres."
+            ]
+        },
+        "articleII": {
+            "title": "Article II — Principes",
+            "list": [
+                "1. Principe de non-agression — L’agression contre la ressource d’autrui est injuste, quel que soit le statut ou l’échelle de l’auteur. L’agression inclut les actes individuels et collectifs, où les participants peuvent être responsables des actes des autres selon la relation et la causalité.",
+                "2. Auto-propriété — Chaque personne est le propriétaire originel et présumé de son corps. L’incapacité temporaire ou permanente ne supprime pas l’auto-propriété. L’auto-propriété peut être partiellement ou totalement perdue suite à une agression, selon les principes de défense et de proportionnalité.",
+                "3. Appropriation initiale (homesteading) — Les ressources externes non possédées deviennent la propriété de la première personne (ou groupe) qui les marque, occupe ou transforme clairement, établissant ainsi un lien objectif et vérifiable entre la personne et la ressource. Cette propriété demeure jusqu’à transfert par contrat, réparation ou abandon. L’abandon peut être déterminé par des signes suffisants tels qu’une longue inactivité, une déclaration claire ou l’absence d’objection à une occupation ouverte par autrui.",
+                "4. Échange volontaire (transfert contractuel de propriété) — Une personne peut acquérir la propriété d’une ressource externe par transfert contractuel du propriétaire précédent. Ce transfert peut être partiel ou total, conditionnel ou non, temporaire ou permanent, immédiat ou futur, selon le contrat entre les parties. Seules les promesses créent une obligation morale mais non légale ; les contrats sont des transferts volontaires de propriété fondés sur les droits du propriétaire, qui restent jusqu’au transfert, réparation ou abandon.",
+                "5. Réparation — L’agresseur avéré doit indemniser la victime à hauteur du préjudice causé. Cela peut inclure le transfert de propriété de ressources. Lors de la détermination de l’indemnisation, il faut tenir compte de l’étendue du préjudice, de la perte subjective de la victime, de l’intention et des motivations de l’agresseur, et, selon §10, du type et du degré de sanction que la victime peut imposer."
+            ]
+        },
+        "articleIII": {
+            "title": "Article III — Normes complémentaires",
+            "list": [
+                "6. Inaliénabilité de la personne — Les contrats transférant le contrôle ultime du corps d’une personne, tels que les contrats d’esclavage volontaire, ne sont pas exécutoires.",
+                "7. Proportionnalité et autodéfense — La force défensive en réponse à une agression est justifiée et n’est pas elle-même une agression, lorsqu’elle est raisonnablement nécessaire et proportionnée à la menace, qu’elle soit immédiate ou différée. Lorsque possible, l’auto-assistance doit être évitée conformément à l’article 11.",
+                "8. Armes de destruction massive (ADM) — La possession, le développement ou l’utilisation d’une ADM constitue une menace continue lorsqu’elle expose des innocents à un risque prévisible par des effets indifférenciés ou catastrophiques. Cette présomption ne peut être réfutée que si des mesures de protection solides éliminent le risque de préjudice. Si ce n’est pas le cas, une action proportionnée — avec notification, dialogue et arbitrage lorsque possible — est justifiée pour éliminer le danger ; en cas d’urgence, une intervention immédiate peut être permise.",
+                "9. Présomption de propriété — Celui qui détient une ressource externe est présumé propriétaire, cette présomption pouvant être réfutée par une preuve de meilleure propriété, telle qu’un transfert contractuel, une réparation d’agression ou un abandon. En cas de litige, la partie prouvant le meilleur droit l’emporte, en tenant compte des présomptions et des standards de preuve.",
+                "10. Standards de preuve et procédure : sanction. Un agresseur peut perdre certains droits par son acte. La nature et l’étendue de toute réparation — indemnisation, sanction ou protection — seront déterminées selon les règles communautaires compatibles avec ces principes. Les réparations sévères exigent des standards de preuve élevés, tels que la preuve au-delà du doute raisonnable, la décision unanime, la protection contre la double sanction et le droit du jury sur la loi et les faits. En cas d’agression mortelle, le droit de pardon ou de règlement appartient au plus proche parent de la victime ou à l’arbitre ; s’il y a plusieurs victimes, l’arbitre peut fixer les conditions du pardon. L’agression répétée ou grave peut faire de l’agresseur une menace continue, justifiant des mesures défensives proportionnées."
+            ]
+        },
+        "articleIV": {
+            "title": "Article IV — Ordre juridique décentralisé",
+            "list": [
+                "11. Objectifs ; prévention des conflits et compromis — Les adoptants de ces principes s’engagent à négocier de bonne foi, à rechercher le compromis lorsque possible et à soumettre les différends à un arbitrage impartial, afin de promouvoir des interactions sans conflit. Lorsque possible, l’auto-assistance, la justice privée, le fait de juger sa propre cause ou l’anarchie doivent être évités. Tous ceux qui adoptent ces principes et souhaitent en bénéficier doivent s’efforcer de les respecter et de soutenir un ordre juridique libre qui les applique. La fourniture de protection peut être confiée à des entrepreneurs ou à des milices organisées, à condition qu’ils respectent ces principes.",
+                "12. Arbitrage concurrentiel — Aucune institution ne détient de monopole forcé sur la loi ou son application. Les individus sont libres de choisir des arbitres et agences de protection concurrents. Les institutions d’arbitrage et les tribunaux peuvent, avec le consentement des clients, établir des cours d’appel pour résoudre les différends entre arbitres et agences de protection.",
+                "13. Évolution coutumière du droit — Les communautés peuvent développer et promulguer des règles et lois secondaires, des registres, des règles de procédure et de preuve compatibles avec ces principes."
+            ]
+        },
+        "articleV": {
+            "title": "Article V — Lois injustes sélectionnées",
+            "paragraphs": [
+                "Les lois énumérées ci-dessous sont des exemples de lois positives, passées ou présentes, incompatibles avec ces principes et donc injustes. Cette liste est illustrative et non exhaustive : toute loi contraire à ces principes est injuste, qu’elle soit mentionnée ici ou non. L’inclusion de certaines lois ne signifie pas que d’autres lois contradictoires peuvent être appliquées."
+            ],
+            "list": [
+                "* Impôt — Prélèvement non consenti de ressources, généralement pour financer des institutions gouvernementales ; les besoins communautaires doivent être satisfaits par des moyens volontaires et des solutions de marché libre.",
+                "* Expropriation — Saisie, réglementation ou restriction de l’usage des ressources, qu’il y ait compensation ou non.",
+                "* Interdiction de consommation ou d’usage de substances — Interdictions sur l’alcool, les drogues ou toute substance consommable.",
+                "* Travail forcé — Service militaire obligatoire, esclavage ou tout service imposé aux innocents.",
+                "* Interdiction des armes défensives — Interdiction générale de la possession d’armes pour la légitime défense, sauf ADM.",
+                "* Monopole monétaire — Banque centrale, lois sur la monnaie légale, contrôle des devises ou restrictions sur la possession ou l’usage d’or, de cryptomonnaies ou de toute forme de monnaie.",
+                "* Propriété intellectuelle — Droit d’auteur, brevets ou lois similaires, car les idées ne sont pas des ressources rivales. Note : La création et l’innovation ne peuvent être protégées et récompensées que par des accords non agressifs.",
+                "* Réputation comme propriété — Lois sur la diffamation, les marques ou similaires qui considèrent la réputation comme une propriété distincte. Note : La réputation n’existe que dans l’esprit d’autrui et ne peut être possédée, bien qu’elle puisse être protégée par des moyens pacifiques.",
+                "* Obligations non choisies — Toute obligation positive ou droit au bien-être qui n’a pas été accepté volontairement ou qui ne découle pas d’un acte volontaire.",
+                "* Censure — Toute loi censurant, sanctionnant ou imposant l’expression en raison de son contenu est injuste. Note : Si la parole cause une agression, l’orateur est responsable."
+            ]
+        },
+        "closingAffirmation": {
+            "title": "Confirmation finale",
+            "paragraphs": [
+                "L’aspiration derrière ces principes est un monde sans agression systémique, ouvert à tous. Que chaque âme libre se souvienne : nous ne nous inclinons devant aucun État, nous ne nous agenouillons devant aucun ordre sauf la justice, nous ne servons aucun maître sauf la raison et l’éthique. Ici, sous ces principes, nous choisissons une vie sans contrainte, sans chaînes et sans tyrans. Et aucune puissance sur Terre ne peut nous arrêter."
+            ]
+        }
+    },
+    "Signature": {
+        "title": "Signature",
+        "text": "J’adopte ici les principes universels de liberté et reconnais la légitimité de toute loi et système juridique fondés sur eux.",
+        "signedBy": "Signataires :",
+        "downloadSignature": "Télécharger la signature"
+    },
+    "About": {
+        "title": "À propos",
+        "intro": "À une époque où même les orateurs pacifiques peuvent être réduits au silence, où le débat rationnel rencontre le silence mortel plutôt que le dialogue, le besoin d’une boussole morale inébranlable n’a jamais été aussi grand. Les principes universels de liberté sont nés d’une conviction partagée : que l’essence de la liberté humaine peut et doit être exprimée en vérités claires et intemporelles. Ce document a été créé grâce à la collaboration de :",
+        "stephanKinsella": "Stephan Kinsella",
+        "freemax": "Freemax",
+        "alessandroFusillo": "Alessandro Fusillo",
+        "andDavidDurr": "et David Dürr",
+        "andHansHermannHoppe": "et Hans-Hermann Hoppe comme parrain",
+        "documentExpresses": "Ce document exprime les axiomes fondamentaux de la liberté en cinq principes simples.",
+        "notConstitution": "Ce n’est pas une constitution, ni un manifeste de politique temporaire.",
+        "declaration": "C’est une déclaration — une reconnaissance d’un ordre moral qui précède et dépasse les États, les partis et les dirigeants.",
+        "byReading": "En lisant, soutenant et adoptant ces principes, chaque signataire fait plus qu’un acte symbolique.",
+        "theyAffirm": "Ils affirment leur engagement envers un monde sans agression systémique.",
+        "takingInspiration": "Inspiré par le phénomène Bitcoin — adopté d’abord par des individus, puis par des millions, avant que des nations ne puissent l’ignorer et l’acceptent — cette déclaration est une stratégie pour rendre la liberté réelle.",
+        "everySignature": "Chaque signature est un carburant. Une preuve de liberté. Chaque nom ajouté est un signal de force, une preuve de demande.",
+        "morePeople": "Plus il y a de personnes derrière les principes de liberté, plus le signal envoyé au monde est fort : la liberté bénéficie d’un soutien irrésistible.",
+        "missionClear": "La mission est claire — rassembler assez de force pour qu’enfin, pour la première fois dans l’histoire, de vrais territoires adoptent la vraie liberté et que l’on puisse vivre dans un véritable ordre moral.",
+        "universalPrinciples": "Principes universels de liberté",
+        "inscribedOnBitcoin": "Inscrit sur la blockchain Bitcoin",
+        "immutableBorderless": "Immuable, sans frontières et pour toujours."
+    },
+    "Leaderboard": {
+        "title": "Classement des signataires",
+        "totalSigners": "Nombre total de signataires",
+        "signer": "Signataire",
+        "name": "Nom",
+        "twitter": "Twitter",
+        "signed": "Signé",
+        "anonymous": "Anonyme",
+        "search": "Rechercher...",
+        "loading": "Chargement...",
+        "noResults": "Aucun résultat.",
+        "prev": "Précédent",
+        "next": "Suivant"
+    },
+    "Common": {
+        "scrollDownToSign": "Faites défiler vers le bas pour signer"
+    }
+}

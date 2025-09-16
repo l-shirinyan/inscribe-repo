@@ -1,5 +1,5 @@
 import { Text } from "@/components/ui/text";
-import { CONTENT } from "@/lib/constants";
+import { useContent } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export const Paragraph = ({ children }: { children: React.ReactNode }) => (
@@ -48,9 +48,11 @@ export const Section = ({
   </div>
 );
 export default function PrinciplesContent() {
+  const content = useContent();
+  
   return (
     <>
-      {CONTENT.map((section, index) => (
+      {content.map((section, index) => (
         <Section key={index} {...section} />
       ))}
     </>

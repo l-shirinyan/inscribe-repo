@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/layout/navbar";
 import localFont from "next/font/local";
 import { Geist } from "next/font/google";
-import { getServerUser } from "@/lib/server-auth";
-import InitializeUser from "@/components/layout/initialize-user";
+import { headers } from 'next/headers';
 
 const oldFont = localFont({
   variable: "--font-oldFont",
@@ -42,26 +40,26 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export async function generateMetadata({ params }: any): Promise<Metadata> {
-  return {
-    title: `Leaderboard `,
-    description: `Check out the leaderboard!`,
-  };
-}
+export const metadata: Metadata = {
+  title: "Inscribe",
+  description: "Inscribe your digital signature",
+};
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = await headers();
+  const pathname = headersList.get('x-pathname') || '';
+  const locale = pathname.split('/')[1] || 'en';
+  
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${oldFont.variable} ${geistSans.variable} ${circular.variable} ${ludovico.variable} antialiased font-oldFont bg-black`}
       >
-        <InitializeUser />
-        <Navbar />
-        <div className="mt-[60px] sm:mt-16">{children}</div>
+        {children}
       </body>
     </html>
   );

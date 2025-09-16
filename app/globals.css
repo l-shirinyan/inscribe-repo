@@ -47,4 +47,21 @@ html {
   .tag {
     @apply text-orange bg-light-orange font-medium flex items-center justify-center px-3 rounded-full
   }
+
+  .scrollbar-dark::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .scrollbar-dark::-webkit-scrollbar-track {
+    background: #111827;
+  }
+
+  .scrollbar-dark::-webkit-scrollbar-thumb {
+    background: #374151;
+    border-radius: 4px;
+  }
+
+  .scrollbar-dark::-webkit-scrollbar-thumb:hover {
+    background: #4b5563;
+  }
 }

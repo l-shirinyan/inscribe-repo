@@ -1,0 +1,154 @@
+{
+    "Navbar": {
+        "principles": "İlkeler",
+        "leaderboard": "Liderlik tablosu",
+        "about": "Hakkında",
+        "login": "Giriş yap"
+    },
+    "Content": {
+        "preamble": {
+            "title": "ÖNSÖZ",
+            "paragraphs": [
+                "Her Kişinin doğuştan gelen onur, özgürlük ve ahlaki öz-egemenliğini tanıyarak ve barış, refah ve insan gelişiminin her birinin diğerlerinin eşit özgürlüğüne saygı duyduğu yerde ortaya çıktığını onaylayarak — bu Evrensel Özgürlük İlkelerini (\"İlkeler\") ilan ediyoruz.",
+                "Amaçları çatışmasız etkileşimi teşvik etmektir. Bu özdeyişler akıl, deneyim ve etikten kaynaklanır; hiçbir devlet tarafından emredilmez ve çoğunluk iradesi tarafından dayatılmaz. Kabul gönüllüdür, herhangi bir kişi bu İlkeleri herhangi bir açık rıza eylemiyle kabul edebilir ve uygulama, bireylerin ve toplulukların bu İlkeler doğrultusunda yaşama ve bu İlkeler altında anlaşmazlıkları hakemlik etme özgür seçimine dayanır."
+            ]
+        },
+        "scopeAndHierarchy": {
+            "title": "KAPSAM VE HİYERARŞİ",
+            "subsections": [
+                {
+                    "subtitle": "Öncelik",
+                    "text": "Bu İlkeler, tüm Kabul Edenler için en yüksek meta-normatif temel çizgiyi oluşturur."
+                },
+                {
+                    "subtitle": "İkincil Kurallar",
+                    "text": "Kabul Edenler bu İlkeler temelinde tüzükler, sözleşmeler, yönetmelikler, gelenekler, özel kodlar veya diğer özel hukuk sistemleri kurabilirler (\"İkincil Kodlar ve Hukuklar\"). Bu tür kurallar prosedürleri detaylandırabilir veya burada ele alınmayan konuları ele alabilir, ancak bu İlkeleri ihlal edemez, geçersiz kılamaz veya kısıtlayamaz."
+                },
+                {
+                    "subtitle": "Çatışmalar",
+                    "text": "Bir ikincil kural veya uygulama bu İlkelerle çatıştığında, bu İlkeler önceliklidir. Bu tür uyumsuzluklar üzerindeki anlaşmazlıklar tarafsız hakemlik ile çözülmelidir."
+                },
+                {
+                    "subtitle": "Yorumlama",
+                    "text": "Bu İlkeler sessiz veya belirsizse, hakemler şunlara başvurabilir:",
+                    "list": [
+                        "* İlgili ikincil kodlar, geleneksel uygulama ve genel olarak tanınan hukuki ilkeler;",
+                        "* Roma hukuku, Anglo-Amerikan ortak hukuk geleneği veya modern medeni kodlar gibi iyi kurulmuş özel hukuk organları;",
+                        "* Bu İlkelerle tutarlı oldukları sürece, özellikle liberteryen düşünürlerden gelen kodifikasyonlar, yeniden ifadeler ve saygın akademik yorumlar."
+                    ]
+                }
+            ]
+        },
+        "articleI": {
+            "title": "MADDE I — TERİMLER VE TANIMLAR",
+            "list": [
+                "* Kabul Eden — Bu İlkeleri kabul eden herhangi bir Kişi.",
+                "* Kişi (Hak Sahibi) — Ahlaki eylem yeteneği için doğuştan gelen kapasitesi öz-sahiplik ve karşılıklı yükümlülüklerin varsayımını temellendiren herhangi bir duyarlı varlık. Bu İlkeler, kişiliğin ne zaman başladığını veya bittiğini reçete etmekten kasıtlı olarak kaçınır; bu tür belirlemeler bilimsel, felsefi veya ruhsal araştırmaya ve gerektiğinde tarafsız hakemliğe dayanmalıdır. Yorumlama Bildirimi — Kişi terimi, yalnızca yukarıda tanımlandığı şekliyle Kişilerin yetkisi aracılığıyla türev haklara sahip olabilen kolektifleştirilmiş veya kurgusal hukuki kişilere—şirketler, dernekler veya diğer topluluklar gibi—genişletilmez.",
+                "* Kaynak — Bir Kişinin bir amaç gerçekleştirmek için kontrol edebileceği kıt, rekabetçi bir eylem aracı. Bir Kişinin Bedeni bir Kaynaktır, herhangi bir Kişinin Bedeninin dışındaki şeyler (\"Dış Kaynaklar\") da olabilir. Bilgi, fikirler, kalıplar ve bilgi—rekabetçi olmadığı için—Kaynak değildir. Dış Kaynaklar bireyler tarafından veya sözleşme veya ortak sahiplenme yoluyla Kişi grupları tarafından ortaklaşa sahiplenilebilir. Grup sahipliği, bireysel bir Kişinin sahip olabileceği haklardan daha büyük haklar vermez.",
+                "* Hak (Mülkiyet) — Bir Kişinin bir Kaynağı kontrol etme ve sahibinin rızası olmadıkça diğerlerini kullanımından hariç tutma yetkisi. Tüm haklar mülkiyet haklarıdır.",
+                "* Rıza — Bir Kaynağın sahibi tarafından başka birine kullanımı için veya Dış Kaynaklar durumunda, unvanını transfer etmesi için verilen izin veya lisans. Rızanın verilmesi veya reddedilmesi, koşullara bağlı olarak açık veya örtülü olarak iletişilebilir, en son böyle bir iletişimin öncelikli olduğu varsayımıyla. Rıza, belirli koşullarda örtülü veya varsayılan olabilir, örneğin Negotiorum Gestio'da, bir Kişi, yönetici, başka birinin, sahibinin işlerini yönetmek ve çıkarlarını korumak için hareket eder, sahibin koşullardan haberdar olsaydı eylemi onaylayacağına dair makul inançla.",
+                "* Saldırganlık — Sahibinin rızası olmadan başka bir Kişinin Kaynağının kullanımı, hırsızlığı, ihlali veya sınırlarının işgali, Kaynakların dolandırıcılıkla alınması dahil; veya bunun inandırıcı tehdidi.",
+                "* Vesayet — Yetkin bir Kişinin ahlaki eylem yeteneği için mevcut kapasiteden yoksun başka bir Kişi adına hareket ettiği güvenilir yönetim. Vesayet doğal ilişkilerden (örn. ebeveyn-çocuk, engelli kişilerle yakın aile bağları), sözleşmeli düzenlemelerden veya topluluk geleneklerinden doğabilir. Vasiyetçiler bu İlkelerle bağlıdır, yeteneksiz Kişinin en iyi çıkarına göre hareket etmeli ve makul itiraz üzerine tarafsız hakemlik tarafından gözden geçirilmelidir.",
+                "* Kitlesel Yıkım Cihazı (DMD) — Sıradan işleyişi saldırgan ve seyirci arasında ayrım yapamayan ve hasar kapsamı öngörülebilir şekilde kitlesel ölümcül olan herhangi bir cihaz, sistem, ajan, araç veya teknoloji.",
+                "* Hukuk — Hukuklar Kaynaklarda mülkiyet haklarını tanıyan ve Kaynaklarda mülkiyet haklarını korumak için güç yetkisi veren uygulanabilir kurallardır. Bu İlkelerle uyumsuz olan herhangi bir hukuk adaletsiz ve geçersizdir. Adaletsiz hukukların seçilmiş örnekleri Madde V'de verilmiştir.",
+                "* Sözleşme — İlgili Dış Kaynak sahibi veya sahiplerinin belirtilen Dış Kaynakları kullanmak için mülkiyet veya lisansı diğerlerine rıza ile verdiği tek taraflı, iki taraflı veya çok taraflı unvan transfer düzenlemesi—mevcut veya gelecek."
+            ]
+        },
+        "articleII": {
+            "title": "MADDE II — İLKELER",
+            "list": [
+                "1. Saldırganlık Karşıtı İlke — Başka bir Kişinin Kaynağına karşı saldırganlık, failin statüsü veya ölçeğinden bağımsız olarak adaletsizdir. Saldırganlık bireysel eylemlerin yanı sıra ortak eylemleri de içerir, bu durumda ortak eylemdeki katılımcılar, aktörler arasındaki ilişkiye ve Saldırganlıkla olan nedensel bağlantılarına bağlı olarak diğerlerinin eylemlerinden sorumlu olabilir.",
+                "2. Öz-Sahiplik — Her Kişi kendi Bedeninin orijinal ve varsayılan sahibidir. Yeteneksizlik—geçici veya kalıcı—Öz-Sahiplik'i geçersiz kılmaz. Öz-Sahiplik, saldırganlık işlemenin sonucu olarak, kısmen veya tamamen kaybedilebilir, öz savunma ve orantılılık ilkelerine tabi olarak.",
+                "3. Orijinal Sahiplenme (Homesteading) — Sahipsiz Dış Kaynaklar, onları açıkça sınırlayan, işgal eden veya üretken olarak dönüştüren ilk Kişi (veya dernek) tarafından adil olarak sahiplenilir, böylece Kişi ile Dış Kaynak arasında nesnel, özneler arası belirlenebilir bir bağ kurulur. Bu tür sahiplik, Sözleşme ile transfer edilene, düzeltme amaçlı transfer edilene veya terk edilene kadar korunur. Terk etme, uzun süreli hareketsizlik, açık iletişimler veya başka birinin açık ve ünlü olumsuz sahipliğine itiraz etmeme veya engellememe gibi niyetin yeterli göstergeleriyle belirlenebilir, bu da zamanında itiraz olmaksızın sahipliğe dönüşebilir.",
+                "4. Gönüllü Değişim (Sözleşmeli Unvan Transferi) — Bir Kişi önceki sahipten sözleşmeli unvan transferi yoluyla bir Dış Kaynağın mülkiyetini elde edebilir. Bu tür sözleşmeli unvan transferleri, duruma ve ilgili taraflar arasındaki sözleşmeli anlayış şartlarına göre kısmi veya tam, koşullu veya koşulsuz, geçici veya kalıcı, veya anında ve eşzamanlı veya gelecek tabanlı olabilir. Sadece vaatler ahlaki yükümlülükler doğurabilir ancak hukuki olarak bağlayıcı yükümlülüklerle sonuçlanmaz; sözleşmeler, sahibin sahip olduğu Dış Kaynaklardaki mülkiyet haklarına dayanan rıza ile unvan transferleridir, bunlar Sözleşme ile transfer edilene, düzeltme amaçlı transfer edilene veya terk edilene kadar sahipte kalır.",
+                "5. Düzeltme — Kanıtlanmış bir saldırgan, mağdura neden olunan zararla orantılı tazminat borçludur. Bu, Kaynaklara unvan transferini içerebilir. Tazminat değerlendirilirken, zararın kapsamı, mağdurun öznel kaybı dahil; saldırganın niyet derecesi ve altta yatan güdüleri; ve §10'a göre, mağdurun prensip olarak saldırgana uygulayabileceği cezanın türü ve derecesi dikkate alınmalıdır."
+            ]
+        },
+        "articleIII": {
+            "title": "MADDE III — EK STANDARTLAR",
+            "list": [
+                "6. Kişinin Devredilemezliği — Gönüllü kölelik sözleşmeleri gibi bir Kişinin kendi Bedeni üzerindeki nihai kontrolü devretmeyi amaçlayan sözleşmeler uygulanamaz.",
+                "7. Orantılılık ve Öz Savunma — Saldırganlığa karşı savunma gücü, makul olarak gerekli ve tehdide orantılı olduğunda haklıdır ve kendisi Saldırganlık değildir, ister hemen ister sonradan kullanılsın. Mümkün olduğunda, §11'e göre öz yardım kaçınılmalıdır.",
+                "8. Kitlesel Yıkım Cihazları (DMD) — Bir DMD'ye sahip olmak, geliştirmek veya konuşlandırmak, öngörülebilir şekilde masum tarafları ayırt edici veya felaket etkilerle tehlikeye attığında varsayılan sürekli tehdit oluşturur. Bu varsayım, yalnızca tüm etkilenen tarafların veya tarafsız bir hakemin memnuniyetine, güçlü güvenlik önlemlerinin haksız zarar riskini ortadan kaldırdığını kanıtlayarak çürütülebilir. Çürütülmediğinde, tehlikeyi nötrleştirmek için orantılı eylem—mümkün olduğunda, bildirim, diyalog ve hakemlik ile önceden—haklıdır; acil durumlar derhal müdahaleyi gerektirebilir.",
+                "9. Unvan Varsayımları — Bir Dış Kaynağın sahibi sahip olarak varsayılır, bu varsayım üstün unvan kanıtı, sözleşmeli transfer, Saldırganlık için düzeltme veya terk etme kanıtı dahil olmak üzere kanıtlarla aşılabilir. Mülkiyet unvan anlaşmazlıkları için, Dış Kaynağa daha iyi hak iddiasını kanıtlayan taraf, ilgili varsayımları ve yükümlülükleri ve kanıt standartlarını dikkate alarak kazanır.",
+                "10. Delil Standartları ve Prosedürleri: Ceza. Bir Saldırgan, prensip olarak, Saldırganlık sonucunda belirli hakları kaybedebilir. Herhangi bir çare—tazminat, cezai veya koruyucu olsun—doğası ve kapsamı, bu İlkelerle tutarlı topluluk kurallarına göre belirlenmelidir. Ağır çareler, makul şüphenin ötesinde kanıt, oybirliği kararları, çifte tehlike koruması ve hem hukuk hem de gerçek üzerinde jüri yetkisi gibi yükseltilmiş delil standardı gerektirir. Ölümcül Saldırganlık durumlarında, affetme veya anlaşma hakkı mağdurun en yakın akrabalarına veya tarafsız hakemlik tarafından kararlaştırıldığı gibi aittir; birden fazla mağdur söz konusu olduğunda, hakemlik affetme koşullarını yönetebilir. Tekrarlanan veya ağır Saldırganlık, bir Saldırganı sürekli tehdit olarak belirleyebilir, orantılı savunma önlemlerini haklı çıkarır."
+            ]
+        },
+        "articleIV": {
+            "title": "MADDE IV — MERKEZİ OLMAYAN HUKUKİ DÜZEN",
+            "list": [
+                "11. İstekli Hedefler; Çatışma Kaçınma ve Uzlaşma — Bu İlkelerin Kabul Edenleri iyi niyetle müzakere etmeyi, mümkün olduğunda uzlaşmayı ve mümkün olduğunda anlaşmazlıkları güç kullanmak yerine tarafsız hakemliğe sunmayı taahhüt ederler, böylece çatışmasız etkileşimi ilerletirler. Öz yardım mümkün olduğunda kaçınılmalıdır, aynı şekilde vigilante adaleti, kendi davasında hakim olarak hareket etme veya kanun kaçağı olarak hareket etme de. Bu İlkeleri kabul eden ve bunlardan yararlanmaya çalışan tüm Kişiler, bu İlkelerle uyumlu olmaya ve bu İlkeleri uygulamaya ve uygulamaya çalışan özgür bir toplumun hukuki düzenini desteklemeye çalışmalıdır. Güvenlik üretimi, bu tür güvenlik yüklenicilerinin bu İlkelerle bağlı olması koşuluyla, girişimcilere veya organize milislere emanet edilebilir.",
+                "12. Rekabetçi Hakemlik — Hiçbir kurum hukuk veya uygulama üzerinde zorlayıcı tekelden yararlanmaz. Bireyler rekabet eden hakem sağlayıcıları ve koruma ajanslarını seçmekte özgürdür. Hakemlik organları ve mahkemeler, müşterilerinin rızasıyla, hakem sağlayıcıları ve koruma ajansları arasındaki anlaşmazlıkları çözmek için temyiz mahkemeleri ve temyiz mahkemelerinin kurulması konusunda anlaşabilirler.",
+                "13. Hukukun Geleneksel Evrimi — Topluluklar bu İlkelerle tutarlı kayıtlar, prosedürel normlar ve delil kuralları dahil olmak üzere ikincil Kodlar ve Hukuklar geliştirebilir ve yayınlayabilir."
+            ]
+        },
+        "articleV": {
+            "title": "MADDE V — SEÇİLMİŞ ADALETSİZ HUKUKLAR",
+            "paragraphs": [
+                "Aşağıda listelenen hukuklar, bu İlkelerle uyumsuz ve bu nedenle adaletsiz olan geçmiş veya mevcut pozitif hukukların örnekleridir. Bu liste açıklayıcıdır, kapsamlı değildir: bu İlkelerle çelişen herhangi bir hukuk adaletsizdir, burada adlandırılsın veya adlandırılmasın. Belirli hukukların dahil edilmesi, benzer şekilde uyumsuz olan diğerlerinin uygulanabileceği anlamına gelmez."
+            ],
+            "list": [
+                "* Vergilendirme — Genellikle yönetim kurumlarını finanse etme amaçları için Kaynakların rıza dışı alınması; topluluk ihtiyaçları gönüllü araçlar ve serbest piyasa çözümleri ile karşılanmalıdır.",
+                "* Kamu Yararı — Kaynakların kullanımının herhangi bir el koyma, düzenleme veya bozulması, tazminatlı olsun veya olmasın.",
+                "* Madde Tüketimi veya Kullanımı Yasakları — Alkol, uyuşturucu veya diğer tüketilebilir maddeler üzerindeki yasaklar.",
+                "* Zorla Çalıştırma — Masumlara dayatılan askere alma, kölelik veya herhangi bir zorunlu hizmet.",
+                "* Savunma Silahları Yasakları — Meşru öz savunma için silah bulundurma üzerindeki genel yasaklar, DMD hariç.",
+                "* Para Üzerinde Tekel — Merkez bankacılığı, yasal ödeme aracı hukukları, döviz kontrolleri veya altın, kripto para birimi veya diğer para biçimlerinin sahipliği, bulundurulması veya kullanımı üzerindeki kısıtlamalar.",
+                "* Fikri Mülkiyet — Telif hakkı, patent veya benzer hukuklar, çünkü fikirler rekabetçi kaynaklar değildir. Not: Yaratıcılık ve yenilik yalnızca Saldırganlık karşıtı düzenlemeler aracılığıyla korunabilir ve ödüllendirilebilir.",
+                "* Mülkiyet Olarak İtibar Yanılgısı — İftira, ticari marka veya itibarı bağımsız olarak sahiplenilebilir Kaynaklar olarak ele alan benzer hukuklar. Not: İtibar yalnızca başkalarının zihninde var olur ve sahiplenilemez, ancak barışçıl araçlarla savunulabilir.",
+                "* Seçilmemiş Yükümlülükler — Gönüllü olarak kabul edilmeyen veya gönüllü eylemden kaynaklanmayan herhangi bir pozitif yükümlülük veya refah hakkının dayatılması.",
+                "* Sansür — İçeriğine dayalı ifadeyi sansürleyen, cezalandıran veya zorlayan herhangi bir hukuk adaletsizdir. Not: Konuşma saldırganlık eyleminin nedensel bir parçasını oluşturuyorsa, konuşmacı sorumludur."
+            ]
+        },
+        "closingAffirmation": {
+            "title": "KAPANIŞ ONAYI",
+            "paragraphs": [
+                "Bu İlkelerin arkasındaki özlem, her Kişiye açık, sistemsel saldırganlıktan özgür bir dünyadır. Her özgür ruh hatırlasın: hiçbir devlete boyun eğmeyiz, adalet dışında hiçbir düzene diz çökmeyiz, akıl ve etik dışında hiçbir efendiye cevap vermeyiz. Burada, bu İlkeler altında, zorlama, zincir ve tiran olmadan yaşamı seçiyoruz. Ve yeryüzünde hiçbir güç bizi durduramaz."
+            ]
+        }
+    },
+    "Signature": {
+        "title": "İmza",
+        "text": "Bu vesileyle Evrensel Özgürlük İlkelerini kabul ediyorum ve bunlara dayanan herhangi bir hukuk ve hukuki sistemin meşruiyetini tanıyorum.",
+        "signedBy": "İmzalayan:",
+        "downloadSignature": "İmzayı İndir"
+    },
+    "About": {
+        "title": "Hakkımızda",
+        "intro": "Barışçıl konuşanların bile vurulabildiği, rasyonel tartışmanın diyalogla değil ölümcül sessizlikle karşılandığı bir çağda, sarsılmaz bir ahlaki pusulaya olan ihtiyaç hiç bu kadar büyük olmamıştı. Evrensel Özgürlük İlkeleri ortak bir inançtan doğdu: insan özgürlüğünün özünün açık, zamansız gerçeklere damıtılabileceği ve damıtılması gerektiği. İşbirliği ile hazırlanan",
+        "stephanKinsella": "Stephan Kinsella",
+        "freemax": "Freemax",
+        "alessandroFusillo": "Alessandro Fusillo",
+        "andDavidDurr": "ve David Dürr",
+        "andHansHermannHoppe": "ve Hans-Hermann Hoppe'nin vaftiz babası olarak",
+        "documentExpresses": "bu belge, beş basit ilkede, özgürlüğün temel aksiyomlarını ifade eder.",
+        "notConstitution": "Bu bir anayasa değil, ne de geçici siyasetin manifestosu.",
+        "declaration": "Bu bir bildirge — devletlerden, partilerden ve hükümdarlardan önce gelen ve onları aşan ahlaki düzenin tanınması.",
+        "byReading": "Bu ilkeleri okuyarak, onaylayarak ve benimseyerek, her imzacı sembolik bir eylemden daha fazlasını gerçekleştirir.",
+        "theyAffirm": "Sistemsel saldırganlıktan özgür bir dünyaya olan bağlılıklarını onaylarlar.",
+        "takingInspiration": "Bitcoin fenomeninden ilham alarak — önce bireyler tarafından, sonra milyonlarca kişi tarafından benimsenmiş, tüm uluslar artık görmezden gelemediği ve tanıdığı — bu bildirge özgürlüğü gerçek kılmanın bir stratejisidir.",
+        "everySignature": "Her imza yakıttır. Özgürlük kanıtı. Eklenen her isim güç sinyali, talep kanıtıdır.",
+        "morePeople": "Özgürlük ilkelerinin arkasında duran insan sayısı ne kadar fazla olursa, dünyaya gönderdiğimiz sinyal o kadar güçlü olur: özgürlüğün durdurulamaz desteği olduğu.",
+        "missionClear": "Misyon açık — tarihte ilk kez gerçek dünya topraklarının gerçek özgürlüğü benimseyebilmesi ve nihayet gerçek bir ahlaki düzende yaşayabilmesi için yeterli güç toplamak.",
+        "universalPrinciples": "Evrensel Özgürlük İlkeleri",
+        "inscribedOnBitcoin": "Bitcoin blockchain'ine yazılmıştır",
+        "immutableBorderless": "değişmez, sınırsız ve sonsuza kadar."
+    },
+    "Leaderboard": {
+        "title": "İmzacılar Liderlik Tablosu",
+        "totalSigners": "Toplam imzacı",
+        "signer": "İmzacı",
+        "name": "İsim",
+        "twitter": "Twitter",
+        "signed": "İmzalandı",
+        "anonymous": "Anonim",
+        "search": "Ara...",
+        "loading": "Yükleniyor...",
+        "noResults": "Sonuç bulunamadı.",
+        "prev": "Önceki",
+        "next": "Sonraki"
+    },
+    "Common": {
+        "scrollDownToSign": "İmzalamak için aşağı kaydırın"
+    }
+}

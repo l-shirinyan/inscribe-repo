@@ -1,0 +1,154 @@
+{
+    "Navbar": {
+        "principles": "Nguyên tắc",
+        "leaderboard": "Bảng xếp hạng",
+        "about": "Giới thiệu",
+        "login": "Đăng nhập"
+    },
+    "Content": {
+        "preamble": {
+            "title": "LỜI MỞ ĐẦU",
+            "paragraphs": [
+                "Nhằm công nhận phẩm giá vốn có, tự do và quyền tự chủ đạo đức của mỗi Con người, và khẳng định rằng hòa bình, thịnh vượng và sự phát triển của con người nảy sinh khi mỗi người tôn trọng tự do bình đẳng của người khác — chúng tôi tuyên bố các Nguyên tắc Tự do Phổ quát này (\"Nguyên tắc\").",
+                "Mục đích của chúng là thúc đẩy sự tương tác không xung đột. Những nguyên lý này xuất phát từ lý trí, kinh nghiệm và đạo đức; chúng không do bất kỳ nhà nước nào ban hành cũng không bị áp đặt bởi ý chí đa số. Việc chấp nhận là tự nguyện, bất kỳ ai cũng có thể chấp nhận các Nguyên tắc bằng bất kỳ hành động đồng ý rõ ràng nào và việc thực thi dựa trên sự lựa chọn tự do của cá nhân và cộng đồng để sống theo, và giải quyết tranh chấp theo các Nguyên tắc này."
+            ]
+        },
+        "scopeAndHierarchy": {
+            "title": "PHẠM VI VÀ THỨ BẬC",
+            "subsections": [
+                {
+                    "subtitle": "Ưu tiên",
+                    "text": "Các Nguyên tắc này là nền tảng siêu-chuẩn tối cao cho tất cả Người Chấp nhận."
+                },
+                {
+                    "subtitle": "Quy tắc Thứ cấp",
+                    "text": "Người Chấp nhận có thể thiết lập các hiến chương, giao ước, quy chế, phong tục, bộ luật riêng hoặc các hệ thống luật tư khác dựa trên các Nguyên tắc này (\"Bộ luật và Luật Thứ cấp\"). Các quy tắc này có thể bổ sung thủ tục hoặc giải quyết các vấn đề chưa được đề cập, nhưng không được trái với, vô hiệu hoặc làm suy giảm các Nguyên tắc này."
+                },
+                {
+                    "subtitle": "Xung đột",
+                    "text": "Khi một quy tắc hoặc thực hành thứ cấp xung đột với các Nguyên tắc này, các Nguyên tắc này sẽ được ưu tiên. Tranh chấp về sự không tương thích này sẽ được giải quyết bằng trọng tài công bằng."
+                },
+                {
+                    "subtitle": "Giải thích",
+                    "text": "Nếu các Nguyên tắc này im lặng hoặc không rõ ràng, trọng tài có thể tham khảo:",
+                    "list": [
+                        "* Các bộ luật thứ cấp liên quan, thực hành theo thông lệ và các nguyên tắc pháp lý được công nhận chung;",
+                        "* Các hệ thống luật tư được thiết lập như luật La Mã, truyền thống thông luật Anh-Mỹ, hoặc các bộ luật dân sự hiện đại;",
+                        "* Các bộ luật hóa, tái phát biểu và bình luận học thuật được tôn trọng — đặc biệt từ các nhà tư tưởng tự do — miễn là chúng nhất quán với các Nguyên tắc này."
+                    ]
+                }
+            ]
+        },
+        "articleI": {
+            "title": "ĐIỀU I — THUẬT NGỮ VÀ ĐỊNH NGHĨA",
+            "list": [
+                "* Người Chấp nhận — Bất kỳ Con người nào chấp nhận các Nguyên tắc này.",
+                "* Con người (Người mang Quyền) — Bất kỳ sinh vật có tri giác nào mà khả năng đạo đức vốn có tạo nên giả định về quyền sở hữu bản thân và nghĩa vụ tương hỗ. Các Nguyên tắc này chủ ý không quy định khi nào nhân cách bắt đầu hoặc kết thúc; việc xác định dựa trên nghiên cứu khoa học, triết học hoặc tâm linh và, khi cần thiết, trọng tài công bằng. Lưu ý giải thích — Thuật ngữ Con người không bao gồm các pháp nhân tập thể hoặc giả định — như công ty, hiệp hội hoặc các tổ chức khác — chỉ có quyền lợi thông qua ủy quyền của Con người như đã định nghĩa ở trên.",
+                "* Tài nguyên — Một phương tiện hành động khan hiếm, cạnh tranh mà một Con người có thể kiểm soát để đạt được mục đích. Cơ thể của một Con người là một Tài nguyên, cũng như những thứ bên ngoài Cơ thể (\"Tài nguyên Bên ngoài\"). Thông tin, ý tưởng, mẫu hình và tri thức — vì không cạnh tranh — không phải là Tài nguyên. Tài nguyên Bên ngoài có thể thuộc sở hữu cá nhân hoặc nhóm người thông qua hợp đồng hoặc sở hữu chung. Sở hữu nhóm không mang lại quyền lớn hơn quyền của cá nhân.",
+                "* Quyền (Sở hữu) — Quyền kiểm soát độc quyền của một Con người đối với một Tài nguyên và loại trừ người khác sử dụng nó trừ khi được chủ sở hữu đồng ý. Tất cả quyền đều là quyền sở hữu.",
+                "* Đồng ý — Sự cho phép hoặc giấy phép được cấp bởi chủ sở hữu của một Tài nguyên cho người khác sử dụng nó hoặc, với Tài nguyên Bên ngoài, chuyển nhượng quyền sở hữu. Việc cấp hoặc từ chối đồng ý có thể được truyền đạt rõ ràng hoặc ngầm định, tùy vào hoàn cảnh, với giả định rằng thông điệp gần nhất sẽ được ưu tiên. Đồng ý có thể được ngụ ý hoặc giả định trong một số trường hợp, như Negotiorum Gestio, khi một người quản lý hành động để quản lý công việc và bảo vệ lợi ích của người khác, với niềm tin hợp lý rằng chủ sở hữu sẽ đồng ý nếu biết hoàn cảnh.",
+                "* Xâm lược — Việc sử dụng, chiếm đoạt, xâm phạm hoặc xâm nhập vào biên giới của Tài nguyên của người khác mà không có sự đồng ý của chủ sở hữu, bao gồm cả việc chiếm đoạt gian lận; hoặc đe dọa đáng tin cậy về việc đó.",
+                "* Giám hộ — Một quản lý ủy thác trong đó một Con người có năng lực hành động thay mặt cho một Con người khác thiếu khả năng đạo đức hiện tại. Giám hộ có thể phát sinh từ quan hệ tự nhiên (ví dụ: cha mẹ-con cái, người thân với người khuyết tật), hợp đồng hoặc phong tục cộng đồng. Người giám hộ bị ràng buộc bởi các Nguyên tắc này, phải hành động vì lợi ích tốt nhất của người được giám hộ và chịu sự giám sát của trọng tài công bằng khi có khiếu nại hợp lý.",
+                "* Thiết bị Hủy diệt Hàng loạt (DMD) — Bất kỳ thiết bị, hệ thống, tác nhân, công cụ hoặc công nghệ nào mà chức năng thông thường không thể phân biệt giữa kẻ xâm lược và người ngoài cuộc và phạm vi gây hại có thể gây chết người hàng loạt.",
+                "* Luật — Luật là các quy tắc có thể thực thi công nhận quyền sở hữu trong Tài nguyên và cho phép sử dụng vũ lực để bảo vệ quyền sở hữu trong Tài nguyên. Bất kỳ luật nào không phù hợp với các Nguyên tắc này đều bất công và vô hiệu. Một số ví dụ về luật bất công được nêu ở Điều V.",
+                "* Hợp đồng — Một thỏa thuận chuyển nhượng quyền sở hữu đơn phương, song phương hoặc đa phương — hiện tại hoặc tương lai — theo đó chủ sở hữu hoặc các chủ sở hữu Tài nguyên Bên ngoài liên quan đồng ý cấp quyền sở hữu hoặc giấy phép sử dụng các Tài nguyên Bên ngoài được chỉ định cho người khác."
+            ]
+        },
+        "articleII": {
+            "title": "ĐIỀU II — NGUYÊN TẮC",
+            "list": [
+                "1. Nguyên tắc Không Xâm lược — Xâm lược chống lại Tài nguyên của người khác là bất công, bất kể địa vị hoặc quy mô của người thực hiện. Xâm lược bao gồm hành động cá nhân cũng như hành động tập thể, trong đó những người tham gia có thể chịu trách nhiệm về hành động của người khác, tùy vào mối quan hệ và mức độ liên quan đến hành động xâm lược.",
+                "2. Quyền sở hữu Bản thân — Mỗi Con người là chủ sở hữu gốc và mặc định của Cơ thể mình. Mất năng lực — tạm thời hoặc vĩnh viễn — không làm mất quyền sở hữu bản thân. Quyền sở hữu bản thân có thể bị mất, toàn bộ hoặc một phần, do thực hiện hành vi xâm lược, tùy theo nguyên tắc tự vệ và tỷ lệ.",
+                "3. Chiếm hữu Ban đầu (Homesteading) — Tài nguyên Bên ngoài chưa có chủ sở hữu sẽ thuộc về người đầu tiên (hoặc nhóm) rõ ràng phân định, chiếm hữu hoặc biến đổi chúng, tạo ra mối liên hệ khách quan, có thể xác minh giữa người đó và Tài nguyên. Quyền sở hữu này được giữ cho đến khi được chuyển nhượng qua hợp đồng, chuyển nhượng để khắc phục hoặc bị từ bỏ. Việc từ bỏ có thể được xác định bằng các dấu hiệu đủ về ý định như không hoạt động lâu dài, thông báo rõ ràng hoặc không phản đối việc chiếm hữu công khai của người khác, có thể dẫn đến quyền sở hữu nếu không bị khiếu nại kịp thời.",
+                "4. Trao đổi Tự nguyện (Chuyển nhượng Quyền sở hữu Hợp đồng) — Một người có thể có được quyền sở hữu Tài nguyên Bên ngoài thông qua chuyển nhượng quyền sở hữu hợp đồng từ chủ sở hữu trước đó. Việc chuyển nhượng này có thể là một phần hoặc toàn bộ, có điều kiện hoặc không điều kiện, tạm thời hoặc vĩnh viễn, ngay lập tức hoặc trong tương lai, tùy theo điều khoản hợp đồng giữa các bên liên quan. Chỉ những lời hứa mới tạo ra nghĩa vụ đạo đức nhưng không tạo ra nghĩa vụ pháp lý; hợp đồng là chuyển nhượng quyền sở hữu dựa trên quyền sở hữu của chủ sở hữu đối với Tài nguyên Bên ngoài, quyền này vẫn thuộc về chủ sở hữu cho đến khi được chuyển nhượng qua hợp đồng, chuyển nhượng để khắc phục hoặc bị từ bỏ.",
+                "5. Khắc phục — Kẻ xâm lược đã được chứng minh phải bồi thường cho nạn nhân tương xứng với thiệt hại gây ra. Việc bồi thường có thể bao gồm chuyển nhượng quyền sở hữu Tài nguyên. Khi đánh giá bồi thường, cần xem xét mức độ thiệt hại, bao gồm cả mất mát chủ quan của nạn nhân; mức độ ý định và động cơ của kẻ xâm lược; và theo §10, loại và mức độ trừng phạt mà nạn nhân có thể áp dụng cho kẻ xâm lược."
+            ]
+        },
+        "articleIII": {
+            "title": "ĐIỀU III — TIÊU CHUẨN BỔ SUNG",
+            "list": [
+                "6. Không thể chuyển nhượng của Con người — Các hợp đồng tuyên bố chuyển nhượng kiểm soát tối hậu đối với Cơ thể riêng của một Con người, như hợp đồng nô lệ tự nguyện, không thể thực thi.",
+                "7. Tỷ lệ và Tự vệ — Vũ lực phòng thủ để phản ứng lại Xâm lược là chính đáng, và không phải là Xâm lược, khi hợp lý cần thiết và tương xứng với mối đe dọa, dù sử dụng ngay lập tức hoặc sau đó. Nếu có thể, nên tránh tự xử theo §11.",
+                "8. Thiết bị Hủy diệt Hàng loạt (DMD) — Sở hữu, phát triển hoặc triển khai một DMD tạo thành mối đe dọa liên tục khi có thể dự đoán được rằng nó gây nguy hiểm cho các bên vô tội thông qua tác động không phân biệt hoặc thảm khốc. Giả định này chỉ bị bác bỏ khi chứng minh được, với sự hài lòng của tất cả các bên liên quan hoặc trọng tài trung lập, rằng có biện pháp bảo vệ mạnh mẽ loại bỏ nguy cơ gây hại sai trái. Nếu không bị bác bỏ, hành động tương xứng — có thông báo, đối thoại và trọng tài trước nếu có thể — để loại bỏ nguy cơ là hợp lý; trường hợp khẩn cấp có thể cần can thiệp ngay.",
+                "9. Giả định về Quyền sở hữu — Người sở hữu một Tài nguyên Bên ngoài được giả định là chủ sở hữu, giả định này có thể bị bác bỏ bằng bằng chứng về quyền sở hữu vượt trội, bao gồm bằng chứng về chuyển nhượng hợp đồng, khắc phục do xâm lược hoặc từ bỏ. Trong tranh chấp quyền sở hữu, bên chứng minh quyền sở hữu tốt hơn sẽ thắng, có tính đến các giả định và tiêu chuẩn bằng chứng liên quan.",
+                "10. Tiêu chuẩn và Thủ tục Bằng chứng: Trừng phạt. Kẻ xâm lược có thể, về nguyên tắc, mất một số quyền do hành vi xâm lược. Bản chất và mức độ của bất kỳ biện pháp khắc phục nào — bồi thường, trừng phạt hoặc bảo vệ — sẽ được xác định theo quy tắc cộng đồng phù hợp với các Nguyên tắc này. Biện pháp nghiêm trọng đòi hỏi tiêu chuẩn bằng chứng cao, như chứng minh ngoài nghi ngờ hợp lý, quyết định nhất trí, bảo vệ chống xử hai lần và quyền của bồi thẩm đoàn đối với cả luật và sự kiện. Trong trường hợp xâm lược gây chết người, quyền tha thứ hoặc hòa giải thuộc về người thân gần nhất của nạn nhân hoặc do trọng tài công bằng quyết định; nếu có nhiều nạn nhân, trọng tài có thể quyết định điều kiện tha thứ. Xâm lược lặp lại hoặc nghiêm trọng có thể khiến kẻ xâm lược trở thành mối đe dọa liên tục, cho phép biện pháp phòng vệ tương xứng."
+            ]
+        },
+        "articleIV": {
+            "title": "ĐIỀU IV — TRẬT TỰ PHÁP LÝ PHÂN TÁN",
+            "list": [
+                "11. Mục tiêu Khát vọng; Tránh Xung đột và Thỏa hiệp — Người Chấp nhận các Nguyên tắc này cam kết đàm phán thiện chí, thỏa hiệp khi có thể, và khi có thể, đưa tranh chấp ra trọng tài trung lập thay vì dùng vũ lực, nhằm thúc đẩy tương tác không xung đột. Nên tránh tự xử, công lý tự phát, tự làm thẩm phán hoặc trở thành kẻ ngoài vòng pháp luật. Tất cả Người Chấp nhận các Nguyên tắc này và mong muốn hưởng lợi từ đó nên cố gắng tuân thủ các Nguyên tắc này và ủng hộ trật tự pháp lý của xã hội tự do áp dụng các Nguyên tắc này. Việc đảm bảo an ninh có thể giao cho doanh nhân hoặc lực lượng dân quân tổ chức miễn là các nhà cung cấp an ninh này bị ràng buộc bởi các Nguyên tắc này.",
+                "12. Trọng tài Cạnh tranh — Không có tổ chức nào được hưởng độc quyền cưỡng chế về luật pháp hoặc thực thi. Cá nhân được tự do lựa chọn các nhà cung cấp trọng tài và cơ quan bảo vệ cạnh tranh. Các cơ quan trọng tài và tòa án, với sự đồng ý của khách hàng, có thể thiết lập tòa phúc thẩm để giải quyết tranh chấp giữa các nhà cung cấp trọng tài và cơ quan bảo vệ.",
+                "13. Tiến hóa Theo thông lệ của Luật — Các cộng đồng có thể phát triển và ban hành các Bộ luật và Luật Thứ cấp bao gồm các sổ đăng ký, chuẩn mực thủ tục và quy tắc bằng chứng nhất quán với các Nguyên tắc này."
+            ]
+        },
+        "articleV": {
+            "title": "ĐIỀU V — CÁC LUẬT BẤT CÔNG ĐƯỢC CHỌN",
+            "paragraphs": [
+                "Các luật được liệt kê dưới đây là ví dụ về các luật tích cực, quá khứ hoặc hiện tại, không tương thích với các Nguyên tắc này và do đó bất công. Danh sách này chỉ mang tính minh họa, không đầy đủ: bất kỳ luật nào trái với các Nguyên tắc này đều bất công, dù có được nêu tên hay không. Việc liệt kê một số luật không có nghĩa là các luật khác, cũng không phù hợp, có thể được thực thi."
+            ],
+            "list": [
+                "* Thuế — Việc lấy Tài nguyên không có sự đồng ý, thường để tài trợ cho các thể chế quản trị; nhu cầu cộng đồng nên được đáp ứng bằng các phương tiện tự nguyện và giải pháp thị trường tự do.",
+                "* Quyền Thu hồi — Bất kỳ việc tịch thu, quy định hoặc làm suy giảm việc sử dụng Tài nguyên nào, dù có bồi thường hay không.",
+                "* Lệnh cấm Tiêu dùng hoặc Sử dụng Chất — Lệnh cấm rượu, ma túy hoặc bất kỳ chất tiêu dùng nào khác.",
+                "* Lao động Cưỡng bức — Nghĩa vụ quân sự, nô lệ hoặc bất kỳ dịch vụ bắt buộc nào được áp đặt lên người vô tội.",
+                "* Lệnh cấm Vũ khí Phòng thủ — Các lệnh cấm chung về sở hữu vũ khí để tự vệ hợp pháp, trừ DMD.",
+                "* Độc quyền về Tiền tệ — Ngân hàng trung ương, luật tiền tệ hợp pháp, kiểm soát tiền tệ hoặc hạn chế quyền sở hữu, sử dụng vàng, tiền điện tử hoặc các loại tiền khác.",
+                "* Sở hữu Trí tuệ — Bản quyền, bằng sáng chế hoặc luật tương tự, vì ý tưởng không phải là tài nguyên cạnh tranh. Lưu ý: Sáng tạo và đổi mới chỉ được bảo vệ và thưởng thông qua các thỏa thuận không xâm lược.",
+                "* Danh tiếng như Tài sản — Luật phỉ báng, thương hiệu hoặc luật tương tự coi danh tiếng là tài sản sở hữu độc lập. Lưu ý: Danh tiếng chỉ tồn tại trong tâm trí người khác và không thể sở hữu, nhưng có thể bảo vệ bằng phương tiện hòa bình.",
+                "* Nghĩa vụ Không được Chọn — Việc áp đặt bất kỳ nghĩa vụ tích cực hoặc quyền phúc lợi nào không được chấp nhận tự nguyện hoặc không phát sinh từ hành động tự nguyện.",
+                "* Kiểm duyệt — Bất kỳ luật nào kiểm duyệt, trừng phạt hoặc buộc biểu đạt dựa trên nội dung của nó là bất công. Lưu ý: Nếu phát ngôn là một phần nguyên nhân của hành vi xâm lược, người nói phải chịu trách nhiệm."
+            ]
+        },
+        "closingAffirmation": {
+            "title": "XÁC NHẬN KẾT THÚC",
+            "paragraphs": [
+                "Khát vọng đằng sau các Nguyên tắc này là một thế giới tự do khỏi xâm lược có hệ thống, mở ra cho mọi Con người. Hãy để mọi linh hồn tự do nhớ rằng: chúng ta không cúi đầu trước bất kỳ nhà nước nào, không quỳ gối trước bất kỳ trật tự nào ngoài công lý, không phục tùng bất kỳ chủ nhân nào ngoài lý trí và đạo đức. Ở đây, dưới các Nguyên tắc này, chúng ta chọn cuộc sống không cưỡng bức, không xiềng xích và không bạo chúa. Và không có quyền lực nào trên trái đất có thể ngăn cản chúng ta."
+            ]
+        }
+    },
+    "Signature": {
+        "title": "Chữ ký",
+        "text": "Tôi xin xác nhận áp dụng Nguyên tắc Tự do Phổ quát, và tính hợp pháp của bất kỳ luật và hệ thống pháp luật nào dựa trên đó.",
+        "signedBy": "Được ký bởi:",
+        "downloadSignature": "Tải chữ ký"
+    },
+    "About": {
+        "title": "Về chúng tôi",
+        "intro": "Trong thời đại mà ngay cả những người nói chuyện hòa bình cũng có thể bị đàn áp, nơi tranh luận lý trí không được đáp lại bằng đối thoại mà bằng sự im lặng chết người, nhu cầu về một la bàn đạo đức vững chắc chưa bao giờ lớn hơn. Các Nguyên tắc Tự do Phổ quát được sinh ra từ niềm tin chung: rằng bản chất của tự do con người có thể và phải được chắt lọc thành những chân lý rõ ràng, vượt thời gian. Được xây dựng qua sự hợp tác của",
+        "stephanKinsella": "Stephan Kinsella",
+        "freemax": "Freemax",
+        "alessandroFusillo": "Alessandro Fusillo",
+        "andDavidDurr": "và David Dürr",
+        "andHansHermannHoppe": "và Hans-Hermann Hoppe là người bảo trợ",
+        "documentExpresses": "tài liệu này thể hiện, qua năm nguyên tắc đơn giản, các tiên đề nền tảng của tự do.",
+        "notConstitution": "Đây không phải là hiến pháp, cũng không phải là tuyên ngôn chính trị nhất thời.",
+        "declaration": "Đây là một tuyên bố — một sự công nhận trật tự đạo đức vượt lên và vượt qua các nhà nước, đảng phái và người cai trị.",
+        "byReading": "Bằng việc đọc, ủng hộ và áp dụng các nguyên tắc này, mỗi người ký thực hiện nhiều hơn một hành động mang tính biểu tượng.",
+        "theyAffirm": "Họ khẳng định cam kết với một thế giới không có xâm lược có hệ thống.",
+        "takingInspiration": "Lấy cảm hứng từ hiện tượng Bitcoin — đầu tiên được cá nhân chấp nhận, sau đó là hàng triệu người, trước khi các quốc gia không thể phớt lờ và công nhận nó — tuyên bố này là một chiến lược để biến tự do thành hiện thực.",
+        "everySignature": "Mỗi chữ ký là nhiên liệu. Một bằng chứng về tự do. Mỗi tên được thêm vào là một tín hiệu sức mạnh, một bằng chứng về nhu cầu.",
+        "morePeople": "Càng nhiều người đứng sau các nguyên tắc tự do, tín hiệu chúng ta gửi đến thế giới càng mạnh: tự do có sự ủng hộ không thể ngăn cản.",
+        "missionClear": "Sứ mệnh đã rõ ràng — tập hợp đủ sức mạnh để lần đầu tiên trong lịch sử, các vùng lãnh thổ thực sự áp dụng tự do và cuối cùng sống trong một trật tự đạo đức thực sự.",
+        "universalPrinciples": "Các Nguyên tắc Tự do Phổ quát đã được",
+        "inscribedOnBitcoin": "khắc lên chuỗi khối Bitcoin",
+        "immutableBorderless": "không thể thay đổi, không biên giới và mãi mãi."
+    },
+    "Leaderboard": {
+        "title": "Bảng xếp hạng người ký",
+        "totalSigners": "Tổng số người ký",
+        "signer": "Người ký",
+        "name": "Tên",
+        "twitter": "Twitter",
+        "signed": "Đã ký",
+        "anonymous": "Ẩn danh",
+        "search": "Tìm kiếm...",
+        "loading": "Đang tải...",
+        "noResults": "Không có kết quả.",
+        "prev": "Trước",
+        "next": "Tiếp"
+    },
+    "Common": {
+        "scrollDownToSign": "Cuộn xuống để ký"
+    }
+}
