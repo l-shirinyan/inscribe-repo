@@ -147,7 +147,9 @@
         "loading": "Yükleniyor...",
         "noResults": "Sonuç bulunamadı.",
         "prev": "Önceki",
-        "next": "Sonraki"
+        "next": "Sonraki",
+        "inscriptionUrl": "Yazıt URL'si:",
+        "inscriptionUrlNotAvailable": "Yazıt URL'si mevcut değil"
     },
     "Common": {
         "scrollDownToSign": "İmzalamak için aşağı kaydırın"

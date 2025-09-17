@@ -147,7 +147,11 @@
         "loading": "Cargando...",
         "noResults": "Sin resultados.",
         "prev": "Anterior",
-        "next": "Siguiente"
+        "next": "Siguiente",
+        "signedBy": "Firmado por:",
+        "downloadSignature": "Descargar Firma",
+        "inscriptionUrl": "URL de inscripción:",
+        "inscriptionUrlNotAvailable": "URL de inscripción no disponible"
     },
     "Common": {
         "scrollDownToSign": "Desplázate hacia abajo para firmar"

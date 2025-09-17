@@ -147,7 +147,9 @@
         "loading": "Lädt...",
         "noResults": "Keine Ergebnisse.",
         "prev": "Zurück",
-        "next": "Weiter"
+        "next": "Weiter",
+        "inscriptionUrl": "Inschrift-URL:",
+        "inscriptionUrlNotAvailable": "Inschrift-URL nicht verfügbar"
     },
     "Common": {
         "scrollDownToSign": "Scrollen Sie nach unten, um zu unterschreiben"

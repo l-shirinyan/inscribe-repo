@@ -147,7 +147,9 @@
         "loading": "Đang tải...",
         "noResults": "Không có kết quả.",
         "prev": "Trước",
-        "next": "Tiếp"
+        "next": "Tiếp",
+        "inscriptionUrl": "URL khắc:",
+        "inscriptionUrlNotAvailable": "URL khắc không khả dụng"
     },
     "Common": {
         "scrollDownToSign": "Cuộn xuống để ký"

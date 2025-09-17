@@ -104,7 +104,9 @@
         "prev": "Sadurunge",
         "next": "Sabanjure",
         "signedBy": "Ditandatangani dening:",
-        "downloadSignature": "Download Tandatangan"
+        "downloadSignature": "Download Tandatangan",
+        "inscriptionUrl": "URL prasasti:",
+        "inscriptionUrlNotAvailable": "URL prasasti ora kasedhiya"
     },
     "Common": {
         "scrollDownToSign": "Gulung mudhun kanggo nandatangani"

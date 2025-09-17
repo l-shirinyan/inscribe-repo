@@ -104,7 +104,9 @@
         "prev": "मागील",
         "next": "पुढील",
         "signedBy": "सही केले:",
-        "downloadSignature": "सही डाउनलोड करा"
+        "downloadSignature": "सही डाउनलोड करा",
+        "inscriptionUrl": "शिलालेख URL:",
+        "inscriptionUrlNotAvailable": "शिलालेख URL उपलब्ध नाही"
     },
     "Common": {
         "scrollDownToSign": "सही करण्यासाठी खाली स्क्रोल करा"

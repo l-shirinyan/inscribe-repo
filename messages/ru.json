@@ -112,6 +112,8 @@
         "text": "Настоящим принимаю Универсальный Принцип Свободы и законность любых законов и правовой системы, основанных на нем.",
         "signedBy": "Подписано:",
         "downloadSignature": "Скачать подпись",
+        "inscriptionUrl": "URL надписи:",
+        "inscriptionUrlNotAvailable": "URL надписи недоступен",
         "signedByThankYou": "Подписано {aliasName}. Спасибо!"
     },
     "About": {

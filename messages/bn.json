@@ -149,7 +149,9 @@
         "prev": "পূর্ববর্তী",
         "next": "পরবর্তী",
         "signedBy": "স্বাক্ষরকারী:",
-        "downloadSignature": "স্বাক্ষর ডাউনলোড করুন"
+        "downloadSignature": "স্বাক্ষর ডাউনলোড করুন",
+        "inscriptionUrl": "শিলালিপি URL:",
+        "inscriptionUrlNotAvailable": "শিলালিপি URL উপলব্ধ নয়"
     },
     "Common": {
         "scrollDownToSign": "স্বাক্ষর করতে নীচে স্ক্রল করুন"

@@ -149,7 +149,9 @@
         "prev": "முந்தைய",
         "next": "அடுத்து",
         "signedBy": "கையெழுத்திட்டவர்:",
-        "downloadSignature": "கையெழுத்தை பதிவிறக்கவும்"
+        "downloadSignature": "கையெழுத்தை பதிவிறக்கவும்",
+        "inscriptionUrl": "கல்வெட்டு URL:",
+        "inscriptionUrlNotAvailable": "கல்வெட்டு URL கிடைக்கவில்லை"
     },
     "Common": {
         "scrollDownToSign": "கையெழுத்திட கீழே ஸ்க்ரோல் செய்யவும்"

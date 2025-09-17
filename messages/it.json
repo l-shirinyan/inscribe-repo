@@ -147,7 +147,9 @@
         "loading": "Caricamento...",
         "noResults": "Nessun risultato.",
         "prev": "Prec",
-        "next": "Succ"
+        "next": "Succ",
+        "inscriptionUrl": "URL iscrizione:",
+        "inscriptionUrlNotAvailable": "URL iscrizione non disponibile"
     },
     "Common": {
         "scrollDownToSign": "Scorri giù per firmare"

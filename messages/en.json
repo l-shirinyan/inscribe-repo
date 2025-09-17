@@ -149,7 +149,9 @@
         "prev": "Prev",
         "next": "Next",
         "signedBy": "Signed by:",
-        "downloadSignature": "Download Signature"
+        "downloadSignature": "Download Signature",
+        "inscriptionUrl": "Inscription URL:",
+        "inscriptionUrlNotAvailable": "Inscription URL not available"
     },
     "Common": {
         "scrollDownToSign": "Scroll down to sign"

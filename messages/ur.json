@@ -147,7 +147,9 @@
         "loading": "لوڈ ہو رہا ہے...",
         "noResults": "کوئی نتیجہ نہیں۔",
         "prev": "پچھلا",
-        "next": "اگلا"
+        "next": "اگلا",
+        "inscriptionUrl": "کتبہ URL:",
+        "inscriptionUrlNotAvailable": "کتبہ URL دستیاب نہیں"
     },
     "Common": {
         "scrollDownToSign": "دستخط کرنے کے لیے نیچے اسکرول کریں"

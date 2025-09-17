@@ -147,13 +147,11 @@
         "loading": "Carregando...",
         "noResults": "Nenhum resultado.",
         "prev": "Anterior",
-        "next": "Próximo"
+        "next": "Próximo",
+        "inscriptionUrl": "URL da inscrição:",
+        "inscriptionUrlNotAvailable": "URL da inscrição não disponível"
     },
     "Common": {
         "scrollDownToSign": "Role para baixo para assinar"
     }
 }
-
-
-
-

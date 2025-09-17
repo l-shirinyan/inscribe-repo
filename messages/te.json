@@ -147,7 +147,9 @@
         "loading": "లోడ్ అవుతోంది...",
         "noResults": "ఫలితాలు లేవు.",
         "prev": "మునుపటి",
-        "next": "తదుపరి"
+        "next": "తదుపరి",
+        "inscriptionUrl": "శాసన URL:",
+        "inscriptionUrlNotAvailable": "శాసన URL అందుబాటులో లేదు"
     },
     "Common": {
         "scrollDownToSign": "సంతకం చేయడానికి క్రిందికి స్క్రోల్ చేయండి"

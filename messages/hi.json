@@ -147,7 +147,9 @@
         "loading": "लोड हो रहा है...",
         "noResults": "कोई परिणाम नहीं।",
         "prev": "पिछला",
-        "next": "अगला"
+        "next": "अगला",
+        "inscriptionUrl": "शिलालेख URL:",
+        "inscriptionUrlNotAvailable": "शिलालेख URL उपलब्ध नहीं"
     },
     "Common": {
         "scrollDownToSign": "हस्ताक्षर करने के लिए नीचे स्क्रॉल करें"

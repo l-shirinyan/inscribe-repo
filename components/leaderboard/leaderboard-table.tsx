@@ -123,6 +123,8 @@ export default function LeaderboardTable({
       header: t('signed'),
       cell: (info) => {
         const date = info.getValue() as string;
+        const inscriptionUrl = info.row.original.inscriptionUrl;
+
 
         return (
           <div>
@@ -133,7 +135,26 @@ export default function LeaderboardTable({
                 </button>
               </TooltipTrigger>
               <TooltipContent>
-                <p className="font-circular">{date}</p>
+                <div className="font-circular">
+                  {inscriptionUrl ? (
+                    <div>
+                      <p className="text-xs text-gray-300 mb-1">{t('inscriptionUrl')}</p>
+                      <a
+                        href={inscriptionUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 hover:text-blue-300 underline text-xs break-all"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {inscriptionUrl}
+                      </a>
+                    </div>
+                  ) : (
+                    <div>
+                      <p className="text-xs text-gray-400">{t('inscriptionUrlNotAvailable')}</p>
+                    </div>
+                  )}
+                </div>
               </TooltipContent>
             </Tooltip>
           </div>
@@ -145,12 +166,12 @@ export default function LeaderboardTable({
   // Filter data based on search term
   const filteredData = useMemo(() => {
     if (!searchTerm.trim()) return data;
-    
+
     return data.filter((user) => {
       const name = user.name?.toLowerCase() || "";
       const twitterUsername = user.twitterUsername?.toLowerCase() || "";
       const searchLower = searchTerm.toLowerCase();
-      
+
       return name.includes(searchLower) || twitterUsername.includes(searchLower);
     });
   }, [data, searchTerm]);
@@ -192,7 +213,7 @@ export default function LeaderboardTable({
 
   const handleSearchChange = (value: string) => {
     setSearchTerm(value);
-    setCurrentPage(0); 
+    setCurrentPage(0);
   };
 
   return (
@@ -243,24 +264,24 @@ export default function LeaderboardTable({
           )}
         </TableBody>
       </Table>
-       <div className="flex justify-center mt-10 gap-4 items-center">
-         <Button
-           onClick={prevPage}
-           disabled={currentPage === 0 || loading}
-           className="px-4 py-2 bg-gray-500 text-white disabled:opacity-50 max-w-[120px] w-full"
-         >
-           <ChevronLeft />
-           {t('prev')}
-         </Button>
-         <Button
-           onClick={nextPage}
-           disabled={currentPage >= totalPages - 1 || loading}
-           className="px-4 py-2 bg-orange text-white disabled:opacity-50 max-w-[120px] w-full"
-         >
-           {loading ? t('loading') : t('next')}
-           <ChevronRight />
-         </Button>
-       </div>
+      <div className="flex justify-center mt-10 gap-4 items-center">
+        <Button
+          onClick={prevPage}
+          disabled={currentPage === 0 || loading}
+          className="px-4 py-2 bg-gray-500 text-white disabled:opacity-50 max-w-[120px] w-full"
+        >
+          <ChevronLeft />
+          {t('prev')}
+        </Button>
+        <Button
+          onClick={nextPage}
+          disabled={currentPage >= totalPages - 1 || loading}
+          className="px-4 py-2 bg-orange text-white disabled:opacity-50 max-w-[120px] w-full"
+        >
+          {loading ? t('loading') : t('next')}
+          <ChevronRight />
+        </Button>
+      </div>
     </>
   );
 }

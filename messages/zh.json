@@ -149,7 +149,9 @@
         "prev": "上一页",
         "next": "下一页",
         "signedBy": "签名者：",
-        "downloadSignature": "下载签名"
+        "downloadSignature": "下载签名",
+        "inscriptionUrl": "铭文URL:",
+        "inscriptionUrlNotAvailable": "铭文URL不可用"
     },
     "Common": {
         "scrollDownToSign": "向下滚动签名"

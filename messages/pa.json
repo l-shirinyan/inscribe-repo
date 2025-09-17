@@ -149,7 +149,9 @@
         "prev": "ਪਿਛਲਾ",
         "next": "ਅਗਲਾ",
         "signedBy": "ਦਸਤਖਤ ਕਰਨ ਵਾਲਾ:",
-        "downloadSignature": "ਦਸਤਖਤ ਡਾਊਨਲੋਡ ਕਰੋ"
+        "downloadSignature": "ਦਸਤਖਤ ਡਾਊਨਲੋਡ ਕਰੋ",
+        "inscriptionUrl": "ਸ਼ਿਲਾਲੇਖ URL:",
+        "inscriptionUrlNotAvailable": "ਸ਼ਿਲਾਲੇਖ URL ਉਪਲਬਧ ਨਹੀਂ"
     },
     "Common": {
         "scrollDownToSign": "ਦਸਤਖਤ ਕਰਨ ਲਈ ਹੇਠਾਂ ਸਕ੍ਰੌਲ ਕਰੋ"
