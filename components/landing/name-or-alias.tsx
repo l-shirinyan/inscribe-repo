@@ -11,6 +11,7 @@ import Image from "next/image";
 import { useForm, Controller } from "react-hook-form";
 import { useAuthStore } from "@/lib/store/auth";
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 const options = [
   { id: "yes", label: "Yes" },
@@ -36,10 +37,12 @@ const NameOrAlias = () => {
     },
   });
   const { connectTwitter, twitterLinked, signDocument } = useAuthStore();
+  const t = useTranslations('Signature');
   const onSubmit = (data: FormValues) => {
     signDocument({
       alias: data.nameOrAlias,
       wantNameInLeaderboard: data.publicChoice === "yes",
+      signedByText: t('signedBy'),
     });
   };
 

@@ -7,7 +7,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from "firebase/auth";
-import { isEmailSigned, linkTwitter, signDoc } from "@/api/user";
+import { isEmailSigned, linkTwitter, signDoc, uploadSignatureImage } from "@/api/user";
 import { auth, googleProvider } from "../firebase";
 import { unlink } from "firebase/auth";
 
@@ -27,9 +27,11 @@ interface AuthState {
   signDocument: (args: {
     alias: string;
     wantNameInLeaderboard: boolean;
+    signedByText?: string;
   }) => Promise<void>;
   aliasName?: string;
   setAliasName: (name: string) => void;
+  generateSignatureImage: (aliasName: string, signedByText?: string) => Promise<Blob>;
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
@@ -45,6 +47,72 @@ export const useAuthStore = create<AuthState>((set) => ({
   setLoading: (loading) => set({ loading }),
   setUserSigned: (signed) => set({ userSigned: signed }),
   setAliasName: (name) => set({ aliasName: name }),
+  generateSignatureImage: async (aliasName: string, signedByText: string = 'Signed by:'): Promise<Blob> => {
+    try {
+      const htmlToImage = await import('html-to-image');
+      
+      const container = document.createElement('div');
+      container.style.position = 'fixed';
+      container.style.left = '0';
+      container.style.top = '0';
+      container.style.zIndex = '-1';
+      container.style.width = '600px';
+      container.style.height = '500px';
+      container.style.background = 'transparent';
+      container.className = 'bg-stars flex justify-center relative bg-repeat-x bg-cover';
+      
+      container.innerHTML = `
+        <div class="relative flex justify-center items-center w-max h-full">
+          <img 
+            src="/assets/images/my-signature.png" 
+            alt="my_sinature" 
+            width="600"
+            height="500"
+            class="h-full object-contain"
+            crossOrigin="anonymous"
+          />
+          <div class="flex flex-col items-center w-full absolute mt-10 pl-5">
+            <div class="flex flex-col items-center w-max font-ludovico tracking-[1.1px]">
+              <div class="text-base pb-2" style="color: black;">${signedByText}</div>
+              <div class="w-[110px] min-[400px]:w-[170px] sm:w-[230px] h-max flex items-center justify-center overflow-hidden">
+                <div class="text-5xl whitespace-nowrap" style="color: black;">${aliasName}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      
+      document.body.appendChild(container);
+      
+      const img = container.querySelector('img') as HTMLImageElement;
+      await new Promise((resolve, reject) => {
+        if (img.complete) {
+          resolve(true);
+        } else {
+          img.onload = () => resolve(true);
+          img.onerror = () => reject(new Error('Failed to load signature image'));
+        }
+      });
+      
+      await new Promise(resolve => setTimeout(resolve, 300));
+      
+      const dataUrl = await htmlToImage.toPng(container, {
+        width: 600,
+        height: 500,
+        backgroundColor: 'transparent'
+      });
+      
+      document.body.removeChild(container);
+      
+      const response = await fetch(dataUrl);
+      const blob = await response.blob();
+      
+      return blob;
+    } catch (error) {
+      console.error('Error generating signature image:', error);
+      throw error;
+    }
+  },
   signInWithGoogle: async (): Promise<User | null> => {
     try {
       set({ loading: true });
@@ -84,9 +152,11 @@ export const useAuthStore = create<AuthState>((set) => ({
   signDocument: async ({
     alias,
     wantNameInLeaderboard = false,
+    signedByText = 'Signed by:',
   }: {
     alias: string;
     wantNameInLeaderboard: boolean;
+    signedByText?: string;
   }) => {
     try {
       const {
@@ -95,11 +165,20 @@ export const useAuthStore = create<AuthState>((set) => ({
         twitterUsername,
         twitterProfilePic,
         setUserSigned,
-        setAliasName
+        setAliasName,
+        generateSignatureImage
       } = useAuthStore.getState();
 
       if (!user) return;
       const trimmedName = alias;
+
+      let signatureImageUrl: string | null = null;
+      try {
+        const signatureBlob = await generateSignatureImage(trimmedName, signedByText);
+        signatureImageUrl = await uploadSignatureImage(signatureBlob, user.uid);
+      } catch (error) {
+        console.error("Error generating/uploading signature image:", error);
+      }
 
       await signDoc({
         email: user.email ?? "",
@@ -108,11 +187,13 @@ export const useAuthStore = create<AuthState>((set) => ({
         twitterProfilePic: twitterLinked ? twitterProfilePic : null,
         showNameInLeaderboard: wantNameInLeaderboard,
         uid: user.uid,
+        signatureImageUrl,
       });
       setUserSigned(true);
       setAliasName(trimmedName)
     } catch (error) {
       console.error("Error signing document:", error);
+      throw error;
     }
   },
   logout: async () => {
