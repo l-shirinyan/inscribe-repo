@@ -33,16 +33,16 @@ export default function LandingPage() {
 
   return (
     <div
-      className="bg-stars bg-repeat bg-size-[50vw] bg-fixed"
+      className="bg-mobile-stars sm:bg-stars bg-repeat bg-size-[50vw] bg-fixed"
       style={{
         backgroundPosition: `center ${-scrollY * 0.3}px`, // Parallax effect
       }}
     >
       <ScrollLottie />
-      <div className="bg-banner sticky -top-14 bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
-      <div className="bg-[url('/assets/images/1.png')] top-[64px] absolute w-full bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
+      <div className="bg-banner-mobile sm:bg-banner sticky -top-14 bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
+      <div className="bg-[url('/assets/images/1-mobile.png')] sm:bg-[url('/assets/images/1.png')] top-[64px] absolute w-full bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
       <div
-        className="w-full min-h-[600px] relative bg-merge mt-[62px] bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
+        className="w-full min-h-[600px] relative bg-merge mt-[62px] bg-[url('/assets/images/footer-mobile.png'),url('/assets/images/paper-mobile.png')] sm:bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
         style={{
           backgroundRepeat: "no-repeat, repeat-y",
           backgroundPosition: "bottom,top",

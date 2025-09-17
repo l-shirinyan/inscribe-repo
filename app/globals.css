@@ -9,6 +9,11 @@
   --background-image-footer: url("/assets/images/footer.png");
   --background-image-stars: url("/assets/images/stars.png");
   --background-image-leaderboard: url("/assets/images/leaderboard-hero.png");
+  --background-image-mobile-banner: url("/assets/images/banner-mobile.png");
+  --background-image-mobile-paper: url("/assets/images/paper-mobile.png");
+  --background-image-mobile-footer: url("/assets/images/footer-mobile.png");
+  --background-image-mobile-stars: url("/assets/images/stars-mobile.png");
+  --background-image-mobile-leaderboard: url("/assets/images/leaderboard-hero-mobile.png");
   --color-orange: #C77E1C;
   --color-light-orange: #f5ac493b;
   --color-blue: #455966;
