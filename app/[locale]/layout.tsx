@@ -7,6 +7,7 @@ import { getMessages } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/layout/navbar";
+import InitializeUser from "@/components/layout/initialize-user";
 const oldFont = localFont({
   variable: "--font-oldFont",
   src: [
@@ -42,7 +43,6 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-type Params = Promise<{ locale: string }>;
 export const metadata: Metadata = {
   title: "Inscribe",
   description: "Inscribe your digital signature",
@@ -69,6 +69,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <Navbar />
+          <InitializeUser />
           {children}
         </NextIntlClientProvider>
       </body>

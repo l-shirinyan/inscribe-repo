@@ -34,7 +34,7 @@ const Navbar = () => {
   const params=useParams()
   const navbarLinks = [
     {
-      href: "/",
+      href: `/${locale}`,
       text: t('principles'),
     },
     {
