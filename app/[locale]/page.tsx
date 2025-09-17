@@ -42,7 +42,7 @@ export default function LandingPage() {
       <div className="bg-banner sticky -top-14 bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
       <div className="bg-[url('/assets/images/1.png')] top-[64px] absolute w-full bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
       <div
-        className="w-full min-h-[600px] relative bg-merge -mt-1 sm:mt-[-1px] bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
+        className="w-full min-h-[600px] relative bg-merge mt-[62px] bg-[url('/assets/images/footer.png'),url('/assets/images/paper.png')] bg-[length:135%_auto,135%_auto] sm:bg-[length:100%_auto,100%_auto]"
         style={{
           backgroundRepeat: "no-repeat, repeat-y",
           backgroundPosition: "bottom,top",
