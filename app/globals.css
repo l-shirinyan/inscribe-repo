@@ -70,3 +70,10 @@ html {
     background: #4b5563;
   }
 }
+
+/* Custom dropdown mobile scrolling */
+.custom-dropdown-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  overflow-y: auto;
+}
