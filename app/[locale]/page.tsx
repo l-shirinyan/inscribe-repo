@@ -15,7 +15,7 @@ export default function LandingPage() {
     const handleScroll = () => {
       setScrollY(window.scrollY);
     };
-      window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -59,8 +59,7 @@ export default function LandingPage() {
               id="signature"
             >
               <Text variant={"Base"} className="text-center">
-                I hereby adapt the Iniveral Principle of Liberty, and to the
-                legitimacy of any laws and legal system based thereon.
+                I hereby adopt the Universal Principles of Liberty, and to the legitimacy of any laws and legal system based thereon.
               </Text>
               <SignInGoogle />
             </div>
