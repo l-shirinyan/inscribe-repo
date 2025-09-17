@@ -1,21 +1,21 @@
-import { getRequestConfig } from 'next-intl/server';
-import { headers } from 'next/headers';
+import {
+  getRequestConfig,
+  type GetRequestConfigParams,
+  type RequestConfig,
+} from "next-intl/server";
+import { routing } from "./routing";
 
-export default getRequestConfig(async () => {
-    const headersList = await headers();
-    const pathname = headersList.get('x-pathname') || '';
-    const locale = pathname.split('/')[1] || 'en';
+export default getRequestConfig(
+  async ({ requestLocale }: GetRequestConfigParams): Promise<RequestConfig> => {
+    let locale = await requestLocale as any;
+
+    if (!locale || !routing.locales.includes(locale)) {
+      locale = routing.defaultLocale;
+    }
 
     return {
-        locale,
-        messages: (await import(`../messages/${locale}.json`)).default
+      locale,
+      messages: (await import(`../messages/${locale}.json`)).default,
     };
-});
-
-
-
-
-
-
-
-
+  }
+);

@@ -1,41 +1,77 @@
 import type { Metadata } from "next";
+import "../globals.css";
+import localFont from "next/font/local";
+import { Geist } from "next/font/google";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
 import Navbar from "@/components/layout/navbar";
-import { getServerUser } from "@/lib/server-auth";
-import InitializeUser from "@/components/layout/initialize-user";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { notFound } from 'next/navigation';
+const oldFont = localFont({
+  variable: "--font-oldFont",
+  src: [
+    {
+      path: "../../public/assets/fonts/font.ttf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+});
 
-const locales = ['en', 'zh', 'es', 'hi', 'bn', 'pt', 'ru', 'ja', 'pa', 'mr', 'te', 'tr', 'ko', 'fr', 'de', 'vi', 'ta', 'ur', 'jv', 'it'];
+const circular = localFont({
+  variable: "--font-circular",
+  src: [
+    {
+      path: "../../public/assets/fonts/circular.ttf",
+      weight: "500",
+      style: "normal",
+    },
+  ],
+});
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  return {
-    title: `Inscribe - ${locale.toUpperCase()}`,
-    description: `Inscribe your digital signature`,
-  };
-}
+const ludovico = localFont({
+  variable: "--font-ludovico",
+  src: [
+    {
+      path: "../../public/assets/fonts/ludovico.ttf",
+    },
+  ],
+});
 
-export default async function LocaleLayout({
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+type Params = Promise<{ locale: string }>;
+export const metadata: Metadata = {
+  title: "Inscribe",
+  description: "Inscribe your digital signature",
+};
+
+export default async function RootLayout({
   children,
-  params
-}: {
+  params,
+}: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
+  params: Promise<any>;
+}>) {
   const { locale } = await params;
-  // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as any)) notFound();
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
 
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
-    <NextIntlClientProvider messages={messages}>
-      <InitializeUser />
-      <Navbar />
-      <div className="mt-[60px] sm:mt-16">{children}</div>
-    </NextIntlClientProvider>
+    <html lang={locale}>
+      <body
+        className={`${oldFont.variable} ${geistSans.variable} ${circular.variable} ${ludovico.variable} antialiased font-oldFont bg-black`}
+      >
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

@@ -20,7 +20,9 @@ import {
 import { Button } from "../ui/button";
 import { LanguageSelector } from "../ui/language-selector";
 import { useTranslations, useLocale } from 'next-intl';
-import { useRouter, usePathname } from 'next/navigation';
+import { useTransition } from "react";
+import { usePathname, useRouter } from "@/i18n/routing";
+import { useParams } from "next/navigation";
 
 const Navbar = () => {
   const { user } = useAuthStore();
@@ -29,10 +31,10 @@ const Navbar = () => {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-
+  const params=useParams()
   const navbarLinks = [
     {
-      href: `/${locale}`,
+      href: "/",
       text: t('principles'),
     },
     {
@@ -50,17 +52,20 @@ const Navbar = () => {
           <UserIcon className="size-5 rounded-full" />
         </div>
       ),
-      href: `/${locale}/#signature`,
+      href: "/#signature",
       className: "max-sm:hidden",
     },
   ];
-
+  const [isPending, startTransition] = useTransition();
   const handleLanguageChange = (newLocale: string) => {
-    const segments = pathname.split('/');
-    segments[1] = newLocale; 
-    const newPath = segments.join('/');
-    
-    router.push(newPath);
+    if (newLocale === locale) return;
+   startTransition(() => {
+      router.replace(
+        // @ts-expect-error
+        {pathname, params},
+        {locale: newLocale}
+      );
+    });
   };
 
   const renderLink = (href: string, text: string, icon?: React.ReactNode) => (

@@ -1,5 +1,5 @@
 import { Text } from "@/components/ui/text";
-import { useContent } from "@/lib/constants";
+import { useContent } from "@/components/landing/constants";
 import { cn } from "@/lib/utils";
 
 export const Paragraph = ({ children }: { children: React.ReactNode }) => (
