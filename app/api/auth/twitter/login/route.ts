@@ -9,9 +9,13 @@ export async function GET() {
     appSecret: "N4QOM2nMOqhGieNgvMeFE0btBfnX8caUOqXSLIW6SiGOXEeqEE",
   });
 
+  const baseUrl = process.env.NODE_ENV === "production" 
+    ? "https://theuniversalprinciplesofliberty.com" 
+    : "http://localhost:3000";
+
   const { url, oauth_token_secret } =
     await client.generateAuthLink(
-      `https://inscribe-coral.vercel.app/api/auth/twitter/callback`,
+      `${baseUrl}/api/auth/twitter/callback`,
       { linkMode: "authorize" }
     );
 

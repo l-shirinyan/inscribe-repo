@@ -43,10 +43,40 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
-export const metadata: Metadata = {
-  title: "Inscribe",
-  description: "Inscribe your digital signature",
-};
+export async function generateMetadata({ params }: { params: Promise<any> }): Promise<Metadata> {
+
+
+  return {
+    title: "The Universal Principles of Liberty",
+    description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
+    openGraph: {
+      title: "The Universal Principles of Liberty",
+      description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
+      images: [
+        {
+          url: "/assets/images/meta-image.png",
+          width: 840,
+          height: 633,
+          alt: "The Universal Principles of Liberty",
+          type: "image/png",
+        },
+      ],
+      type: "website",
+      siteName: "The Universal Principles of Liberty",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "The Universal Principles of Liberty",
+      description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
+      images: [
+        {
+          url: '/assets/images/meta-image.png',
+          alt: "The Universal Principles of Liberty",
+        }
+      ],
+    },
+  };
+}
 
 export default async function RootLayout({
   children,

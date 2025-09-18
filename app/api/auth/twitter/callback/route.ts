@@ -38,7 +38,7 @@ export async function GET(req: NextRequest) {
     // Save accessToken + accessSecret in a secure store (DB or session)
     // For demo: set in cookies (again, not secure!)
     const baseUrl = process.env.NODE_ENV === "production" 
-      ? "https://inscribe-coral.vercel.app" 
+      ? "https://theuniversalprinciplesofliberty.com" 
       : "http://localhost:3000";
     const response = NextResponse.redirect(`${baseUrl}/leaderboard`); // redirect back to leaderboard
     response.cookies.set("accessToken", accessToken, {
