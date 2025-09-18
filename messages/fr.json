@@ -109,14 +109,14 @@
     },
     "Signature": {
         "title": "Signature",
-        "text": "J'adopte ici les principes universels de liberté et reconnais la légitimité de toute loi et système juridique fondés sur eux.",
+        "text": "I hereby adopt the Universal Principles of Liberty, and agree to the legitimacy of any laws and legal system based thereon.",
         "signedBy": "Signataires :",
         "downloadSignature": "Télécharger la signature",
         "signedByThankYou": "Signé par {aliasName}. Merci !"
     },
     "About": {
         "title": "À propos",
-        "intro": "À une époque où même les orateurs pacifiques peuvent être réduits au silence, où le débat rationnel rencontre le silence mortel plutôt que le dialogue, le besoin d’une boussole morale inébranlable n’a jamais été aussi grand. Les principes universels de liberté sont nés d’une conviction partagée : que l’essence de la liberté humaine peut et doit être exprimée en vérités claires et intemporelles. Ce document a été créé grâce à la collaboration de :",
+        "intro": "À une époque où même les orateurs pacifiques peuvent être réduits au silence, où le débat rationnel rencontre le silence mortel plutôt que le dialogue, le besoin d'une boussole morale inébranlable n'a jamais été aussi grand. Les principes universels de liberté sont nés d'une conviction partagée : que l'essence de la liberté humaine peut et doit être exprimée en vérités claires et intemporelles. Ce document a été créé grâce à la collaboration de :",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
         "alessandroFusillo": "Alessandro Fusillo",
@@ -128,8 +128,8 @@
         "byReading": "En lisant, soutenant et adoptant ces principes, chaque signataire fait plus qu'un acte symbolique. ",
         "theyAffirm": "Ils affirment leur engagement envers un monde sans agression systémique. ",
         "takingInspiration": "Inspiré par le phénomène Bitcoin — adopté d'abord par des individus, puis par des millions, avant que des nations ne puissent l'ignorer et l'acceptent — cette déclaration est une stratégie pour rendre la liberté réelle. ",
-        "everySignature": "Chaque signature est un carburant. Une preuve de liberté. Chaque nom ajouté est un signal de force, une preuve de demande. ",
-        "morePeople": "Plus il y a de personnes derrière les principes de liberté, plus le signal envoyé au monde est fort : la liberté bénéficie d'un soutien irrésistible. ",
+        "everySignature": "Chaque signature est un carburant. Une preuve de liberté. Bitcoin a codé la liberté pour l'argent ; ces principes codent la liberté pour les personnes. ",
+        "morePeople": "Plus il y a de personnes derrière les principes de liberté, plus le signal envoyé au monde est grand : la liberté bénéficie d'un soutien irrésistible. ",
         "missionClear": "La mission est claire — rassembler assez de force pour qu'enfin, pour la première fois dans l'histoire, de vrais territoires adoptent la vraie liberté et que l'on puisse vivre dans un véritable ordre moral. ",
         "universalPrinciples": "Principes universels de liberté",
         "inscribedOnBitcoin": "Inscrit sur la blockchain Bitcoin",

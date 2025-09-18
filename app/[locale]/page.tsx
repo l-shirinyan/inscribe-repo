@@ -6,10 +6,12 @@ import SignInGoogle from "@/components/landing/sign-in-google";
 import { Text } from "@/components/ui/text";
 import { useImagePreloader } from "@/lib/hooks/usePreload";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { useTranslations } from 'next-intl';
 
 export default function LandingPage() {
   const isLoaded = useImagePreloader();
   const [scrollY, setScrollY] = useState(0);
+  const t = useTranslations('Signature');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,14 +54,14 @@ export default function LandingPage() {
           <PrinciplesContent />
           <div className="text-black container flex flex-col items-center mb-20 sm:mb-40">
             <Text className="sm:text-3xl font-bold text-center mb-4 text-2xl">
-              Signature
+              {t('title')}
             </Text>
             <div
               className="max-w-[550px] w-full mx-auto flex flex-col gap-5 items-center"
               id="signature"
             >
               <Text variant={"Base"} className="text-center">
-                I hereby adopt the Universal Principles of Liberty, and to the legitimacy of any laws and legal system based thereon.
+                {t('text')}
               </Text>
               <SignInGoogle />
             </div>

@@ -109,14 +109,14 @@
     },
     "Signature": {
         "title": "İmza",
-        "text": "Bu vesileyle Evrensel Özgürlük İlkelerini kabul ediyorum ve bunlara dayanan herhangi bir hukuk ve hukuki sistemin meşruiyetini tanıyorum.",
+        "text": "I hereby adopt the Universal Principles of Liberty, and agree to the legitimacy of any laws and legal system based thereon.",
         "signedBy": "İmzalayan:",
         "downloadSignature": "İmzayı İndir",
         "signedByThankYou": "{aliasName} tarafından imzalandı. Teşekkürler!"
     },
     "About": {
         "title": "Bilgi",
-        "intro": "Barışçıl konuşanların bile vurulabildiği, rasyonel tartışmanın diyalogla değil ölümcül sessizlikle karşılandığı bir çağda, sarsılmaz bir ahlaki pusulaya olan ihtiyaç hiç bu kadar büyük olmamıştı. Evrensel Özgürlük İlkeleri ortak bir inançtan doğdu: insan özgürlüğünün özünün açık, zamansız gerçeklere damıtılabileceği ve damıtılması gerektiği. İşbirliği ile hazırlanan",
+        "intro": "Barışçıl konuşanların bile vurulabildiği, rasyonel tartışmanın diyalogla değil ölümcül sessizlikle karşılandığı bir çağda, sarsılmaz bir ahlaki pusulaya olan ihtiyaç hiç bu kadar büyük olmamıştı. Evrensel Özgürlük İlkeleri ortak bir inançtan doğdu: insan özgürlüğünün özünün açık, zamansız gerçeklere damıtılabileceği ve damıtılması gerektiği. işbirliği ile hazırlanan",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
         "alessandroFusillo": "Alessandro Fusillo",
@@ -128,8 +128,8 @@
         "byReading": "Bu ilkeleri okuyarak, onaylayarak ve benimseyerek, her imzacı sembolik bir eylemden daha fazlasını gerçekleştirir. ",
         "theyAffirm": "Sistemsel saldırganlıktan özgür bir dünyaya olan bağlılıklarını onaylarlar. ",
         "takingInspiration": "Bitcoin fenomeninden ilham alarak — önce bireyler tarafından, sonra milyonlarca kişi tarafından benimsenmiş, tüm uluslar artık görmezden gelemediği ve tanıdığı — bu bildirge özgürlüğü gerçek kılmanın bir stratejisidir. ",
-        "everySignature": "Her imza yakıttır. Özgürlük kanıtı. Eklenen her isim güç sinyali, talep kanıtıdır. ",
-        "morePeople": "Özgürlük ilkelerinin arkasında duran insan sayısı ne kadar fazla olursa, dünyaya gönderdiğimiz sinyal o kadar güçlü olur: özgürlüğün durdurulamaz desteği olduğu. ",
+        "everySignature": "Her imza yakıttır. Özgürlük kanıtı. Bitcoin parayı için özgürlüğü kodladı; bu ilkeler insanlar için özgürlüğü kodlar. ",
+        "morePeople": "Özgürlük ilkelerinin arkasında duran insan sayısı ne kadar fazla olursa, dünyaya gönderdiğimiz sinyal o kadar büyük olur: özgürlüğün durdurulamaz desteği olduğu. ",
         "missionClear": "Misyon açık — tarihte ilk kez gerçek dünya topraklarının gerçek özgürlüğü benimseyebilmesi ve nihayet gerçek bir ahlaki düzende yaşayabilmesi için yeterli güç toplamak. ",
         "universalPrinciples": "Evrensel Özgürlük İlkeleri",
         "inscribedOnBitcoin": "Bitcoin blockchain'ine yazılmıştır",

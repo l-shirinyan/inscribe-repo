@@ -36,15 +36,15 @@ const AboutPage = () => {
           <Link href="https://x.com/AlessandroFusi9" target="_blank">
             {t('alessandroFusillo')}
           </Link>
-          , {t('andDavidDurr')} — {t('andHansHermannHoppe')} — {t('documentExpresses')}
-          {t('notConstitution')}
-          {t('declaration')}
-          {t('byReading')}
-          {t('theyAffirm')}
-          {t('takingInspiration')}
-          {t('everySignature')}
-          {t('morePeople')}
-          {t('missionClear')}
+          , {t('andDavidDurr')} — {t('andHansHermannHoppe')} — {t('documentExpresses')}{" "}
+          {t('notConstitution')}{" "}
+          {t('declaration')}{" "}
+          {t('byReading')}{" "}
+          {t('theyAffirm')}{" "}
+          {t('takingInspiration')}{" "}
+          {t('everySignature')}{" "}
+          {t('morePeople')}{" "}
+          {t('missionClear')}{" "}
           {t('universalPrinciples')}{" "}
           <Link href="https://www.ord.io/103525220" target="_blank">
             {t('inscribedOnBitcoin')}
@@ -52,7 +52,7 @@ const AboutPage = () => {
           — {t('immutableBorderless')}
           <br />
           <br />
-          <Link href="https://www.ord.io/103525220" target="_blank">
+          <Link href="https://x.com/629b_538c" target="_blank">
             {t('xAccount')}
           </Link>
         </div>
