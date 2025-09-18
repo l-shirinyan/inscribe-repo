@@ -115,7 +115,7 @@
         "signedByThankYou": "Assinado por {aliasName}. Obrigado!"
     },
     "About": {
-        "title": "Sobre nós",
+        "title": "Sobre",
         "intro": "Em uma era onde mesmo aqueles que falam pacificamente podem ser derribados, onde o debate racional se encontra não com diálogo mas com silêncio mortal, a necessidade de uma bússola moral inabalável nunca foi maior. Os Princípios Universais de Liberdade nasceram de uma convicção compartilhada: que a essência da liberdade humana pode, e deve, ser destilada em verdades claras e atemporais. Criados através da colaboração de",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
@@ -123,17 +123,18 @@
         "andDavidDurr": "e David Dürr",
         "andHansHermannHoppe": "e Hans-Hermann Hoppe como seu padrinho",
         "documentExpresses": "este documento expressa, em cinco princípios simples, os axiomas fundamentais da liberdade.",
-        "notConstitution": "Não é uma constituição, nem um manifesto de política fugaz.",
-        "declaration": "É uma declaração — um reconhecimento da ordem moral que precede e transcende estados, partidos e governantes.",
-        "byReading": "Ao ler, endossar e adotar estes princípios, cada signatário realiza mais que um ato simbólico.",
-        "theyAffirm": "Eles afirmam seu compromisso com um mundo livre de agressão sistêmica.",
-        "takingInspiration": "Tomando inspiração do fenômeno Bitcoin — primeiro abraçado por indivíduos, depois por milhões, antes que nações inteiras não pudessem mais ignorá-lo e reconhecê-lo — esta declaração é uma estratégia para tornar a liberdade real.",
-        "everySignature": "Cada assinatura é combustível. Uma prova de liberdade. Cada nome adicionado é um sinal de força, uma prova de demanda.",
-        "morePeople": "Quanto mais pessoas se colocam atrás dos princípios de liberdade, mais forte é o sinal que enviamos ao mundo: que a liberdade tem apoio imparável.",
-        "missionClear": "A missão é clara — reunir força suficiente para que, pela primeira vez na história, territórios do mundo real possam adotar verdadeira liberdade e finalmente viver em uma ordem ética genuína.",
+        "notConstitution": "Não é uma constituição, nem um manifesto de política fugaz. ",
+        "declaration": "É uma declaração — um reconhecimento da ordem moral que precede e transcende estados, partidos e governantes. ",
+        "byReading": "Ao ler, endossar e adotar estes princípios, cada signatário realiza mais que um ato simbólico. ",
+        "theyAffirm": "Eles afirmam seu compromisso com um mundo livre de agressão sistêmica. ",
+        "takingInspiration": "Tomando inspiração do fenômeno Bitcoin — primeiro abraçado por indivíduos, depois por milhões, antes que nações inteiras não pudessem mais ignorá-lo e reconhecê-lo — esta declaração é uma estratégia para tornar a liberdade real. ",
+        "everySignature": "Cada assinatura é combustível. Uma prova de liberdade. Cada nome adicionado é um sinal de força, uma prova de demanda. ",
+        "morePeople": "Quanto mais pessoas se colocam atrás dos princípios de liberdade, mais forte é o sinal que enviamos ao mundo: que a liberdade tem apoio imparável. ",
+        "missionClear": "A missão é clara — reunir força suficiente para que, pela primeira vez na história, territórios do mundo real possam adotar verdadeira liberdade e finalmente viver em uma ordem ética genuína. ",
         "universalPrinciples": "Os Princípios Universais de Liberdade foram",
         "inscribedOnBitcoin": "inscritos na blockchain do Bitcoin",
-        "immutableBorderless": "imutáveis, sem fronteiras e para sempre."
+        "immutableBorderless": "imutáveis, sem fronteiras e para sempre.",
+        "xAccount": "Conta X dos Princípios Universais de Liberdade"
     },
     "Leaderboard": {
         "title": "Classificação de Signatários",

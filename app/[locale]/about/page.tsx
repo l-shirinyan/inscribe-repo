@@ -3,13 +3,13 @@ import Link from "next/link";
 import { useTranslations } from 'next-intl';
 
 export const metadata = {
-  title: "About Us - Inscribe",
+  title: "About - Inscribe",
   description: "Learn about the Universal Principles of Liberty and our mission.",
 };
 
 const AboutPage = () => {
   const t = useTranslations('About');
-  
+
   return (
     <div className="bg-stars bg-repeat bg-size-[50vw] bg-fixed min-h-[calc(100vh-64px)]">
       <div className="bg-[url('/assets/images/banner.png')] bg-no-repeat h-[46.6vw] sm:h-[34.6vw] bg-size-[100vw] max-sm:bg-center max-sm:bg-size-[135%]" />
@@ -50,6 +50,11 @@ const AboutPage = () => {
             {t('inscribedOnBitcoin')}
           </Link>{" "}
           — {t('immutableBorderless')}
+          <br />
+          <br />
+          <Link href="https://www.ord.io/103525220" target="_blank">
+            {t('xAccount')}
+          </Link>
         </div>
       </div>
     </div>

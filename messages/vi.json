@@ -115,7 +115,7 @@
         "signedByThankYou": "Được ký bởi {aliasName}. Cảm ơn!"
     },
     "About": {
-        "title": "Về chúng tôi",
+        "title": "Thông tin",
         "intro": "Trong thời đại mà ngay cả những người nói chuyện hòa bình cũng có thể bị đàn áp, nơi tranh luận lý trí không được đáp lại bằng đối thoại mà bằng sự im lặng chết người, nhu cầu về một la bàn đạo đức vững chắc chưa bao giờ lớn hơn. Các Nguyên tắc Tự do Phổ quát được sinh ra từ niềm tin chung: rằng bản chất của tự do con người có thể và phải được chắt lọc thành những chân lý rõ ràng, vượt thời gian. Được xây dựng qua sự hợp tác của",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
@@ -123,17 +123,18 @@
         "andDavidDurr": "và David Dürr",
         "andHansHermannHoppe": "và Hans-Hermann Hoppe là người bảo trợ",
         "documentExpresses": "tài liệu này thể hiện, qua năm nguyên tắc đơn giản, các tiên đề nền tảng của tự do.",
-        "notConstitution": "Đây không phải là hiến pháp, cũng không phải là tuyên ngôn chính trị nhất thời.",
-        "declaration": "Đây là một tuyên bố — một sự công nhận trật tự đạo đức vượt lên và vượt qua các nhà nước, đảng phái và người cai trị.",
-        "byReading": "Bằng việc đọc, ủng hộ và áp dụng các nguyên tắc này, mỗi người ký thực hiện nhiều hơn một hành động mang tính biểu tượng.",
-        "theyAffirm": "Họ khẳng định cam kết với một thế giới không có xâm lược có hệ thống.",
-        "takingInspiration": "Lấy cảm hứng từ hiện tượng Bitcoin — đầu tiên được cá nhân chấp nhận, sau đó là hàng triệu người, trước khi các quốc gia không thể phớt lờ và công nhận nó — tuyên bố này là một chiến lược để biến tự do thành hiện thực.",
-        "everySignature": "Mỗi chữ ký là nhiên liệu. Một bằng chứng về tự do. Mỗi tên được thêm vào là một tín hiệu sức mạnh, một bằng chứng về nhu cầu.",
-        "morePeople": "Càng nhiều người đứng sau các nguyên tắc tự do, tín hiệu chúng ta gửi đến thế giới càng mạnh: tự do có sự ủng hộ không thể ngăn cản.",
-        "missionClear": "Sứ mệnh đã rõ ràng — tập hợp đủ sức mạnh để lần đầu tiên trong lịch sử, các vùng lãnh thổ thực sự áp dụng tự do và cuối cùng sống trong một trật tự đạo đức thực sự.",
+        "notConstitution": "Đây không phải là hiến pháp, cũng không phải là tuyên ngôn chính trị nhất thời. ",
+        "declaration": "Đây là một tuyên bố — một sự công nhận trật tự đạo đức vượt lên và vượt qua các nhà nước, đảng phái và người cai trị. ",
+        "byReading": "Bằng việc đọc, ủng hộ và áp dụng các nguyên tắc này, mỗi người ký thực hiện nhiều hơn một hành động mang tính biểu tượng. ",
+        "theyAffirm": "Họ khẳng định cam kết với một thế giới không có xâm lược có hệ thống. ",
+        "takingInspiration": "Lấy cảm hứng từ hiện tượng Bitcoin — đầu tiên được cá nhân chấp nhận, sau đó là hàng triệu người, trước khi các quốc gia không thể phớt lờ và công nhận nó — tuyên bố này là một chiến lược để biến tự do thành hiện thực. ",
+        "everySignature": "Mỗi chữ ký là nhiên liệu. Một bằng chứng về tự do. Mỗi tên được thêm vào là một tín hiệu sức mạnh, một bằng chứng về nhu cầu. ",
+        "morePeople": "Càng nhiều người đứng sau các nguyên tắc tự do, tín hiệu chúng ta gửi đến thế giới càng mạnh: tự do có sự ủng hộ không thể ngăn cản. ",
+        "missionClear": "Sứ mệnh đã rõ ràng — tập hợp đủ sức mạnh để lần đầu tiên trong lịch sử, các vùng lãnh thổ thực sự áp dụng tự do và cuối cùng sống trong một trật tự đạo đức thực sự. ",
         "universalPrinciples": "Các Nguyên tắc Tự do Phổ quát đã được",
         "inscribedOnBitcoin": "khắc lên chuỗi khối Bitcoin",
-        "immutableBorderless": "không thể thay đổi, không biên giới và mãi mãi."
+        "immutableBorderless": "không thể thay đổi, không biên giới và mãi mãi.",
+        "xAccount": "Tài khoản X của Các Nguyên tắc Tự do Phổ quát"
     },
     "Leaderboard": {
         "title": "Bảng xếp hạng người ký",

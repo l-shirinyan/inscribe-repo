@@ -115,7 +115,7 @@
         "signedByThankYou": "由 {aliasName} 签署。谢谢！"
     },
     "About": {
-        "title": "关于我们",
+        "title": "信息",
         "intro": "在一个即使那些和平说话的人也可能被击倒的时代，理性辩论遇到的不是对话而是死寂的沉默，对不可动摇的道德指南针的需求从未如此强烈。自由普遍原则诞生于共同的信念：人类自由的本质可以，也必须被提炼成清晰、永恒的真理。通过合作制作",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
@@ -123,17 +123,18 @@
         "andDavidDurr": "和David Dürr",
         "andHansHermannHoppe": "以及Hans-Hermann Hoppe作为其教父",
         "documentExpresses": "这份文件用五个简单的原则表达了自由的基础公理。",
-        "notConstitution": "它不是宪法，也不是短暂政治的宣言。",
-        "declaration": "它是一个宣言——对先于并超越国家、政党和统治者的道德秩序的承认。",
-        "byReading": "通过阅读、认可和采用这些原则，每个签名者执行的不仅仅是象征性行为。",
-        "theyAffirm": "他们确认了对没有系统性侵略的世界的承诺。",
-        "takingInspiration": "从比特币现象中汲取灵感——首先被个人接受，然后被数百万人接受，在整个人类国家无法再忽视它并承认它之前——这个宣言是使自由成为现实的策略。",
-        "everySignature": "每个签名都是燃料。自由的证明。每个添加的名字都是力量的信号，需求的证明。",
-        "morePeople": "站在自由原则背后的人越多，我们向世界发出的信号就越强：自由有不可阻挡的支持。",
-        "missionClear": "使命很明确——聚集足够的力量，以便在历史上第一次，现实世界的领土可以采用真正的自由，最终生活在真正的道德秩序中。",
+        "notConstitution": "它不是宪法，也不是短暂政治的宣言。 ",
+        "declaration": "它是一个宣言——对先于并超越国家、政党和统治者的道德秩序的承认。 ",
+        "byReading": "通过阅读、认可和采用这些原则，每个签名者执行的不仅仅是象征性行为。 ",
+        "theyAffirm": "他们确认了对没有系统性侵略的世界的承诺。 ",
+        "takingInspiration": "从比特币现象中汲取灵感——首先被个人接受，然后被数百万人接受，在整个人类国家无法再忽视它并承认它之前——这个宣言是使自由成为现实的策略。 ",
+        "everySignature": "每个签名都是燃料。自由的证明。每个添加的名字都是力量的信号，需求的证明。 ",
+        "morePeople": "站在自由原则背后的人越多，我们向世界发出的信号就越强：自由有不可阻挡的支持。 ",
+        "missionClear": "使命很明确——聚集足够的力量，以便在历史上第一次，现实世界的领土可以采用真正的自由，最终生活在真正的道德秩序中。 ",
         "universalPrinciples": "自由普遍原则已被",
         "inscribedOnBitcoin": "铭刻在比特币区块链上",
-        "immutableBorderless": "不可变、无边界、永远。"
+        "immutableBorderless": "不可变、无边界、永远。",
+        "xAccount": "自由普遍原则X账户"
     },
     "Leaderboard": {
         "title": "签名者排行榜",

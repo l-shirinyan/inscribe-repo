@@ -115,7 +115,7 @@
         "signedByThankYou": "{aliasName} tarafından imzalandı. Teşekkürler!"
     },
     "About": {
-        "title": "Hakkımızda",
+        "title": "Bilgi",
         "intro": "Barışçıl konuşanların bile vurulabildiği, rasyonel tartışmanın diyalogla değil ölümcül sessizlikle karşılandığı bir çağda, sarsılmaz bir ahlaki pusulaya olan ihtiyaç hiç bu kadar büyük olmamıştı. Evrensel Özgürlük İlkeleri ortak bir inançtan doğdu: insan özgürlüğünün özünün açık, zamansız gerçeklere damıtılabileceği ve damıtılması gerektiği. İşbirliği ile hazırlanan",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
@@ -123,17 +123,18 @@
         "andDavidDurr": "ve David Dürr",
         "andHansHermannHoppe": "ve Hans-Hermann Hoppe'nin vaftiz babası olarak",
         "documentExpresses": "bu belge, beş basit ilkede, özgürlüğün temel aksiyomlarını ifade eder.",
-        "notConstitution": "Bu bir anayasa değil, ne de geçici siyasetin manifestosu.",
-        "declaration": "Bu bir bildirge — devletlerden, partilerden ve hükümdarlardan önce gelen ve onları aşan ahlaki düzenin tanınması.",
-        "byReading": "Bu ilkeleri okuyarak, onaylayarak ve benimseyerek, her imzacı sembolik bir eylemden daha fazlasını gerçekleştirir.",
-        "theyAffirm": "Sistemsel saldırganlıktan özgür bir dünyaya olan bağlılıklarını onaylarlar.",
-        "takingInspiration": "Bitcoin fenomeninden ilham alarak — önce bireyler tarafından, sonra milyonlarca kişi tarafından benimsenmiş, tüm uluslar artık görmezden gelemediği ve tanıdığı — bu bildirge özgürlüğü gerçek kılmanın bir stratejisidir.",
-        "everySignature": "Her imza yakıttır. Özgürlük kanıtı. Eklenen her isim güç sinyali, talep kanıtıdır.",
-        "morePeople": "Özgürlük ilkelerinin arkasında duran insan sayısı ne kadar fazla olursa, dünyaya gönderdiğimiz sinyal o kadar güçlü olur: özgürlüğün durdurulamaz desteği olduğu.",
-        "missionClear": "Misyon açık — tarihte ilk kez gerçek dünya topraklarının gerçek özgürlüğü benimseyebilmesi ve nihayet gerçek bir ahlaki düzende yaşayabilmesi için yeterli güç toplamak.",
+        "notConstitution": "Bu bir anayasa değil, ne de geçici siyasetin manifestosu. ",
+        "declaration": "Bu bir bildirge — devletlerden, partilerden ve hükümdarlardan önce gelen ve onları aşan ahlaki düzenin tanınması. ",
+        "byReading": "Bu ilkeleri okuyarak, onaylayarak ve benimseyerek, her imzacı sembolik bir eylemden daha fazlasını gerçekleştirir. ",
+        "theyAffirm": "Sistemsel saldırganlıktan özgür bir dünyaya olan bağlılıklarını onaylarlar. ",
+        "takingInspiration": "Bitcoin fenomeninden ilham alarak — önce bireyler tarafından, sonra milyonlarca kişi tarafından benimsenmiş, tüm uluslar artık görmezden gelemediği ve tanıdığı — bu bildirge özgürlüğü gerçek kılmanın bir stratejisidir. ",
+        "everySignature": "Her imza yakıttır. Özgürlük kanıtı. Eklenen her isim güç sinyali, talep kanıtıdır. ",
+        "morePeople": "Özgürlük ilkelerinin arkasında duran insan sayısı ne kadar fazla olursa, dünyaya gönderdiğimiz sinyal o kadar güçlü olur: özgürlüğün durdurulamaz desteği olduğu. ",
+        "missionClear": "Misyon açık — tarihte ilk kez gerçek dünya topraklarının gerçek özgürlüğü benimseyebilmesi ve nihayet gerçek bir ahlaki düzende yaşayabilmesi için yeterli güç toplamak. ",
         "universalPrinciples": "Evrensel Özgürlük İlkeleri",
         "inscribedOnBitcoin": "Bitcoin blockchain'ine yazılmıştır",
-        "immutableBorderless": "değişmez, sınırsız ve sonsuza kadar."
+        "immutableBorderless": "değişmez, sınırsız ve sonsuza kadar.",
+        "xAccount": "Evrensel Özgürlük İlkeleri X Hesabı"
     },
     "Leaderboard": {
         "title": "İmzacılar Liderlik Tablosu",

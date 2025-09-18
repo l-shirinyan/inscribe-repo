@@ -115,7 +115,7 @@
         "signedByThankYou": "Signed by {aliasName}. Thank you!"
     },
     "About": {
-        "title": "About us",
+        "title": "About",
         "intro": "In an age where even those who speak peacefully can be struck down, where rational debate is met not with dialogue but with deathly silence, the need for an unshakable moral compass has never been greater. The Universal Principles of Liberty were born from a shared conviction: that the essence of human freedom can, and must, be distilled into clear, timeless truths. Crafted through the collaboration of",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
@@ -123,17 +123,18 @@
         "andDavidDurr": "and David Dürr",
         "andHansHermannHoppe": "and Hans-Hermann Hoppe as its godfather",
         "documentExpresses": "this document expresses, in five simple principles, the foundational axioms of liberty.",
-        "notConstitution": "It is not a constitution, nor a manifesto of fleeting politics.",
-        "declaration": "It is a declaration — a recognition of the moral order that precedes and transcends states, parties, and rulers.",
-        "byReading": "By reading, endorsing, and adopting these principles, each signer performs more than a symbolic act.",
-        "theyAffirm": "They affirm their commitment to a world free from systemic aggression.",
-        "takingInspiration": "Taking inspiration from the phenomenon of Bitcoin — first embraced by individuals, then by millions, before entire nations could no longer ignore it and recognise it — this declaration is a strategy to make freedom real.",
-        "everySignature": "Every signature is fuel. A proof-of-liberty. Each name added is a signal of strength, a proof of demand.",
-        "morePeople": "The more people who stand behind the principles of liberty, the stronger the signal we send to the world: that liberty has unstoppable support.",
-        "missionClear": "The mission is clear — to gather enough strength so that, for the first time in history, real-world territories can adopt true liberty and finally live in a genuine ethical order.",
+        "notConstitution": "It is not a constitution, nor a manifesto of fleeting politics. ",
+        "declaration": "It is a declaration — a recognition of the moral order that precedes and transcends states, parties, and rulers. ",
+        "byReading": "By reading, endorsing, and adopting these principles, each signer performs more than a symbolic act. ",
+        "theyAffirm": "They affirm their commitment to a world free from systemic aggression. ",
+        "takingInspiration": "Taking inspiration from the phenomenon of Bitcoin — first embraced by individuals, then by millions, before entire nations could no longer ignore it and recognise it — this declaration is a strategy to make freedom real. ",
+        "everySignature": "Every signature is fuel. A proof-of-liberty. Each name added is a signal of strength, a proof of demand. ",
+        "morePeople": "The more people who stand behind the principles of liberty, the stronger the signal we send to the world: that liberty has unstoppable support. ",
+        "missionClear": "The mission is clear — to gather enough strength so that, for the first time in history, real-world territories can adopt true liberty and finally live in a genuine ethical order. ",
         "universalPrinciples": "The Universal Principles of Liberty have been",
         "inscribedOnBitcoin": "inscribed on the Bitcoin blockchain",
-        "immutableBorderless": "immutable, borderless, and forever."
+        "immutableBorderless": "immutable, borderless, and forever.",
+        "xAccount": "The Universal Principles of Liberty X account"
     },
     "Leaderboard": {
         "title": "Signers Leaderboard",

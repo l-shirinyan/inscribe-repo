@@ -115,7 +115,7 @@
         "signedByThankYou": "Unterschrieben von {aliasName}. Danke!"
     },
     "About": {
-        "title": "Über uns",
+        "title": "Über",
         "intro": "In einer Zeit, in der selbst friedliche Redner unterdrückt werden können, in der auf vernünftige Debatten nicht mit Dialog, sondern mit tödlichem Schweigen reagiert wird, war der Bedarf an einem unerschütterlichen moralischen Kompass nie größer. Die universellen Prinzipien der Freiheit entstanden aus dem gemeinsamen Glauben, dass das Wesen der menschlichen Freiheit in klare, zeitlose Wahrheiten gefasst werden kann und muss. Entstanden durch die Zusammenarbeit von",
         "stephanKinsella": "Stephan Kinsella",
         "freemax": "Freemax",
@@ -123,17 +123,18 @@
         "andDavidDurr": "und David Dürr",
         "andHansHermannHoppe": "und Hans-Hermann Hoppe als Schirmherr",
         "documentExpresses": "Dieses Dokument bringt in fünf einfachen Prinzipien die grundlegenden Axiome der Freiheit zum Ausdruck.",
-        "notConstitution": "Es ist keine Verfassung und kein Manifest vorübergehender Politik.",
-        "declaration": "Es ist eine Erklärung – eine Anerkennung einer moralischen Ordnung, die Staaten, Parteien und Herrscher übersteigt.",
-        "byReading": "Durch das Lesen, Unterstützen und Anwenden dieser Prinzipien tut jeder Unterzeichner mehr als nur eine symbolische Handlung.",
-        "theyAffirm": "Sie bekräftigen ihr Engagement für eine Welt ohne systemische Aggression.",
-        "takingInspiration": "Inspiriert vom Bitcoin-Phänomen – zuerst von Einzelpersonen angenommen, dann von Millionen, bevor Staaten es nicht mehr ignorieren konnten und es anerkannten – ist diese Erklärung eine Strategie, um Freiheit Wirklichkeit werden zu lassen.",
-        "everySignature": "Jede Unterschrift ist Treibstoff. Ein Beweis für Freiheit. Jeder hinzugefügte Name ist ein Signal der Stärke, ein Beweis für die Nachfrage.",
-        "morePeople": "Je mehr Menschen hinter den Prinzipien der Freiheit stehen, desto stärker ist das Signal, das wir der Welt senden: Freiheit hat eine unwiderstehliche Unterstützung.",
-        "missionClear": "Die Mission ist klar – genug Kraft zu sammeln, damit zum ersten Mal in der Geschichte echte Territorien echte Freiheit annehmen und endlich in einer wirklich moralischen Ordnung leben.",
+        "notConstitution": "Es ist keine Verfassung und kein Manifest vorübergehender Politik. ",
+        "declaration": "Es ist eine Erklärung – eine Anerkennung einer moralischen Ordnung, die Staaten, Parteien und Herrscher übersteigt. ",
+        "byReading": "Durch das Lesen, Unterstützen und Anwenden dieser Prinzipien tut jeder Unterzeichner mehr als nur eine symbolische Handlung. ",
+        "theyAffirm": "Sie bekräftigen ihr Engagement für eine Welt ohne systemische Aggression. ",
+        "takingInspiration": "Inspiriert vom Bitcoin-Phänomen – zuerst von Einzelpersonen angenommen, dann von Millionen, bevor Staaten es nicht mehr ignorieren konnten und es anerkannten – ist diese Erklärung eine Strategie, um Freiheit Wirklichkeit werden zu lassen. ",
+        "everySignature": "Jede Unterschrift ist Treibstoff. Ein Beweis für Freiheit. Jeder hinzugefügte Name ist ein Signal der Stärke, ein Beweis für die Nachfrage. ",
+        "morePeople": "Je mehr Menschen hinter den Prinzipien der Freiheit stehen, desto stärker ist das Signal, das wir der Welt senden: Freiheit hat eine unwiderstehliche Unterstützung. ",
+        "missionClear": "Die Mission ist klar – genug Kraft zu sammeln, damit zum ersten Mal in der Geschichte echte Territorien echte Freiheit annehmen und endlich in einer wirklich moralischen Ordnung leben. ",
         "universalPrinciples": "Universelle Prinzipien der Freiheit",
         "inscribedOnBitcoin": "In die Bitcoin-Blockchain eingeschrieben",
-        "immutableBorderless": "Unveränderlich, grenzenlos und für immer."
+        "immutableBorderless": "Unveränderlich, grenzenlos und für immer.",
+        "xAccount": "X-Account der Universellen Prinzipien der Freiheit"
     },
     "Leaderboard": {
         "title": "Bestenliste der Unterzeichner",
