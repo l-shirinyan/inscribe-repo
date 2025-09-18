@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<any> }): Pr
       description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
       images: [
         {
-          url: "/assets/images/meta-image.png",
+          url: "/meta-image.png",
           width: 840,
           height: 633,
           alt: "The Universal Principles of Liberty",
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<any> }): Pr
       description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
       images: [
         {
-          url: '/assets/images/meta-image.png',
+          url: '/meta-image.png',
           alt: "The Universal Principles of Liberty",
         }
       ],
