@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<any> }): Pr
       description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
       images: [
         {
-          url: "/meta-image.png",
+          url: "https://firebasestorage.googleapis.com/v0/b/inscribe-doc.firebasestorage.app/o/meta-image.png?alt=media&token=80407e7c-217f-4333-a728-78afedbc2508",
           width: 840,
           height: 633,
           alt: "The Universal Principles of Liberty",
@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<any> }): Pr
       description: "The foundations of ethical order, justice, and peace. Sign it. Endorse it. Share it.",
       images: [
         {
-          url: '/meta-image.png',
+          url: 'https://firebasestorage.googleapis.com/v0/b/inscribe-doc.firebasestorage.app/o/meta-image.png?alt=media&token=80407e7c-217f-4333-a728-78afedbc2508',
           alt: "The Universal Principles of Liberty",
         }
       ],
