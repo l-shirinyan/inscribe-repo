@@ -1,6 +1,6 @@
 "use client";
 
-import { InfoIcon } from "lucide-react";
+import { InfoIcon, Loader2 } from "lucide-react";
 import { Input } from "../ui/input";
 import { Text } from "../ui/text";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
@@ -12,6 +12,7 @@ import { useForm, Controller } from "react-hook-form";
 import { useAuthStore } from "@/lib/store/auth";
 import Link from "next/link";
 import { useTranslations } from 'next-intl';
+import { useState } from "react";
 
 const options = [
   { id: "yes", label: "Yes" },
@@ -38,12 +39,15 @@ const NameOrAlias = () => {
   });
   const { connectTwitter, twitterLinked, signDocument } = useAuthStore();
   const t = useTranslations('Signature');
+  const [loading, setLoading] = useState(false);
+
   const onSubmit = (data: FormValues) => {
+    setLoading(true);
     signDocument({
       alias: data.nameOrAlias,
       wantNameInLeaderboard: data.publicChoice === "yes",
       signedByText: t('signedBy'),
-    });
+    }).finally(() => setLoading(false));
   };
 
   const selected = watch("publicChoice");
@@ -89,7 +93,7 @@ const NameOrAlias = () => {
       {selected === "yes" && (
         <div className="flex flex-col items-center justify-center">
           <Text variant={"Lg"}>
-            Do you want your X username to be public in the <Link href="/leaderboard" target="_blank"  className="transition ease-linear duration-150 underline hover:opacity-80">leaderboard</Link>?
+            Do you want your X username to be public in the <Link href="/leaderboard" target="_blank" className="transition ease-linear duration-150 underline hover:opacity-80">leaderboard</Link>?
           </Text>
           <div className="w-full gap-5 mt-5 flex justify-center">
             <Button
@@ -108,8 +112,9 @@ const NameOrAlias = () => {
           </div>
         </div>
       )}
-      <Button type="submit" className="text-xl py-3 bg-orange text-white mt-4">
+      <Button type="submit" className="text-xl py-3 bg-orange text-white mt-4" disabled={loading}>
         Sign
+        {loading && <Loader2 className="ml-2 h-4 w-4 animate-spin" />}
       </Button>
     </form>
   );

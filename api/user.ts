@@ -138,16 +138,21 @@ export const signDoc = async ({
   signatureImageUrl,
 }: SignDocParams) => {
   try {
+    // Validate required parameters
+    if (!email || !name || !uid) {
+      throw new Error("Missing required parameters: email, name, or uid");
+    }
+
     const userRef = doc(db, "signers", uid);
     const userSnap = await getDoc(userRef);
 
     if (!userSnap.exists()) {
       // Prepare the document data
       const documentData = {
-        email,
-        name,
+        email: email.trim(),
+        name: name.trim(),
         showNameInLeaderboard,
-        twitterUsername: twitterUsername || null,
+        twitterUsername: twitterUsername?.trim() || null,
         twitterProfilePic: twitterProfilePic || null,
         signatureImageUrl: signatureImageUrl || null,
         createdAt: new Date(),
@@ -161,15 +166,36 @@ export const signDoc = async ({
       // Create the user document
       await setDoc(userRef, documentData);
 
-      const metadataRef = doc(db, "metadata", "signers_metadata");
-      await updateDoc(metadataRef, {
-        numberOfSigners: increment(1),
-      });
-      if (showNameInLeaderboard) {
-        await updateDoc(metadataRef, {
-          numberOfLeaderboardSigners: increment(1),
-        });
+      // Handle metadata updates with proper error handling
+      try {
+        const metadataRef = doc(db, "metadata", "signers_metadata");
+        const metadataSnap = await getDoc(metadataRef);
+        
+        if (metadataSnap.exists()) {
+          // Update existing metadata
+          await updateDoc(metadataRef, {
+            numberOfSigners: increment(1),
+          });
+          if (showNameInLeaderboard) {
+            await updateDoc(metadataRef, {
+              numberOfLeaderboardSigners: increment(1),
+            });
+          }
+        } else {
+          // Create new metadata document
+          await setDoc(metadataRef, {
+            numberOfSigners: 1,
+            numberOfLeaderboardSigners: showNameInLeaderboard ? 1 : 0,
+            lastUpdated: new Date(),
+          });
+        }
+      } catch (metadataError) {
+        console.error("Error updating metadata:", metadataError);
+        // Don't fail the entire operation if metadata update fails
+        // The user document was already created successfully
       }
+    } else {
+      console.log("User already exists in signers collection");
     }
   } catch (error) {
     console.error("Error signing document:", error);

@@ -51,6 +51,34 @@ export const useAuthStore = create<AuthState>((set) => ({
     try {
       const htmlToImage = await import('html-to-image');
       
+      // Helper function to calculate scale factor (same logic as AutoFitText component)
+      const calculateScale = (text: string, containerWidth: number): number => {
+        // Create a temporary element to measure text width
+        const tempElement = document.createElement('div');
+        tempElement.style.position = 'absolute';
+        tempElement.style.visibility = 'hidden';
+        tempElement.style.whiteSpace = 'nowrap';
+        tempElement.style.fontSize = '48px'; // text-5xl equivalent
+        tempElement.style.fontFamily = 'Ludovico, sans-serif';
+        tempElement.style.letterSpacing = '1.1px';
+        tempElement.textContent = text;
+        
+        document.body.appendChild(tempElement);
+        const textWidth = tempElement.offsetWidth;
+        document.body.removeChild(tempElement);
+        
+        // Calculate scale factor if text is too wide (same logic as AutoFitText)
+        if (textWidth > containerWidth) {
+          return containerWidth / textWidth;
+        } else {
+          return 1;
+        }
+      };
+      
+      // Calculate scale factor for the alias name (same as AutoFitText component)
+      const containerWidth = 230; // sm:w-[230px] equivalent
+      const scale = calculateScale(aliasName, containerWidth);
+      
       const container = document.createElement('div');
       container.style.position = 'fixed';
       container.style.left = '0';
@@ -73,9 +101,11 @@ export const useAuthStore = create<AuthState>((set) => ({
           />
           <div class="flex flex-col items-center w-full absolute mt-10 pl-5">
             <div class="flex flex-col items-center w-max font-ludovico tracking-[1.1px]">
-              <div class="text-base pb-2" style="color: black;">${signedByText}</div>
+              <div class="text-lg pb-2" style="color: black;">${signedByText}</div>
               <div class="w-[110px] min-[400px]:w-[170px] sm:w-[230px] h-max flex items-center justify-center overflow-hidden">
-                <div class="text-5xl whitespace-nowrap" style="color: black;">${aliasName}</div>
+                <div style="transform: scale(${scale}); transform-origin: center;">
+                  <div class="text-5xl whitespace-nowrap" style="color: black;">${aliasName}</div>
+                </div>
               </div>
             </div>
           </div>
@@ -169,8 +199,15 @@ export const useAuthStore = create<AuthState>((set) => ({
         generateSignatureImage
       } = useAuthStore.getState();
 
-      if (!user) return;
-      const trimmedName = alias;
+      if (!user) {
+        throw new Error("User not authenticated");
+      }
+
+      if (!alias || alias.trim().length === 0) {
+        throw new Error("Name or alias is required");
+      }
+
+      const trimmedName = alias.trim();
 
       let signatureImageUrl: string | null = null;
       try {
@@ -178,6 +215,7 @@ export const useAuthStore = create<AuthState>((set) => ({
         signatureImageUrl = await uploadSignatureImage(signatureBlob, user.uid);
       } catch (error) {
         console.error("Error generating/uploading signature image:", error);
+        // Continue without signature image - don't fail the entire process
       }
 
       await signDoc({
@@ -189,8 +227,9 @@ export const useAuthStore = create<AuthState>((set) => ({
         uid: user.uid,
         signatureImageUrl,
       });
+      
       setUserSigned(true);
-      setAliasName(trimmedName)
+      setAliasName(trimmedName);
     } catch (error) {
       console.error("Error signing document:", error);
       throw error;
