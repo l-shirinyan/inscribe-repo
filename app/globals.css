@@ -77,3 +77,16 @@ html {
   overscroll-behavior: contain;
   overflow-y: auto;
 }
+
+/* Firefox background image fixes */
+@-moz-document url-prefix() {
+  /* Ensure background images are properly rendered in Firefox */
+  [class*="bg-[url("] {
+    background-attachment: scroll !important;
+  }
+  
+  /* Fix for multiple background images */
+  [style*="backgroundRepeat"] {
+    background-attachment: scroll !important;
+  }
+}
